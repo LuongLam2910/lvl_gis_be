@@ -17,8 +17,8 @@
     "SoGtvt_ConnectionString": "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.192.4.30)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=orcl)));user id=APPSOGTVT;password=APPSOGTVT;persist security info=false;",
     "NongNghiep_ConnectionString": "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.192.4.30)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=orcl)));user id=APPNONGNGHIEP;password=APPNONGNGHIEP;persist security info=false;",
     "CongAn_ConnectionString": "Database=OpendataBG;Server=10.192.4.112;Port=27600;User Id=anhnd;Password=admin123",
-    "CongAn_Gis_ConnectionString": "Database=OpendataBG;Server=10.192.4.112;Port=27600;User Id=anhnd;Password=admin123",
-    "Qtht_Gis_ConnectionString": "Database=OpendataBG;Server=10.192.4.112;Port=27600;User Id=anhnd;Password=admin123",
+    "CongAn_Gis_ConnectionString": "Database=postgers;Server=localhost;Port=5432;User Id=postgres;Password=123456",
+    "Qtht_Gis_ConnectionString": "Database=OpendataBG;Server=10.192.4.112;Port=5432;User Id=postgres;Password=123456",
 
     "SoTuPhap_ConnectionString": "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.192.4.30)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=orcl)));user id=APPSOTUPHAP;password=APPSOTUPHAP;persist security info=false;",
     "Home_ConnectionString": "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.192.4.30)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=orcl)));user id=APPHOME;password=APPHOME;persist security info=false;",
