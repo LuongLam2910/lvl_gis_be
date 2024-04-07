@@ -1,0 +1,21 @@
+{
+  "LGSP_ConnectApi": {
+    "Link": "http://vhdlbg.btsoftvn.com"
+  },
+  "SyncQTHT_Api": {
+    "Link": "https://vhdl.btsoftvn.com"
+  },
+  "LoginModel": {
+    "UserName": "Admin",
+    "PassWord": "123456"
+  },
+  "QLCB_Api": {
+    "ThoiGianDongBo": "7", // Ng�y
+    "ThongTinHoSo": "http://cbccvc.bacgiang.gov.vn/index.php?option=com_services&controller=tichhopcbcc&task=apiThongTinHoSo&username=667c182423b38a24e99392d60336aadc&password=a60271059a12df65b647a40e27c2fb77&limit=1000&page=",
+    "ChuyenMon": "http://cbccvc.bacgiang.gov.vn/index.php?option=com_services&controller=tichhopcbcc&task=apiChuyenMon&username=667c182423b38a24e99392d60336aadc&password=a60271059a12df65b647a40e27c2fb77&limit=1000&page=",
+    "CongTac": "http://cbccvc.bacgiang.gov.vn/index.php?option=com_services&controller=tichhopcbcc&task=apiCongTac&username=667c182423b38a24e99392d60336aadc&password=a60271059a12df65b647a40e27c2fb77&limit=1000&page=",
+    "DmCoQuan": "http://cbccvc.bacgiang.gov.vn/index.php?option=com_services&controller=tichhopcbcc&task=apiDanhMucCoQuan&username=667c182423b38a24e99392d60336aadc&password=a60271059a12df65b647a40e27c2fb77&limit=1000&page=",
+    "PhuCap": "http://cbccvc.bacgiang.gov.vn/index.php?option=com_services&controller=tichhopcbcc&task=apiPhuCap&username=667c182423b38a24e99392d60336aadc&password=a60271059a12df65b647a40e27c2fb77&limit=1000&page=",
+    "Luong": "http://cbccvc.bacgiang.gov.vn/index.php?option=com_services&controller=tichhopcbcc&task=apiLuong&username=667c182423b38a24e99392d60336aadc&password=a60271059a12df65b647a40e27c2fb77&limit=1000&page="
+  }
+}

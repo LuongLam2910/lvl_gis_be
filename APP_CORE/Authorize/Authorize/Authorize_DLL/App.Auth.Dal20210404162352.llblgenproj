@@ -1,0 +1,706 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--LLBLGen Pro v5.8 project file. Do not manually edit this file. Incorrect references could lead to an unloadable project file.-->
+<Project Version="5.8" TargetFrameworkName="LLBLGen Pro Runtime Framework" UseLegacyDefaults="false">
+  <Properties>
+    <Abbreviations />
+    <Property Name="AdditionalTaskPerformerFolder" Value="" />
+    <Property Name="AdditionalTasksFolder" Value="" />
+    <Property Name="AdditionalTemplatesFolder" Value="" />
+    <Property Name="AdditionalTypeConverterFolder" Value="" />
+    <Property Name="AddNewElementsAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AddNewFieldsAfterRefresh_v5" Value="true" />
+    <Property Name="AddNewFieldsAfterRelationalModelDataSync_v5" Value="true" />
+    <Property Name="AddNewViewsAsEntitiesAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewViewsAsEntitiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AutoAddManyToManyRelationships" Value="false" />
+    <Property Name="AutoAssignSequencesToIntegerPks" Value="true" />
+    <Property Name="AutoAssignTypeConverterToFieldMapping" Value="true" />
+    <Property Name="AutomaticallyGenerateSourceCodeOnProjectSave" Value="true" />
+    <Property Name="ConnectionStringKeyNamePattern" Value="DmhtConnectionString" />
+    <Property Name="DefaultDDLSQLScriptDestinationFolder" Value=".\DDLSQLScripts" />
+    <Property Name="DefaultDeleteRuleAction" Value="1" />
+    <Property Name="DefaultSourceCodeDestinationFolder" Value=".\Code" />
+    <Property Name="DefaultUpdateRuleAction" Value="0" />
+    <Property Name="DeleteObsoleteFiles" Value="true" />
+    <Property Name="ElementNamePrefixPattern" Value="{$SchemaName}" />
+    <Property Name="ElementNamePrefixPatternIsAppliedWhen" Value="1" />
+    <Property Name="EncodingToUse" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForTable" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForView" Value="4" />
+    <Property Name="EntityFieldNameStripPattern" Value="{}{}" />
+    <Property Name="EntityNameStripPattern" Value="{tbl_}{}" />
+    <Property Name="ExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="FailCodeGenerationOnWriteError" Value="false" />
+    <Property Name="FieldMappedOntoRelatedFieldPattern" Value="{$RelatedFieldName}" />
+    <Property Name="FkFieldsAreNamedAfterTargetField" Value="true" />
+    <Property Name="ForeignKeyConstraintPattern" Value="FK_{$Guid}" />
+    <Property Name="ForeignKeyFieldPattern" Value="{$NavigatorName}{$RelatedFieldName}" />
+    <Property Name="GroupUsage" Value="0" />
+    <Property Name="IdentifyingFieldsFollowDBPrimaryKeyConstraints_v5" Value="true" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseInsensitiveDBs" Value="false" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseSensitiveDBs" Value="false" />
+    <Property Name="LengthPrecisionScaleFollowDBLengthPrecisionScale_v5" Value="true" />
+    <Property Name="MakeElementNamePascalCasing" Value="true" />
+    <Property Name="NavigatorMappedOntoManyToManyPattern" Value="{$EndEntityName}CollectionVia{$IntermediateEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneManyToOnePattern" Value="{$EndEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneToManyPattern" Value="{$EndEntityName$P}" />
+    <Property Name="NonExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="PreferDecimalOverCurrencyTypes" Value="true" />
+    <Property Name="PreferNaturalCharacterTypes" Value="true" />
+    <Property Name="PreferSystemSequencesOverSchemaSequencesIfApplicable" Value="true" />
+    <Property Name="PreferVariableLengthTypes" Value="true" />
+    <Property Name="PrimaryKeyConstraintPattern" Value="PK_{$Guid}" />
+    <Property Name="ProjectCreator" Value="App.Dmht.Dal" />
+    <Property Name="ProjectName" Value="App.Dmht.Dal" />
+    <Property Name="ReflectNullabilityOfElementFieldInTargetField_v5" Value="false" />
+    <Property Name="ReflectTypeOfElementFieldInTargetField_v5" Value="true" />
+    <Property Name="RelationalModelDataElementNameCasingCaseInsensitiveDBs" Value="3" />
+    <Property Name="RelationalModelDataElementNameCasingCaseSensitiveDBs" Value="3" />
+    <Property Name="RelationshipsFollowDBForeignKeyConstraints_v5" Value="true" />
+    <Property Name="RemoveUnderscoresFromElementName" Value="true" />
+    <Property Name="RemoveUnmappedElementsAfterRefresh_v5" Value="false" />
+    <Property Name="RemoveUnmappedElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRefresh" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRelationalModelDataSync" Value="false" />
+    <Property Name="RetrieveDBCustomProperties" Value="false" />
+    <Property Name="RootNamespace" Value="" />
+    <Property Name="SequenceNameMatchingPattern" Value="SEQ_{$TableName}" />
+    <Property Name="SequencePattern" Value="SEQ_{$EntityName}" />
+    <Property Name="SetGroupNameAfterSchemaName" Value="true" />
+    <Property Name="SetSchemaNameAfterGroupName" Value="true" />
+    <Property Name="SingularizeElementNames" Value="true" />
+    <Property Name="StoredProcNameStripPattern" Value="{pr_, sp_}{}" />
+    <Property Name="StoreTimeLastGeneratedIntoProject" Value="false" />
+    <Property Name="StoreTimeLastSyncIntoProject" Value="true" />
+    <Property Name="SyncCustomFieldOrderingWithTableFieldIndex" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="SyncRelationalModelDataElementNameWithModelElementName_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="TableValuedFunctionNameStripPattern" Value="{fn_, pr_, sp_}{}" />
+    <Property Name="TargetPerEntityEdgesRequireBackingFkConstraint" Value="true" />
+    <Property Name="TypedViewFieldNameStripPattern" Value="{}{}" />
+    <Property Name="TypedViewMappedOnResultsetPattern" Value="{$ProcFunctionName}{$ResultsetName}Result" />
+    <Property Name="TypedViewNameStripPattern" Value="{vw_}{}" />
+    <Property Name="UniqueConstraintPattern" Value="UC_{$Guid}" />
+    <Property Name="UniqueConstraintsFollowDBUniqueConstraints_v5" Value="true" />
+    <Property Name="UpdateCustomPropertiesAfterRefresh_v5" Value="false" />
+    <Property Name="UpdateCustomPropertiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="UseCustomFieldOrderingOnNewElements" Value="false" />
+  </Properties>
+  <TypeShortcuts />
+  <IgnoredWarnings />
+  <SavedSearchQueries />
+  <CodeGenerationCyclePreferences>
+    <OutputType Value="3">
+      <LastUsedPreferences>
+        <DestinationRootFolder Value="C:\BT_Develope\BT_Code_2020\APP_DMHT\APP_DMHT_DAL" />
+        <FrameworkName Value="LLBLGen Pro Runtime Framework" />
+        <LanguageName Value="C#" />
+        <PlatformName Value=".NET Standard 2.1" />
+        <PresetName Value="SD.Presets.Adapter.General.Netstandard" />
+        <RootNamespace Value="App.Dmht.Dal" />
+        <TemplateGroup Value="Adapter" />
+        <TemplateBindings>
+          <Binding Name="SD.TemplateBindings.OracleODPNetSpecific" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates.Netstandard21" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates" />
+          <Binding Name="SD.TemplateBindings.General" />
+        </TemplateBindings>
+        <AdhocTemplateSets />
+      </LastUsedPreferences>
+    </OutputType>
+  </CodeGenerationCyclePreferences>
+  <OutputSettingValues>
+    <SettingValues>
+      <SettingValue Name="1:AdapterDbGenericSubFolderName" Value="DatabaseGeneric" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificNamespaceSuffix" Value="DatabaseSpecific" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificProjectFileSuffix" Value="DBSpecific" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificSubFolderName" Value="DatabaseSpecific" Type="18" />
+      <SettingValue Name="1:ConvertNulledReferenceTypesToDefaultValue" Value="true" Type="3" />
+      <SettingValue Name="1:EntityBaseClassNameDefault" Value="CommonEntityBase" Type="18" />
+      <SettingValue Name="1:FieldPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateAsNullableTypeDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldFactory" Value="false" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldsFactory" Value="false" Type="3" />
+      <SettingValue Name="1:InlineValueTypedFields" Value="true" Type="3" />
+      <SettingValue Name="1:LazyLoadingWithoutResultReturnsNew" Value="false" Type="3" />
+      <SettingValue Name="1:NavigatorPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:SupportedActionCombinations" Value="0,1,2,3,4,5,6,7" Type="18" />
+      <SettingValue Name="1:TdlEmitTimeDateInOutputFiles" Value="false" Type="3" />
+      <SettingValue Name="1:TypedListOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+      <SettingValue Name="1:TypedViewOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+    </SettingValues>
+  </OutputSettingValues>
+  <CodeGenerationMetaDataDefaults>
+    <TargetElement Type="256">
+      <Defaults>
+        <Attributes>
+          <Attribute Value="Browsable($false)" />
+        </Attributes>
+      </Defaults>
+    </TargetElement>
+  </CodeGenerationMetaDataDefaults>
+  <TargetDatabases>
+    <TargetDatabase Type="A8034CB0-319D-4cdd-BC7D-1E7CFDBA3B74" SyncSource="2">
+      <ConnectionElements>
+        <ConnectionElement Name="ServerName" Value="10.192.0.12" />
+        <ConnectionElement Name="CatalogName" Value="10.192.0.12" />
+        <ConnectionElement Name="UserID" Value="APPDMHT" />
+        <ConnectionElement Name="Password" Value="" />
+        <ConnectionElement Name="PortNumber" Value="1521" />
+        <ConnectionElement Name="ConnectionDataConfigType" Value="CliLess" />
+        <ConnectionElement Name="ServiceName" Value="orcl" />
+      </ConnectionElements>
+      <SystemSequences />
+      <Catalogs>
+        <Catalog Name="10.192.0.12">
+          <Schemas>
+            <Schema Name="APPDMHT" SyncSource="2" LastSyncWithDatabase="2021-04-02T06:43:09.033496Z">
+              <Sequences>
+                <Sequence Name="ISEQ$$_333699" />
+                <Sequence Name="ISEQ$$_333702" />
+                <Sequence Name="ISEQ$$_333705" />
+                <Sequence Name="ISEQ$$_333708" />
+                <Sequence Name="ISEQ$$_333711" />
+                <Sequence Name="ISEQ$$_333714" />
+                <Sequence Name="ISEQ$$_333717" />
+                <Sequence Name="ISEQ$$_333720" />
+                <Sequence Name="ISEQ$$_333723" />
+                <Sequence Name="ISEQ$$_333726" />
+                <Sequence Name="ISEQ$$_333729" />
+                <Sequence Name="ISEQ$$_333732" />
+                <Sequence Name="ISEQ$$_333735" />
+                <Sequence Name="ISEQ$$_333738" />
+                <Sequence Name="ISEQ$$_333741" />
+                <Sequence Name="ISEQ$$_333744" />
+                <Sequence Name="ISEQ$$_333747" />
+                <Sequence Name="ISEQ$$_333750" />
+                <Sequence Name="ISEQ$$_333753" />
+                <Sequence Name="ISEQ$$_333756" />
+                <Sequence Name="ISEQ$$_333759" />
+                <Sequence Name="ISEQ$$_333762" />
+                <Sequence Name="ISEQ$$_333765" />
+                <Sequence Name="ISEQ$$_333768" />
+                <Sequence Name="ISEQ$$_333771" />
+                <Sequence Name="ISEQ$$_333774" />
+                <Sequence Name="ISEQ$$_333777" />
+                <Sequence Name="ISEQ$$_333780" />
+                <Sequence Name="ISEQ$$_333783" />
+                <Sequence Name="ISEQ$$_333786" />
+                <Sequence Name="ISEQ$$_333789" />
+                <Sequence Name="ISEQ$$_333792" />
+                <Sequence Name="ISEQ$$_333795" />
+                <Sequence Name="ISEQ$$_333798" />
+              </Sequences>
+              <Tables>
+                <Table Name="DM_DOANHNGHIEP">
+                  <PkConstraintName Name="PK_DM_DOANHNGHIEP" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333798&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333798" DbType="22" Precision="10" />
+                    <Field Name="ENTERPRISE_ID" Ordinal="2" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="ENTERPRISE_GDT_CODE" Ordinal="3" DbType="24" Length="100" />
+                    <Field Name="IMP_BUSINESS_CODE" Ordinal="4" DbType="24" Length="100" />
+                    <Field Name="ENTERPRISE_TYPE_ID" Ordinal="5" DbType="24" Length="100" />
+                    <Field Name="ENTERPRISE_TYPE_NAME" Ordinal="6" DbType="24" Length="100" />
+                    <Field Name="NAME" Ordinal="7" DbType="24" Length="1000" />
+                    <Field Name="SHORT_NAME" Ordinal="8" DbType="24" Length="1000" />
+                    <Field Name="NAME_F" Ordinal="9" DbType="24" Length="1000" />
+                    <Field Name="FOUNDING_DATE" Ordinal="10" IsOptional="true" DbType="7" />
+                    <Field Name="LAST_AMEND_DATE" Ordinal="11" IsOptional="true" DbType="7" />
+                    <Field Name="NUMBER_CHANGES" Ordinal="12" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="ENTERPRISE_STATUS" Ordinal="13" DbType="24" Length="100" />
+                    <Field Name="LEGAL_NAMES" Ordinal="14" DbType="24" Length="1000" />
+                    <Field Name="CAPITAL_AMOUNT" Ordinal="15" DbType="22" Precision="18" Scale="2" />
+                    <Field Name="CityID" Ordinal="16" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="CityName" Ordinal="17" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="DistrictID" Ordinal="18" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="DistrictName" Ordinal="19" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="WardID" Ordinal="20" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="WardName" Ordinal="21" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="StreetNumber" Ordinal="22" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="AddressFullText" Ordinal="23" IsOptional="true" DbType="24" Length="1000" />
+                    <Field Name="I_CREATE_BY" Ordinal="24" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_CREATE_DATE" Ordinal="25" IsOptional="true" DbType="7" />
+                    <Field Name="I_UPDATE_DATE" Ordinal="26" IsOptional="true" DbType="7" />
+                    <Field Name="I_UPDATE_BY" Ordinal="27" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_STATE" Ordinal="28" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="UNITCODE" Ordinal="29" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="DM_KHOLUUTRU">
+                  <PkConstraintName Name="PK_DM_KHOLUUTRU" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333795&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333795" DbType="22" Precision="10" />
+                    <Field Name="TEN_KHO" Ordinal="2" DbType="24" Length="200" />
+                    <Field Name="KY_HIEU" Ordinal="3" DbType="24" Length="50" />
+                    <Field Name="MA_CHA" Ordinal="4" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="LOAI_KHO" Ordinal="5" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="VI_TRI" Ordinal="6" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="KICH_THUOC" Ordinal="7" DbType="22" Precision="10" />
+                    <Field Name="TRANG_THAI" Ordinal="8" DbType="22" Precision="10" />
+                    <Field Name="MO_TA" Ordinal="9" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="I_CREATE_BY" Ordinal="10" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_CREATE_DATE" Ordinal="11" IsOptional="true" DbType="7" />
+                    <Field Name="I_UPDATE_DATE" Ordinal="12" IsOptional="true" DbType="7" />
+                    <Field Name="I_UPDATE_BY" Ordinal="13" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_STATE" Ordinal="14" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="UNITCODE" Ordinal="15" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="DM_LOAI_TPHS">
+                  <PkConstraintName Name="PK_DM_LOAI_TPHS" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333792&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333792" DbType="22" Precision="10" />
+                    <Field Name="MA_LOAI_TPHS" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="TEN_TPHS" Ordinal="3" DbType="24" Length="100" />
+                    <Field Name="TEN_TPHS_CHA" Ordinal="4" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="MO_TA" Ordinal="5" IsOptional="true" DbType="24" Length="200" />
+                  </Fields>
+                </Table>
+                <Table Name="DM_NGANHNGHE">
+                  <PkConstraintName Name="PK_DM_NGANHNGHE" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333789&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333789" DbType="22" Precision="10" />
+                    <Field Name="MANGANHNGHE" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="TENNGANHNGHE" Ordinal="3" DbType="24" Length="100" />
+                    <Field Name="TRANGTHAI" Ordinal="4" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="I_CREATE_BY" Ordinal="5" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_CREATE_DATE" Ordinal="6" IsOptional="true" DbType="7" />
+                    <Field Name="I_UPDATE_DATE" Ordinal="7" IsOptional="true" DbType="7" />
+                    <Field Name="I_UPDATE_BY" Ordinal="8" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_STATE" Ordinal="9" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="UNITCODE" Ordinal="10" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="DM_NHOMHS_TAI_LIEU">
+                  <PkConstraintName Name="PK_DM_NHOMHS_TAI_LIEU" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333786&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333786" DbType="22" Precision="10" />
+                    <Field Name="MA_NHOM" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="MA_CHA" Ordinal="3" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="TEN_NHOM_TAI_LIEU" Ordinal="4" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="THOI_HAN" Ordinal="5" DbType="22" Precision="10" />
+                    <Field Name="GHI_CHU" Ordinal="6" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="TRANG_THAI" Ordinal="7" DbType="22" Precision="10" />
+                    <Field Name="I_CREATE_BY" Ordinal="8" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_CREATE_DATE" Ordinal="9" IsOptional="true" DbType="7" />
+                    <Field Name="I_UPDATE_DATE" Ordinal="10" IsOptional="true" DbType="7" />
+                    <Field Name="I_UPDATE_BY" Ordinal="11" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_STATE" Ordinal="12" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="UNITCODE" Ordinal="13" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="DM_NHOMLUONG">
+                  <PkConstraintName Name="PK_DM_NHOMLUONG" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333783&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333783" DbType="22" Precision="10" />
+                    <Field Name="MANHOM" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="TENNHOM" Ordinal="3" DbType="24" Length="150" />
+                    <Field Name="QDBANHANHQDSUADOI" Ordinal="4" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="NGAYBANHANHQD" Ordinal="5" DbType="7" />
+                    <Field Name="COQUANBANHANHQD" Ordinal="6" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_CREATE_BY" Ordinal="7" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_CREATE_DATE" Ordinal="8" IsOptional="true" DbType="7" />
+                    <Field Name="I_UPDATE_DATE" Ordinal="9" IsOptional="true" DbType="7" />
+                    <Field Name="I_UPDATE_BY" Ordinal="10" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_STATE" Ordinal="11" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="UNITCODE" Ordinal="12" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="DM_PHONGLUUTRU">
+                  <PkConstraintName Name="PK_DM_PHONGLUUTRU" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333780&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333780" DbType="22" Precision="10" />
+                    <Field Name="MA_CO_QUAN_LUU_TRU" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="MA_PHONG" Ordinal="3" DbType="24" Length="50" />
+                    <Field Name="TEN_PHONG" Ordinal="4" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="GHI_CHU" Ordinal="5" IsOptional="true" DbType="24" Length="1000" />
+                    <Field Name="LOAI_HINH_TAI_LIEU" Ordinal="6" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="CONG_CU_TRA_CUU" Ordinal="7" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_CREATE_BY" Ordinal="8" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_CREATE_DATE" Ordinal="9" IsOptional="true" DbType="7" />
+                    <Field Name="I_UPDATE_DATE" Ordinal="10" IsOptional="true" DbType="7" />
+                    <Field Name="I_UPDATE_BY" Ordinal="11" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_STATE" Ordinal="12" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="UNITCODE" Ordinal="13" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="LICH_SU_HINH_THANH_PHONG" Ordinal="14" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="TU_NAM" Ordinal="15" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="DEN_NAM" Ordinal="16" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="TONG_SO_TAI_LIEU" Ordinal="17" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="SO_LIEU_DA_CHINH_LY" Ordinal="18" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="SO_LIEU_CHUA_CHINH_LY" Ordinal="19" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="NHOM_TAI_LIEU" Ordinal="20" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="NGON_NGU" Ordinal="21" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="THOI_GIAN_NHAP_TAI_LIEU" Ordinal="22" IsOptional="true" DbType="7" />
+                    <Field Name="LAP_BAN_SAO_BH" Ordinal="23" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="BO_SUU_TAP" Ordinal="24" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="PHONG_DONG" Ordinal="25" IsOptional="true" DbType="22" Precision="10" />
+                  </Fields>
+                </Table>
+                <Table Name="DMBACLUONG">
+                  <PkConstraintName Name="PK_DMBACLUONG" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333777&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333777" DbType="22" Precision="10" />
+                    <Field Name="MABACLUONG" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="TENBACLUONG" Ordinal="3" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="COQUANBANHANHQUYETDINH" Ordinal="4" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="QUYETDINHBANHANHSUADOI" Ordinal="5" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NGAYBANHANHQUYETDINH" Ordinal="6" IsOptional="true" DbType="7" />
+                  </Fields>
+                </Table>
+                <Table Name="DMBANGLUONG">
+                  <PkConstraintName Name="PK_DMBANGLUONG" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333774&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333774" DbType="22" Precision="10" />
+                    <Field Name="MABANGLUONG" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="TENBANGLUONG" Ordinal="3" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="COQUANBANHANHQUYETDINH" Ordinal="4" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="QUYETDINHBANHANHSUADOI" Ordinal="5" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NGAYBANHANHQUYETDINH" Ordinal="6" IsOptional="true" DbType="7" />
+                  </Fields>
+                </Table>
+                <Table Name="DMBUUCHINH">
+                  <PkConstraintName Name="PK_DMBUUCHINH" />
+                  <Fields>
+                    <Field Name="MAKHUVUC" Ordinal="1" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="SODIENTHOAI" Ordinal="2" IsOptional="true" DbType="22" Precision="13" />
+                    <Field Name="EMAIL" Ordinal="3" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="WEBSITE" Ordinal="4" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="QDBANHANHQDSUADOI" Ordinal="5" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="NGAYBANHANHQD" Ordinal="6" IsOptional="true" DbType="7" />
+                    <Field Name="COQUANBANHANHQD" Ordinal="7" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="TENKHUVUC" Ordinal="8" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="CAP" Ordinal="9" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="MATINH" Ordinal="10" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="ID" Ordinal="11" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333771&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333771" DbType="22" Precision="18" />
+                    <Field Name="TENTINH" Ordinal="12" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="MAQUANHUYEN" Ordinal="13" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="TENQUANHUYEN" Ordinal="14" IsOptional="true" DbType="24" Length="250" />
+                  </Fields>
+                </Table>
+                <Table Name="DMCHUCDANH">
+                  <PkConstraintName Name="PK_DMCHUCDANH" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333768&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333768" DbType="22" Precision="18" />
+                    <Field Name="MACHUCDANH" Ordinal="2" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="TENCHUCDANH" Ordinal="3" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="QDBANHANHQDSUADOI" Ordinal="4" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="NGAYBANHANHQD" Ordinal="5" IsOptional="true" DbType="7" />
+                    <Field Name="COQUANBANHANHQD" Ordinal="6" IsOptional="true" DbType="24" Length="500" />
+                  </Fields>
+                </Table>
+                <Table Name="DMDANTOC">
+                  <PkConstraintName Name="PK_DMDANTOC" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333765&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333765" DbType="22" Precision="10" />
+                    <Field Name="MADANTOC" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="TENDANTOC" Ordinal="3" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="COQUANBANHANHQUYETDINH" Ordinal="4" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="QUYETDINHBANHANHSUADOI" Ordinal="5" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NGAYBANHANHQUYETDINH" Ordinal="6" IsOptional="true" DbType="7" />
+                  </Fields>
+                </Table>
+                <Table Name="DMDANTOCKHAC">
+                  <PkConstraintName Name="PK_DMDANTOCKHAC" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333762&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333762" DbType="22" Precision="10" />
+                    <Field Name="MADANTOCKHAC" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="TENDANTOCKHAC" Ordinal="3" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="COQUANBANHANHQUYETDINH" Ordinal="4" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="QUYETDINHBANHANHSUADOI" Ordinal="5" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NGAYBANHANHQUYETDINH" Ordinal="6" IsOptional="true" DbType="7" />
+                  </Fields>
+                </Table>
+                <Table Name="DMDOCGIA">
+                  <PkConstraintName Name="PK_DM_DOCGIA" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333759&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333759" DbType="22" Precision="10" />
+                    <Field Name="HOTEN" Ordinal="2" DbType="24" Length="200" />
+                    <Field Name="GIOITINH" Ordinal="3" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="NGAYSINH" Ordinal="4" IsOptional="true" DbType="7" />
+                    <Field Name="QUOCTICH" Ordinal="5" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="TENTAIKHOAN" Ordinal="6" DbType="24" Length="200" />
+                    <Field Name="MATKHAU" Ordinal="7" DbType="24" Length="200" />
+                    <Field Name="EMAIL" Ordinal="8" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="SDT" Ordinal="9" IsOptional="true" DbType="22" Precision="12" />
+                    <Field Name="DIACHI" Ordinal="10" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="UNITCODE" Ordinal="11" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="SOCMND" Ordinal="12" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="COQUANDVCONGTAC" Ordinal="13" IsOptional="true" DbType="24" Length="100" />
+                  </Fields>
+                </Table>
+                <Table Name="DMDOKHAN">
+                  <PkConstraintName Name="DMDOKHAN_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333756&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333756" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="MALOAIVANBAN" Ordinal="2" DbType="40" Length="50" />
+                    <Field Name="TENLOAIVANBAN" Ordinal="3" IsOptional="true" DbType="40" Length="250" />
+                    <Field Name="QDBANHANHQDSUADOI" Ordinal="4" IsOptional="true" DbType="40" Length="250" />
+                    <Field Name="NGAYBANHANHQD" Ordinal="5" IsOptional="true" DbType="7" />
+                    <Field Name="COQUANBANHANHQD" Ordinal="6" IsOptional="true" DbType="40" Length="20" />
+                  </Fields>
+                </Table>
+                <Table Name="DMDONVITRUNGTHAU">
+                  <PkConstraintName Name="PK_DMDONVITRUNGTHAU" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333753&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333753" DbType="22" Precision="10" />
+                    <Field Name="MADONVI" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="TENDONVI" Ordinal="3" DbType="24" Length="250" />
+                    <Field Name="DIACHI" Ordinal="4" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="EMAIL" Ordinal="5" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="SODIENTHOAI" Ordinal="6" IsOptional="true" DbType="24" Length="15" />
+                    <Field Name="FAX" Ordinal="7" IsOptional="true" DbType="24" Length="15" />
+                  </Fields>
+                </Table>
+                <Table Name="DMGDDTVN">
+                  <PkConstraintName Name="PK_DMGDDTVN" />
+                  <Fields>
+                    <Field Name="MA" Ordinal="1" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="TENGOI" Ordinal="2" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="QDBANHANHQDSUADOI" Ordinal="3" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="NGAYBANHANHQD" Ordinal="4" IsOptional="true" DbType="7" />
+                    <Field Name="COQUANBANHANHQD" Ordinal="5" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="CAP" Ordinal="6" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="ID" Ordinal="7" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333750&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333750" DbType="22" Precision="18" />
+                    <Field Name="NOIDUNG" Ordinal="8" IsOptional="true" DbType="40" Length="1000" />
+                    <Field Name="TENTIENGENG" Ordinal="9" IsOptional="true" DbType="40" Length="250" />
+                    <Field Name="TENTIENGVIET" Ordinal="10" IsOptional="true" DbType="40" Length="250" />
+                  </Fields>
+                </Table>
+                <Table Name="DMGIOITINH">
+                  <PkConstraintName Name="PK_DMGIOITINH" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333747&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333747" DbType="22" Precision="10" />
+                    <Field Name="MAGIOITINH" Ordinal="2" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="TENGIOITINH" Ordinal="3" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="COQUANBANHANHQUYETDINH" Ordinal="4" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="QDBANHANHSUADOI" Ordinal="5" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NGAYBANHANHQUYETDINH" Ordinal="6" IsOptional="true" DbType="7" />
+                  </Fields>
+                </Table>
+                <Table Name="DMHESOLUONG">
+                  <PkConstraintName Name="DMHESOLUONG_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333744&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333744" DbType="22" Precision="10" />
+                    <Field Name="MABANGLUONG" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="LOAICONGCHUC" Ordinal="3" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="NHOMLUONG" Ordinal="4" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="BACLUONG" Ordinal="5" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="HESOLUONG" Ordinal="6" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="NOIDUNG" Ordinal="7" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="QDBANHANHQDSUADOI" Ordinal="8" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NGAYBANHANHQD" Ordinal="9" IsOptional="true" DbType="7" />
+                    <Field Name="COQUANBANHANHQD" Ordinal="10" IsOptional="true" DbType="24" Length="250" />
+                  </Fields>
+                </Table>
+                <Table Name="DMHESOLUONGVUNG">
+                  <PkConstraintName Name="PK_DMHESOLUONGVUNG" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333741&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333741" DbType="22" Precision="10" />
+                    <Field Name="MA" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="VUNG" Ordinal="3" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="MUCLUONGNAMHIENTAI" Ordinal="4" IsOptional="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="MUCLUONGNAMTRUOCDO" Ordinal="5" IsOptional="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="QDBANHANHQDSUADOI" Ordinal="6" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NGAYBANHANHQD" Ordinal="7" IsOptional="true" DbType="7" />
+                    <Field Name="COQUANBANHANHQD" Ordinal="8" IsOptional="true" DbType="24" Length="250" />
+                  </Fields>
+                </Table>
+                <Table Name="DMLOAICONGCHUC">
+                  <PkConstraintName Name="DMLOAICONGCHUC_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333738&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333738" DbType="22" Precision="10" />
+                    <Field Name="MALOAICONGCHUC" Ordinal="2" DbType="40" Length="50" />
+                    <Field Name="TENDANHMUC" Ordinal="3" IsOptional="true" DbType="40" Length="250" />
+                    <Field Name="QDBANHANHQDSUADOI" Ordinal="4" IsOptional="true" DbType="40" Length="250" />
+                    <Field Name="NGAYBANHANH" Ordinal="5" IsOptional="true" DbType="7" />
+                    <Field Name="COQUANBANHANHQD" Ordinal="6" IsOptional="true" DbType="40" Length="250" />
+                  </Fields>
+                </Table>
+                <Table Name="DMLOAITIEN">
+                  <PkConstraintName Name="DMLOAITIEN_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333735&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333735" DbType="22" Precision="10" />
+                    <Field Name="MALOAITIEN" Ordinal="2" IsOptional="true" DbType="40" Length="20" />
+                    <Field Name="TENLOAITIEN" Ordinal="3" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="TYGIA" Ordinal="4" IsOptional="true" DbType="22" Precision="20" />
+                    <Field Name="TRANGTHAI" Ordinal="5" IsOptional="true" DbType="40" Length="1" />
+                  </Fields>
+                </Table>
+                <Table Name="DMMABUUCHINH">
+                  <PkConstraintName Name="DMMABUUCHINH_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333732&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333732" DbType="22" Precision="10" />
+                    <Field Name="MAPHUONGXA" Ordinal="2" DbType="40" Length="50" />
+                    <Field Name="TENPHUONGXA" Ordinal="3" IsOptional="true" DbType="40" Length="250" />
+                    <Field Name="QDBANHANHQDSUADOI" Ordinal="4" IsOptional="true" DbType="40" Length="250" />
+                    <Field Name="NGAYBANHANHQD" Ordinal="5" IsOptional="true" DbType="40" Length="250" />
+                    <Field Name="COQUANBANHANHQD" Ordinal="6" IsOptional="true" DbType="40" Length="250" />
+                    <Field Name="EMAIL" Ordinal="7" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="WEBSITE" Ordinal="8" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="SODIENTHOAI" Ordinal="9" IsOptional="true" DbType="22" Precision="13" />
+                    <Field Name="MAQUANHUYEN" Ordinal="10" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="DMNHATAITRO">
+                  <PkConstraintName Name="DMNHATAITRO_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333729&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333729" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="TENRUTGON" Ordinal="2" IsOptional="true" DbType="40" Length="200" />
+                    <Field Name="TENTIENGVIET" Ordinal="3" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="TENTIENGANH" Ordinal="4" IsOptional="true" DbType="40" Length="500" />
+                    <Field Name="LOAI" Ordinal="5" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="QUOCGIA" Ordinal="6" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="MA" Ordinal="7" IsOptional="true" DbType="40" Length="200" />
+                  </Fields>
+                </Table>
+                <Table Name="DMNHOMMAU">
+                  <PkConstraintName Name="PK_DMNHOMMAU" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333726&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333726" DbType="22" Precision="10" />
+                    <Field Name="MANHOMMAU" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="YNGHIA" Ordinal="3" DbType="24" Length="250" />
+                    <Field Name="GHICHU" Ordinal="4" IsOptional="true" DbType="24" Length="550" />
+                    <Field Name="QDBANHANHQDSUADOI" Ordinal="5" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="NGAYBANHANHQD" Ordinal="6" IsOptional="true" DbType="7" />
+                    <Field Name="COQUANBANHANHQD" Ordinal="7" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="I_CREATE_BY" Ordinal="8" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_CREATE_DATE" Ordinal="9" IsOptional="true" DbType="7" />
+                    <Field Name="I_UPDATE_DATE" Ordinal="10" IsOptional="true" DbType="7" />
+                    <Field Name="I_UPDATE_BY" Ordinal="11" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_STATE" Ordinal="12" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="UNITCODE" Ordinal="13" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="DMQUOCGIA">
+                  <PkConstraintName Name="DM_QUOCGIA_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333723&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333723" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="MAQUOCGIA" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="TENDAYDUVIE" Ordinal="3" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="TENDAYDUENG" Ordinal="4" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="MAALPHA3" Ordinal="5" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="TENVIETGONVIE" Ordinal="6" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="TENVIETGONENG" Ordinal="7" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NNHCALPHA2" Ordinal="8" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NNHCALPHA3" Ordinal="9" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="TENDPVIETGON" Ordinal="10" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="NUOCDOCLAP" Ordinal="11" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="QDBANHANHQD" Ordinal="12" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NGAYBANHANHQD" Ordinal="13" IsOptional="true" DbType="7" />
+                    <Field Name="COQUANBANHANHQD" Ordinal="14" IsOptional="true" DbType="24" Length="250" />
+                  </Fields>
+                </Table>
+                <Table Name="DMQUYPHAMPHAPLUAT">
+                  <PkConstraintName Name="DMQUYPHAMPHAPLUAT_PK" />
+                  <Fields>
+                    <Field Name="MALOAIVANBAN" Ordinal="1" DbType="40" Length="50" />
+                    <Field Name="TENLOAIVANBAN" Ordinal="2" IsOptional="true" DbType="40" Length="250" />
+                    <Field Name="GHICHU" Ordinal="3" IsOptional="true" DbType="40" Length="250" />
+                    <Field Name="QDBANHANHQDSUADOI" Ordinal="4" IsOptional="true" DbType="40" Length="250" />
+                    <Field Name="NGAYBANHANHQD" Ordinal="5" IsOptional="true" DbType="7" />
+                    <Field Name="COQUANBANHANHQD" Ordinal="6" IsOptional="true" DbType="40" Length="250" />
+                    <Field Name="ID" Ordinal="7" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333720&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333720" DbType="11" Precision="38" Scale="38" />
+                  </Fields>
+                </Table>
+                <Table Name="DMTHIDUAKHENTHUONG">
+                  <PkConstraintName Name="PK_DMTHIDUAKHENTHUONG" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333717&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333717" DbType="22" Precision="10" />
+                    <Field Name="MATHIDUAKHENTHUONG" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="TENTHIDUAKHENTHUONG" Ordinal="3" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="COQUANBANHANHQUYETDINH" Ordinal="4" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="QUYETDINHBANHANHSUADOI" Ordinal="5" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NGAYBANHANHQUYETDINH" Ordinal="6" IsOptional="true" DbType="7" />
+                  </Fields>
+                </Table>
+                <Table Name="DMTHOIHANBAOQUANHSTL">
+                  <PkConstraintName Name="DMTHOIHANBAOQUANHSTL_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333714&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333714" DbType="22" Precision="5" />
+                    <Field Name="MAVANBAN" Ordinal="2" DbType="24" Length="70" />
+                    <Field Name="TENVANBAN" Ordinal="3" DbType="24" Length="250" />
+                    <Field Name="MACHA" Ordinal="4" IsOptional="true" DbType="24" Length="70" />
+                    <Field Name="THOIHAN" Ordinal="5" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="TRANGTHAI" Ordinal="6" IsOptional="true" DbType="22" Precision="10" />
+                  </Fields>
+                </Table>
+                <Table Name="DMTINHTRANGHONNHAN">
+                  <PkConstraintName Name="PK_DMTINHTRANGHONNHAN" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333711&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333711" DbType="22" Precision="10" />
+                    <Field Name="MATINHTRANGHONNHAN" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="TINHTRANGHONNHAN" Ordinal="3" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="COQUANBANHANHQUYETDINH" Ordinal="4" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="QUYETDINHBANHANHSUADOI" Ordinal="5" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NGAYBANHANHQUYETDINH" Ordinal="6" IsOptional="true" DbType="7" />
+                    <Field Name="GHICHU" Ordinal="7" IsOptional="true" DbType="24" Length="500" />
+                  </Fields>
+                </Table>
+                <Table Name="DMTONGIAO">
+                  <PkConstraintName Name="PK_DMTONGIAO" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333708&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333708" DbType="22" Precision="10" />
+                    <Field Name="MATONGIAO" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="TENTONGIAO" Ordinal="3" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="CACTOCHUCTONGIAOCHINH" Ordinal="4" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="QUYETDINHBANHANHSUADOI" Ordinal="5" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NGAYBANHANHQUYETDINH" Ordinal="6" IsOptional="true" DbType="7" />
+                    <Field Name="COQUANBANHANHQD" Ordinal="7" IsOptional="true" DbType="40" Length="250" />
+                  </Fields>
+                </Table>
+                <Table Name="DMVANBANHANHCHINH">
+                  <PkConstraintName Name="PK_DMVANBANHANHCHINH" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333705&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333705" DbType="22" Precision="10" />
+                    <Field Name="MALOAIVANBANHANHCHINH" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="TENLOAIVANBANHANHCHINH" Ordinal="3" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="COQUANBANHANHQUYETDINH" Ordinal="4" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="QUYETDINHBANHANHSUADOI" Ordinal="5" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NGAYBANHANHQUYETDINH" Ordinal="6" IsOptional="true" DbType="7" />
+                    <Field Name="CHUVIETTAT" Ordinal="7" IsOptional="true" DbType="40" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="DMVANBANQUYDINHPHAPLUAT">
+                  <PkConstraintName Name="PK_DMVANBANQUYDINHPHAPLUAT" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333702&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333702" DbType="22" Precision="10" />
+                    <Field Name="MAVANBANTHEOQUYDINHPHAPLUAT" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="TENVANBANTHEOQUYDINHPHAPLUAT" Ordinal="3" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="COQUANBANHANHQUYETDINH" Ordinal="4" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="QUYETDINHBANHANHSUADOI" Ordinal="5" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NGAYBANHANHQUYETDINH" Ordinal="6" IsOptional="true" DbType="7" />
+                  </Fields>
+                </Table>
+                <Table Name="DMYNGHIANHOMMAU">
+                  <PkConstraintName Name="PK_DMYNGHIANHOMMAU" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPDMHT&quot;.&quot;ISEQ$$_333699&quot;.nextval" DefaultSequence="10.192.0.12:APPDMHT:ISEQ$$_333699" DbType="22" Precision="10" />
+                    <Field Name="MARH" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="YNGHIA" Ordinal="3" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="COQUANBANHANHQUYETDINH" Ordinal="4" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="QUYETDINHBANHANHSUADOI" Ordinal="5" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NGAYBANHANHQUYETDINH" Ordinal="6" IsOptional="true" DbType="7" />
+                  </Fields>
+                </Table>
+              </Tables>
+            </Schema>
+          </Schemas>
+        </Catalog>
+      </Catalogs>
+    </TargetDatabase>
+  </TargetDatabases>
+  <MappingStores>
+    <MappingStore Type="A8034CB0-319D-4cdd-BC7D-1E7CFDBA3B74">
+      <EntityMappings />
+      <TypedViewMappings />
+      <SPCallMappings />
+      <TvfCallMappings />
+      <TypeConversionDefinitions />
+    </MappingStore>
+  </MappingStores>
+  <ModelViews />
+</Project>

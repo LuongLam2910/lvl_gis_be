@@ -1,0 +1,1536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--LLBLGen Pro v5.8 project file. Do not manually edit this file. Incorrect references could lead to an unloadable project file.-->
+<Project Version="5.8" TargetFrameworkName="LLBLGen Pro Runtime Framework" UseLegacyDefaults="false">
+  <Properties>
+    <Abbreviations />
+    <Property Name="AdditionalTaskPerformerFolder" Value="" />
+    <Property Name="AdditionalTasksFolder" Value="" />
+    <Property Name="AdditionalTemplatesFolder" Value="" />
+    <Property Name="AdditionalTypeConverterFolder" Value="" />
+    <Property Name="AddNewElementsAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AddNewFieldsAfterRefresh_v5" Value="true" />
+    <Property Name="AddNewFieldsAfterRelationalModelDataSync_v5" Value="true" />
+    <Property Name="AddNewViewsAsEntitiesAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewViewsAsEntitiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AutoAddManyToManyRelationships" Value="false" />
+    <Property Name="AutoAssignSequencesToIntegerPks" Value="true" />
+    <Property Name="AutoAssignTypeConverterToFieldMapping" Value="true" />
+    <Property Name="AutomaticallyGenerateSourceCodeOnProjectSave" Value="true" />
+    <Property Name="ConnectionStringKeyNamePattern" Value="Auth_ConnectionString" />
+    <Property Name="DefaultDDLSQLScriptDestinationFolder" Value=".\DDLSQLScripts" />
+    <Property Name="DefaultDeleteRuleAction" Value="1" />
+    <Property Name="DefaultSourceCodeDestinationFolder" Value=".\Code" />
+    <Property Name="DefaultUpdateRuleAction" Value="0" />
+    <Property Name="DeleteObsoleteFiles" Value="true" />
+    <Property Name="ElementNamePrefixPattern" Value="{$SchemaName}" />
+    <Property Name="ElementNamePrefixPatternIsAppliedWhen" Value="1" />
+    <Property Name="EncodingToUse" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForTable" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForView" Value="4" />
+    <Property Name="EntityFieldNameStripPattern" Value="{}{}" />
+    <Property Name="EntityNameStripPattern" Value="{tbl_}{}" />
+    <Property Name="ExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="FailCodeGenerationOnWriteError" Value="false" />
+    <Property Name="FieldMappedOntoRelatedFieldPattern" Value="{$RelatedFieldName}" />
+    <Property Name="FkFieldsAreNamedAfterTargetField" Value="true" />
+    <Property Name="ForeignKeyConstraintPattern" Value="FK_{$Guid}" />
+    <Property Name="ForeignKeyFieldPattern" Value="{$NavigatorName}{$RelatedFieldName}" />
+    <Property Name="GroupUsage" Value="0" />
+    <Property Name="IdentifyingFieldsFollowDBPrimaryKeyConstraints_v5" Value="true" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseInsensitiveDBs" Value="false" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseSensitiveDBs" Value="false" />
+    <Property Name="LengthPrecisionScaleFollowDBLengthPrecisionScale_v5" Value="true" />
+    <Property Name="MakeElementNamePascalCasing" Value="true" />
+    <Property Name="NavigatorMappedOntoManyToManyPattern" Value="{$EndEntityName}CollectionVia{$IntermediateEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneManyToOnePattern" Value="{$EndEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneToManyPattern" Value="{$EndEntityName$P}" />
+    <Property Name="NonExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="PreferDecimalOverCurrencyTypes" Value="true" />
+    <Property Name="PreferNaturalCharacterTypes" Value="true" />
+    <Property Name="PreferSystemSequencesOverSchemaSequencesIfApplicable" Value="true" />
+    <Property Name="PreferVariableLengthTypes" Value="true" />
+    <Property Name="PrimaryKeyConstraintPattern" Value="PK_{$Guid}" />
+    <Property Name="ProjectCreator" Value="Authorize.Dal" />
+    <Property Name="ProjectName" Value="Authorize.Dal" />
+    <Property Name="ReflectNullabilityOfElementFieldInTargetField_v5" Value="false" />
+    <Property Name="ReflectTypeOfElementFieldInTargetField_v5" Value="true" />
+    <Property Name="RelationalModelDataElementNameCasingCaseInsensitiveDBs" Value="3" />
+    <Property Name="RelationalModelDataElementNameCasingCaseSensitiveDBs" Value="3" />
+    <Property Name="RelationshipsFollowDBForeignKeyConstraints_v5" Value="true" />
+    <Property Name="RemoveUnderscoresFromElementName" Value="true" />
+    <Property Name="RemoveUnmappedElementsAfterRefresh_v5" Value="false" />
+    <Property Name="RemoveUnmappedElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRefresh" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRelationalModelDataSync" Value="false" />
+    <Property Name="RetrieveDBCustomProperties" Value="false" />
+    <Property Name="RootNamespace" Value="" />
+    <Property Name="SequenceNameMatchingPattern" Value="SEQ_{$TableName}" />
+    <Property Name="SequencePattern" Value="SEQ_{$EntityName}" />
+    <Property Name="SetGroupNameAfterSchemaName" Value="true" />
+    <Property Name="SetSchemaNameAfterGroupName" Value="true" />
+    <Property Name="SingularizeElementNames" Value="true" />
+    <Property Name="StoredProcNameStripPattern" Value="{pr_, sp_}{}" />
+    <Property Name="StoreTimeLastGeneratedIntoProject" Value="false" />
+    <Property Name="StoreTimeLastSyncIntoProject" Value="true" />
+    <Property Name="SyncCustomFieldOrderingWithTableFieldIndex" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="SyncRelationalModelDataElementNameWithModelElementName_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="TableValuedFunctionNameStripPattern" Value="{fn_, pr_, sp_}{}" />
+    <Property Name="TargetPerEntityEdgesRequireBackingFkConstraint" Value="true" />
+    <Property Name="TypedViewFieldNameStripPattern" Value="{}{}" />
+    <Property Name="TypedViewMappedOnResultsetPattern" Value="{$ProcFunctionName}{$ResultsetName}Result" />
+    <Property Name="TypedViewNameStripPattern" Value="{vw_}{}" />
+    <Property Name="UniqueConstraintPattern" Value="UC_{$Guid}" />
+    <Property Name="UniqueConstraintsFollowDBUniqueConstraints_v5" Value="true" />
+    <Property Name="UpdateCustomPropertiesAfterRefresh_v5" Value="false" />
+    <Property Name="UpdateCustomPropertiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="UseCustomFieldOrderingOnNewElements" Value="false" />
+  </Properties>
+  <TypeShortcuts />
+  <IgnoredWarnings />
+  <SavedSearchQueries />
+  <CodeGenerationCyclePreferences>
+    <OutputType Value="3">
+      <LastUsedPreferences>
+        <DestinationRootFolder Value="C:\Users\KienPC\Desktop\Kien\Kiennc\Project\API\bt_core_be_2021\APP_CORE\Authorize\Authorize\Authorize_DAL" />
+        <FrameworkName Value="LLBLGen Pro Runtime Framework" />
+        <LanguageName Value="C#" />
+        <PlatformName Value=".NET Standard 2.1" />
+        <PresetName Value="SD.Presets.Adapter.General.Netstandard" />
+        <RootNamespace Value="Authorize.Dal" />
+        <TemplateGroup Value="Adapter" />
+        <TemplateBindings>
+          <Binding Name="SD.TemplateBindings.OracleODPNetSpecific" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates.Netstandard21" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates" />
+          <Binding Name="SD.TemplateBindings.General" />
+        </TemplateBindings>
+        <AdhocTemplateSets />
+      </LastUsedPreferences>
+    </OutputType>
+  </CodeGenerationCyclePreferences>
+  <OutputSettingValues>
+    <SettingValues>
+      <SettingValue Name="1:AdapterDbGenericSubFolderName" Value="DatabaseGeneric" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificNamespaceSuffix" Value="DatabaseSpecific" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificProjectFileSuffix" Value="DBSpecific" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificSubFolderName" Value="DatabaseSpecific" Type="18" />
+      <SettingValue Name="1:ConvertNulledReferenceTypesToDefaultValue" Value="true" Type="3" />
+      <SettingValue Name="1:EntityBaseClassNameDefault" Value="CommonEntityBase" Type="18" />
+      <SettingValue Name="1:FieldPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateAsNullableTypeDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldFactory" Value="false" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldsFactory" Value="false" Type="3" />
+      <SettingValue Name="1:InlineValueTypedFields" Value="true" Type="3" />
+      <SettingValue Name="1:LazyLoadingWithoutResultReturnsNew" Value="false" Type="3" />
+      <SettingValue Name="1:NavigatorPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:SupportedActionCombinations" Value="0,1,2,3,4,5,6,7" Type="18" />
+      <SettingValue Name="1:TdlEmitTimeDateInOutputFiles" Value="false" Type="3" />
+      <SettingValue Name="1:TypedListOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+      <SettingValue Name="1:TypedViewOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+    </SettingValues>
+  </OutputSettingValues>
+  <CodeGenerationMetaDataDefaults>
+    <TargetElement Type="256">
+      <Defaults>
+        <Attributes>
+          <Attribute Value="Browsable($false)" />
+        </Attributes>
+      </Defaults>
+    </TargetElement>
+  </CodeGenerationMetaDataDefaults>
+  <EntityModel>
+    <ValueTypeDefinitions />
+    <EntityDefinitions>
+      <EntityDefinition Name="Dangkychiase" GroupName="Appqtht" ObjectID="7ecacf00-eadd-4117-b63c-56e875f6e843">
+        <Fields>
+          <Field Name="Dieukhoan" Type="short" Precision="2" />
+          <Field Name="Donvicongtac" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="Email" Type="string" MaxLength="50" />
+          <Field Name="Hoten" Type="string" MaxLength="150" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Motadulieu" Type="string" MaxLength="2147483647" />
+          <Field Name="Ngaydangky" Type="datetime" IsOptional="true" />
+          <Field Name="Sodt" Type="string" MaxLength="11" />
+          <Field Name="Status" Type="long" IsOptional="true" Precision="10" />
+          <Field Name="Tendulieu" Type="string" MaxLength="255" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Dmchucvu" GroupName="Appqtht" ObjectID="aa8f1e7a-fdb7-420e-9fb5-d68696820aad">
+        <Fields>
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Ten" Type="string" MaxLength="200" />
+          <Field Name="Trangthai" Type="short" Precision="1" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Dmphongban" GroupName="Appqtht" ObjectID="8d3bb49d-a0da-4e27-9907-a243a5092d2f">
+        <Fields>
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Ten" Type="string" MaxLength="200" />
+          <Field Name="Trangthai" Type="short" Precision="1" />
+          <Field Name="Unitcode" Type="string" MaxLength="50" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Dmtochuc" GroupName="Appqtht" ObjectID="5b066bcc-9ac3-49c9-9931-ccea0f0998b2">
+        <Fields>
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Ten" Type="string" MaxLength="200" />
+          <Field Name="Trangthai" Type="short" Precision="1" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="HomeShare" GroupName="Appqtht" ObjectID="f27a4475-d313-4cec-a8d1-bf0247408d94">
+        <Fields>
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Kyhieu" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="Malinhvuc" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="Solieu" Type="decimal" IsOptional="true" Precision="38" Scale="38" />
+          <Field Name="Tenlinhvuc" Type="string" IsOptional="true" MaxLength="255" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysapp" GroupName="Appqtht" ObjectID="5f514f0b-7c4d-434c-9158-cab019539a81">
+        <Fields>
+          <Field Name="Appid" Type="decimal" IsReadOnly="true" Precision="38" Scale="38" IsPrimaryKey="true" />
+          <Field Name="Dinhdanhapp" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Mota" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="State" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Tenapp" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="Trangthai" Type="decimal" IsOptional="true" Precision="38" Scale="38" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysattachment" GroupName="Appqtht" ObjectID="49b55738-ee0b-472f-8f82-379023637eca">
+        <Fields>
+          <Field Name="Createby" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Createdate" Type="datetime" IsOptional="true" />
+          <Field Name="Filename" Type="string" IsOptional="true" MaxLength="1000" />
+          <Field Name="Filepath" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Localfilename" Type="string" IsOptional="true" MaxLength="1000" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysdinhdanh" GroupName="Appqtht" ObjectID="2bb3aa82-6430-489f-b672-46d1d8a3e511">
+        <Fields>
+          <Field Name="CapDinhdanh" Type="long" Precision="10" />
+          <Field Name="CoquanBanhanh" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="DiaChi" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="Email" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="Fax" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="MaDinhdanh" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="MaDvqhns" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="MaHuyen" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="MaTinh" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="MaXa" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="NgayBanhanh" Type="datetime" IsOptional="true" />
+          <Field Name="NgayHhl" Type="datetime" IsOptional="true" />
+          <Field Name="NgayHl" Type="datetime" IsOptional="true" />
+          <Field Name="QdBanhanh" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="SoDienthoai" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="TenDonvi" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="Website" Type="string" IsOptional="true" MaxLength="150" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysdvhanhchinh" GroupName="Appqtht" ObjectID="d2288791-f8e3-4f77-80e7-21c91fc8f53c">
+        <Fields>
+          <Field Name="CapDbhc" Type="long" Precision="10" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="MaDbhc" Type="string" MaxLength="50" />
+          <Field Name="MaDbhcCha" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="MaDinhdanhtinh" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="NgayHhl" Type="datetime" IsOptional="true" />
+          <Field Name="NgayHl" Type="datetime" IsOptional="true" />
+          <Field Name="TenDbhc" Type="string" MaxLength="250" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysdvqhn" GroupName="Appqtht" ObjectID="a3b60535-14c0-4e18-8e45-6c8db53ff088">
+        <Fields>
+          <Field Name="CanCu" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="CapNs" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="CapQly" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="Chudautu" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="CquanTlap" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="DonviQl" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="MaBqlda" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="MaCap" Type="string" IsOptional="true" MaxLength="1" />
+          <Field Name="MaChuong" Type="string" IsOptional="true" MaxLength="3" />
+          <Field Name="MaCtmt" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="MaDaDp" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="MaDonVi" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="MaDvqhns" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="MaDvqhnsCha" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="MaHuyen" Type="string" IsOptional="true" MaxLength="3" />
+          <Field Name="MaLoaidv" Type="string" IsOptional="true" MaxLength="2" />
+          <Field Name="MaNhomDa" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="MaNkt" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="MaNtt" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="MaTinh" Type="string" IsOptional="true" MaxLength="2" />
+          <Field Name="MaXa" Type="string" IsOptional="true" MaxLength="5" />
+          <Field Name="NgayChuyenDoi" Type="datetime" IsOptional="true" />
+          <Field Name="NgayHetHl" Type="datetime" IsOptional="true" />
+          <Field Name="NgayHl" Type="datetime" IsOptional="true" />
+          <Field Name="NgayHt" Type="datetime" IsOptional="true" />
+          <Field Name="NgayKc" Type="datetime" IsOptional="true" />
+          <Field Name="NgayPs" Type="datetime" IsOptional="true" />
+          <Field Name="NgayQd" Type="datetime" IsOptional="true" />
+          <Field Name="NgaySd" Type="datetime" IsOptional="true" />
+          <Field Name="NgayTao" Type="datetime" IsOptional="true" />
+          <Field Name="NguoiQly" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="NguoiTao" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="NguonDl" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="NoiMoTk" Type="string" IsOptional="true" MaxLength="120" />
+          <Field Name="NvuThien" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="Shkb" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="SoQd" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="SoTk" Type="string" IsOptional="true" MaxLength="120" />
+          <Field Name="TenDaDp" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="TenDvqhns" Type="string" IsOptional="true" MaxLength="240" />
+          <Field Name="TenNhomDa" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="TinhTrang" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="TmDtu" Type="decimal" IsOptional="true" Precision="38" Scale="38" />
+          <Field Name="TrangThai" Type="string" IsOptional="true" MaxLength="1" />
+          <Field Name="TrdNsnn" Type="decimal" IsOptional="true" Precision="38" Scale="38" />
+          <Field Name="TrdOda" Type="decimal" IsOptional="true" Precision="38" Scale="38" />
+          <Field Name="TrdTpcp" Type="decimal" IsOptional="true" Precision="38" Scale="38" />
+          <Field Name="TypeDvqhns" Type="string" IsOptional="true" MaxLength="2" />
+          <Field Name="UserName" Type="string" IsOptional="true" MaxLength="20" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysgroup" GroupName="Appqtht" ObjectID="049a1cdf-2062-4402-849d-1dde0c4e0dc5">
+        <Fields>
+          <Field Name="Appid" Type="decimal" IsOptional="true" Precision="38" Scale="38" />
+          <Field Name="Description" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="Groupid" Type="decimal" IsReadOnly="true" Precision="38" Scale="38" IsPrimaryKey="true" />
+          <Field Name="Groupname" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="Status" Type="short" IsOptional="true" Precision="2" />
+          <Field Name="Unitcode" Type="string" IsOptional="true" MaxLength="50" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysgroupmenu" GroupName="Appqtht" ObjectID="c412f327-dbf9-4c3a-b2b1-4ce626eee493">
+        <Fields>
+          <Field Name="Function" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Groupid" Type="decimal" Precision="38" Scale="38" IsPrimaryKey="true" />
+          <Field Name="Menuid" Type="decimal" Precision="38" Scale="38" IsPrimaryKey="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Syslog" GroupName="Appqtht" ObjectID="3e5b81e0-c458-4b59-b564-3b09f27890aa">
+        <Fields>
+          <Field Name="ICreateBy" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="ICreateDate" Type="datetime" IsOptional="true" />
+          <Field Name="Id" Type="decimal" IsReadOnly="true" Precision="38" Scale="38" IsPrimaryKey="true" />
+          <Field Name="IdModified" Type="long" IsOptional="true" Precision="10" />
+          <Field Name="IState" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="IUpdateBy" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="IUpdateDate" Type="datetime" IsOptional="true" />
+          <Field Name="Name" Type="string" IsOptional="true" MaxLength="300" />
+          <Field Name="Note" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="RequestBody" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="RequestMethod" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="ResponseBody" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="State" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Unitcode" Type="string" IsOptional="true" MaxLength="50" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Syslogaction" GroupName="Appqtht" ObjectID="6601b750-855f-46d2-8a4d-33901a092659">
+        <Fields>
+          <Field Name="Action" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Data" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="DateCreate" Type="datetime" IsOptional="true" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IpClient" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Note" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="ObjectName" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="UserId" Type="decimal" IsOptional="true" Precision="38" Scale="38" />
+          <Field Name="UserName" Type="string" IsOptional="true" MaxLength="500" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysmenu" GroupName="Appqtht" ObjectID="1a617128-7457-4631-bbbe-e16a966fcb12">
+        <Fields>
+          <Field Name="Appid" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="Cssclass" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Function" Type="string" IsOptional="true" MaxLength="30" />
+          <Field Name="Iconclass" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Macha" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="Machucnang" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="Menuid" Type="decimal" IsReadOnly="true" Precision="38" Scale="38" IsPrimaryKey="true" />
+          <Field Name="Sothutu" Type="decimal" IsOptional="true" Precision="38" Scale="38" />
+          <Field Name="State" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Tenchucnang" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="Trangthai" Type="decimal" IsOptional="true" Precision="38" Scale="38" />
+          <Field Name="Unitcode" Type="string" IsOptional="true" MaxLength="20" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SysRefreshtoken" GroupName="Appqtht" ObjectID="aede56e2-0a0f-4008-97a7-f72aa3391d27">
+        <Fields>
+          <Field Name="Appid" Type="long" IsOptional="true" Precision="10" />
+          <Field Name="Created" Type="datetime" IsOptional="true" />
+          <Field Name="Createdbyip" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Expires" Type="datetime" IsOptional="true" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Isactive" Type="short" IsOptional="true" Precision="1" />
+          <Field Name="Isexpired" Type="short" IsOptional="true" Precision="1" />
+          <Field Name="Replacedbytoken" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="Revoked" Type="datetime" IsOptional="true" />
+          <Field Name="Revokedbyip" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Tag" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="Token" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="Userid" Type="long" IsOptional="true" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Systaoma" GroupName="Appqtht" ObjectID="1f0bee18-361a-4dec-80f6-b7ef1d813e8c">
+        <Fields>
+          <Field Name="Dodai" Type="short" IsOptional="true" Precision="3" />
+          <Field Name="Giatricap" Type="long" IsOptional="true" Precision="18" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Kyhieubatdau" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="State" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Unitcode" Type="string" IsOptional="true" MaxLength="50" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Systudien" GroupName="Appqtht" ObjectID="f48eb78f-ede1-4788-9b48-4a8627bb194b">
+        <Fields>
+          <Field Name="Cap" Type="long" IsOptional="true" Precision="10" />
+          <Field Name="Cqbanhanh" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="Fieldname" Type="string" MaxLength="20" />
+          <Field Name="Ghichu" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="MaDinhdanhtinh" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="MaTudien" Type="string" MaxLength="50" />
+          <Field Name="Ngaybanhanh" Type="datetime" IsOptional="true" />
+          <Field Name="Qdbanhanh" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="TenEng" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="TenFieldname" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="TenTudien" Type="string" MaxLength="150" />
+          <Field Name="TenVie" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="TrangThai" Type="long" IsOptional="true" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysunit" GroupName="Appqtht" ObjectID="23961ef4-8a20-438c-9eb7-072313f30834">
+        <Fields>
+          <Field Name="Capdonvi" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="Coquanbanhanhqd" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Diachi" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="Dinhdanhapp" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Email" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Fax" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="IdDiaban" Type="long" IsOptional="true" Precision="10" />
+          <Field Name="IdTochuc" Type="long" IsOptional="true" Precision="10" />
+          <Field Name="Macha" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Madinhdanh" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Madvqhns" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Mahuyen" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Matinh" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Maxa" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Ngaybanhanhqd" Type="datetime" />
+          <Field Name="Nguoilienhe" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="Qdbanhanhqdsuadoi" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Sodienthoai" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Tendonvi" Type="string" MaxLength="250" />
+          <Field Name="Trangthai" Type="long" IsOptional="true" Precision="10" />
+          <Field Name="Type" Type="short" IsOptional="true" Precision="1" />
+          <Field Name="Unitcode" Type="string" MaxLength="50" IsPrimaryKey="true" />
+          <Field Name="Website" Type="string" IsOptional="true" MaxLength="50" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysuser" GroupName="Appqtht" ObjectID="7d14c2a1-4bf0-4473-ae01-5ff8d7fce61a">
+        <Fields>
+          <Field Name="Appid" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Cap" Type="int" IsOptional="true" Precision="5" />
+          <Field Name="Checkisyn" Type="short" IsOptional="true" Precision="1" />
+          <Field Name="Diachi" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="Email" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="Fullname" Type="string" MaxLength="200" />
+          <Field Name="Gioitinh" Type="long" IsOptional="true" Precision="10" />
+          <Field Name="IdChucvu" Type="long" IsOptional="true" Precision="10" />
+          <Field Name="Idsystudien" Type="decimal" IsOptional="true" Precision="38" Scale="38" />
+          <Field Name="Imgavatar" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="Loaiuser" Type="short" IsOptional="true" Precision="1" />
+          <Field Name="Machucvu" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="Madbhc" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Msthue" Type="decimal" IsOptional="true" Precision="38" Scale="38" />
+          <Field Name="Ngaysinh" Type="datetime" IsOptional="true" />
+          <Field Name="Nglienhe" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="Password" Type="string" MaxLength="500" />
+          <Field Name="Phone" Type="string" IsOptional="true" MaxLength="11" />
+          <Field Name="Phongban" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Quoctich" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Socmnd" Type="long" IsOptional="true" Precision="18" />
+          <Field Name="Trangthai" Type="decimal" IsOptional="true" Precision="38" Scale="38" />
+          <Field Name="Unitcode" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Userid" Type="long" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Username" Type="string" IsOptional="true" MaxLength="50" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysusergroup" GroupName="Appqtht" ObjectID="0209ba3d-4fbd-4f96-810f-95dd18bc563e">
+        <Fields>
+          <Field Name="Groupid" Type="decimal" Precision="38" Scale="38" IsPrimaryKey="true" />
+          <Field Name="Userid" Type="long" Precision="10" IsPrimaryKey="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysusermenu" GroupName="Appqtht" ObjectID="50c4ab86-0ff0-47d9-860c-423a71d3bedf">
+        <Fields>
+          <Field Name="Function" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Menuid" Type="decimal" Precision="38" Scale="38" IsPrimaryKey="true" />
+          <Field Name="Userid" Type="long" Precision="10" IsPrimaryKey="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="TochucChucvu" GroupName="Appqtht" ObjectID="75f8e497-af03-4bff-bd86-d60f59a4a90f">
+        <Fields>
+          <Field Name="Cap" Type="int" IsOptional="true" Precision="5" />
+          <Field Name="IdChucvu" Type="long" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IdTochuc" Type="long" Precision="10" IsPrimaryKey="true" />
+        </Fields>
+      </EntityDefinition>
+    </EntityDefinitions>
+    <Relationships>
+      <NormalRelationship Name="Appqtht.Dmphongban.Sysunit-Appqtht.Sysunit.Dmphongbans" Start="Appqtht:Dmphongban" End="Appqtht:Sysunit" StartNavigator="Sysunit" EndNavigator="Dmphongbans" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="Unitcode" PkField="Unitcode" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqtht.Sysgroupmenu.Sysgroup-Appqtht.Sysgroup.Sysgroupmenus" Start="Appqtht:Sysgroupmenu" End="Appqtht:Sysgroup" StartNavigator="Sysgroup" EndNavigator="Sysgroupmenus" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="Groupid" PkField="Groupid" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqtht.Sysgroupmenu.Sysmenu-Appqtht.Sysmenu.Sysgroupmenus" Start="Appqtht:Sysgroupmenu" End="Appqtht:Sysmenu" StartNavigator="Sysmenu" EndNavigator="Sysgroupmenus" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="Menuid" PkField="Menuid" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqtht.SysRefreshtoken.Sysuser-Appqtht.Sysuser.SysRefreshtokens" Start="Appqtht:SysRefreshtoken" End="Appqtht:Sysuser" StartNavigator="Sysuser" EndNavigator="SysRefreshtokens" Type="4" EndIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="Userid" PkField="Userid" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqtht.Sysunit.Dmtochuc-Appqtht.Dmtochuc.Sysunits" Start="Appqtht:Sysunit" End="Appqtht:Dmtochuc" StartNavigator="Dmtochuc" EndNavigator="Sysunits" Type="4" EndIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdTochuc" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqtht.Sysusergroup.Sysgroup-Appqtht.Sysgroup.Sysusergroups" Start="Appqtht:Sysusergroup" End="Appqtht:Sysgroup" StartNavigator="Sysgroup" EndNavigator="Sysusergroups" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="Groupid" PkField="Groupid" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqtht.Sysusergroup.Sysuser-Appqtht.Sysuser.Sysusergroups" Start="Appqtht:Sysusergroup" End="Appqtht:Sysuser" StartNavigator="Sysuser" EndNavigator="Sysusergroups" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="Userid" PkField="Userid" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqtht.Sysusermenu.Sysmenu-Appqtht.Sysmenu.Sysusermenus" Start="Appqtht:Sysusermenu" End="Appqtht:Sysmenu" StartNavigator="Sysmenu" EndNavigator="Sysusermenus" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="Menuid" PkField="Menuid" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqtht.Sysusermenu.Sysuser-Appqtht.Sysuser.Sysusermenus" Start="Appqtht:Sysusermenu" End="Appqtht:Sysuser" StartNavigator="Sysuser" EndNavigator="Sysusermenus" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="Userid" PkField="Userid" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqtht.TochucChucvu.Dmchucvu-Appqtht.Dmchucvu.TochucChucvus" Start="Appqtht:TochucChucvu" End="Appqtht:Dmchucvu" StartNavigator="Dmchucvu" EndNavigator="TochucChucvus" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdChucvu" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqtht.TochucChucvu.Dmtochuc-Appqtht.Dmtochuc.TochucChucvus" Start="Appqtht:TochucChucvu" End="Appqtht:Dmtochuc" StartNavigator="Dmtochuc" EndNavigator="TochucChucvus" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdTochuc" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+    </Relationships>
+    <InheritanceHierarchies />
+  </EntityModel>
+  <SPCallDefinitions>
+    <SPCallDefinition Name="GetMenuByUser" GroupName="Appqtht" ObjectID="dbb5c166-2b63-4225-8709-79214d33e4bf">
+      <Parameters>
+        <Parameter Name="Cur" Type="object" Direction="2" />
+        <Parameter Name="PAppid" Type="decimal" Precision="38" Scale="38" />
+        <Parameter Name="PUserName" Type="string" MaxLength="4000" />
+      </Parameters>
+    </SPCallDefinition>
+  </SPCallDefinitions>
+  <TargetDatabases>
+    <TargetDatabase Type="A8034CB0-319D-4cdd-BC7D-1E7CFDBA3B74" SyncSource="2">
+      <ConnectionElements>
+        <ConnectionElement Name="ServerName" Value="10.192.4.30" />
+        <ConnectionElement Name="CatalogName" Value="10.192.4.30" />
+        <ConnectionElement Name="UserID" Value="APPQTHT" />
+        <ConnectionElement Name="Password" Value="" />
+        <ConnectionElement Name="PortNumber" Value="1521" />
+        <ConnectionElement Name="ConnectionDataConfigType" Value="CliLess" />
+        <ConnectionElement Name="ServiceName" Value="orcl" />
+      </ConnectionElements>
+      <SystemSequences />
+      <Catalogs>
+        <Catalog Name="10.192.4.30">
+          <Schemas>
+            <Schema Name="APPQTHT" SyncSource="2" LastSyncWithDatabase="2021-07-26T06:22:59.9234211Z">
+              <Sequences>
+                <Sequence Name="ISEQ$$_73189" />
+                <Sequence Name="ISEQ$$_73191" />
+                <Sequence Name="ISEQ$$_73193" />
+                <Sequence Name="ISEQ$$_73195" />
+                <Sequence Name="ISEQ$$_73197" />
+                <Sequence Name="ISEQ$$_73200" />
+                <Sequence Name="ISEQ$$_73202" />
+                <Sequence Name="ISEQ$$_73204" />
+                <Sequence Name="ISEQ$$_73206" />
+                <Sequence Name="ISEQ$$_73209" />
+                <Sequence Name="ISEQ$$_74659" />
+                <Sequence Name="ISEQ$$_74661" />
+                <Sequence Name="ISEQ$$_74663" />
+                <Sequence Name="ISEQ$$_74667" />
+                <Sequence Name="ISEQ$$_74669" />
+                <Sequence Name="ISEQ$$_74671" />
+                <Sequence Name="ISEQ$$_74673" />
+                <Sequence Name="ISEQ$$_74675" />
+                <Sequence Name="ISEQ$$_74677" />
+                <Sequence Name="ISEQ$$_74680" />
+                <Sequence Name="ISEQ$$_75033" />
+                <Sequence Name="ISEQ$$_75035" />
+                <Sequence Name="ISEQ$$_75037" />
+                <Sequence Name="ISEQ$$_75041" />
+                <Sequence Name="ISEQ$$_75043" />
+                <Sequence Name="ISEQ$$_75045" />
+                <Sequence Name="ISEQ$$_75047" />
+                <Sequence Name="ISEQ$$_75049" />
+                <Sequence Name="ISEQ$$_75051" />
+                <Sequence Name="ISEQ$$_75054" />
+                <Sequence Name="ISEQ$$_75111" />
+                <Sequence Name="ISEQ$$_75113" />
+                <Sequence Name="ISEQ$$_75115" />
+                <Sequence Name="ISEQ$$_75119" />
+                <Sequence Name="ISEQ$$_75121" />
+                <Sequence Name="ISEQ$$_75123" />
+                <Sequence Name="ISEQ$$_75125" />
+                <Sequence Name="ISEQ$$_75127" />
+                <Sequence Name="ISEQ$$_75129" />
+                <Sequence Name="ISEQ$$_75132" />
+                <Sequence Name="ISEQ$$_75149" />
+                <Sequence Name="ISEQ$$_75151" />
+                <Sequence Name="ISEQ$$_75153" />
+                <Sequence Name="ISEQ$$_75155" />
+                <Sequence Name="ISEQ$$_75158" />
+                <Sequence Name="ISEQ$$_75160" />
+                <Sequence Name="ISEQ$$_75162" />
+                <Sequence Name="ISEQ$$_75164" />
+                <Sequence Name="ISEQ$$_75168" />
+                <Sequence Name="ISEQ$$_75170" />
+                <Sequence Name="ISEQ$$_75172" />
+                <Sequence Name="ISEQ$$_75174" />
+                <Sequence Name="ISEQ$$_75176" />
+                <Sequence Name="ISEQ$$_75179" />
+                <Sequence Name="ISEQ$$_75181" />
+                <Sequence Name="ISEQ$$_75183" />
+                <Sequence Name="ISEQ$$_75185" />
+                <Sequence Name="ISEQ$$_75188" />
+                <Sequence Name="ISEQ$$_75218" />
+                <Sequence Name="ISEQ$$_75220" />
+                <Sequence Name="ISEQ$$_75222" />
+                <Sequence Name="ISEQ$$_75226" />
+                <Sequence Name="ISEQ$$_75228" />
+                <Sequence Name="ISEQ$$_75230" />
+                <Sequence Name="ISEQ$$_75232" />
+                <Sequence Name="ISEQ$$_75234" />
+                <Sequence Name="ISEQ$$_75236" />
+                <Sequence Name="ISEQ$$_75239" />
+                <Sequence Name="ISEQ$$_75281" />
+                <Sequence Name="ISEQ$$_75283" />
+                <Sequence Name="ISEQ$$_75285" />
+                <Sequence Name="ISEQ$$_75289" />
+                <Sequence Name="ISEQ$$_75291" />
+                <Sequence Name="ISEQ$$_75293" />
+                <Sequence Name="ISEQ$$_75295" />
+                <Sequence Name="ISEQ$$_75297" />
+                <Sequence Name="ISEQ$$_75299" />
+                <Sequence Name="ISEQ$$_75302" />
+                <Sequence Name="ISEQ$$_75344" />
+                <Sequence Name="ISEQ$$_75346" />
+                <Sequence Name="ISEQ$$_75348" />
+                <Sequence Name="ISEQ$$_75352" />
+                <Sequence Name="ISEQ$$_75354" />
+                <Sequence Name="ISEQ$$_75356" />
+                <Sequence Name="ISEQ$$_75358" />
+                <Sequence Name="ISEQ$$_75360" />
+                <Sequence Name="ISEQ$$_75362" />
+                <Sequence Name="ISEQ$$_75365" />
+                <Sequence Name="ISEQ$$_75407" />
+                <Sequence Name="ISEQ$$_75409" />
+                <Sequence Name="ISEQ$$_75411" />
+                <Sequence Name="ISEQ$$_75415" />
+                <Sequence Name="ISEQ$$_75417" />
+                <Sequence Name="ISEQ$$_75419" />
+                <Sequence Name="ISEQ$$_75421" />
+                <Sequence Name="ISEQ$$_75423" />
+                <Sequence Name="ISEQ$$_75425" />
+                <Sequence Name="ISEQ$$_75427" />
+                <Sequence Name="ISEQ$$_75429" />
+                <Sequence Name="ISEQ$$_75432" />
+                <Sequence Name="ISEQ$$_77761" />
+                <Sequence Name="ISEQ$$_77763" />
+                <Sequence Name="ISEQ$$_77765" />
+                <Sequence Name="ISEQ$$_77769" />
+                <Sequence Name="ISEQ$$_77771" />
+                <Sequence Name="ISEQ$$_77773" />
+                <Sequence Name="ISEQ$$_77775" />
+                <Sequence Name="ISEQ$$_77777" />
+                <Sequence Name="ISEQ$$_77779" />
+                <Sequence Name="ISEQ$$_77781" />
+                <Sequence Name="ISEQ$$_77783" />
+                <Sequence Name="ISEQ$$_77786" />
+                <Sequence Name="ISEQ$$_78017" />
+                <Sequence Name="ISEQ$$_78019" />
+                <Sequence Name="ISEQ$$_78021" />
+                <Sequence Name="ISEQ$$_78025" />
+                <Sequence Name="ISEQ$$_78027" />
+                <Sequence Name="ISEQ$$_78029" />
+                <Sequence Name="ISEQ$$_78031" />
+                <Sequence Name="ISEQ$$_78033" />
+                <Sequence Name="ISEQ$$_78035" />
+                <Sequence Name="ISEQ$$_78037" />
+                <Sequence Name="ISEQ$$_78039" />
+                <Sequence Name="ISEQ$$_78042" />
+                <Sequence Name="ISEQ$$_80164" />
+                <Sequence Name="ISEQ$$_80166" />
+                <Sequence Name="ISEQ$$_80168" />
+                <Sequence Name="ISEQ$$_80172" />
+                <Sequence Name="ISEQ$$_80174" />
+                <Sequence Name="ISEQ$$_80176" />
+                <Sequence Name="ISEQ$$_80178" />
+                <Sequence Name="ISEQ$$_80180" />
+                <Sequence Name="ISEQ$$_80182" />
+                <Sequence Name="ISEQ$$_80184" />
+                <Sequence Name="ISEQ$$_80186" />
+                <Sequence Name="ISEQ$$_80188" />
+                <Sequence Name="ISEQ$$_80191" />
+                <Sequence Name="ISEQ$$_82268" />
+                <Sequence Name="ISEQ$$_82270" />
+                <Sequence Name="ISEQ$$_82272" />
+                <Sequence Name="ISEQ$$_82275" />
+                <Sequence Name="ISEQ$$_82277" />
+                <Sequence Name="ISEQ$$_82280" />
+                <Sequence Name="ISEQ$$_82282" />
+                <Sequence Name="ISEQ$$_82284" />
+                <Sequence Name="ISEQ$$_82286" />
+                <Sequence Name="ISEQ$$_82288" />
+                <Sequence Name="ISEQ$$_82290" />
+                <Sequence Name="ISEQ$$_82292" />
+                <Sequence Name="ISEQ$$_82295" />
+                <Sequence Name="ISEQ$$_83815" />
+                <Sequence Name="ISEQ$$_85666" />
+                <Sequence Name="ISEQ$$_85669" />
+                <Sequence Name="ISEQ$$_87388" />
+                <Sequence Name="ISEQ$$_88824" />
+                <Sequence Name="ISEQ$$_97310" />
+              </Sequences>
+              <Tables>
+                <Table Name="DANGKYCHIASE">
+                  <PkConstraintName Name="DANGKYCHIASE_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_83815&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_83815" DbType="22" Precision="10" />
+                    <Field Name="TENDULIEU" Ordinal="2" DbType="24" Length="255" />
+                    <Field Name="MOTADULIEU" Ordinal="3" DbType="6" Length="2147483647" />
+                    <Field Name="HOTEN" Ordinal="4" DbType="24" Length="150" />
+                    <Field Name="SODT" Ordinal="5" DbType="40" Length="11" />
+                    <Field Name="EMAIL" Ordinal="6" DbType="24" Length="50" />
+                    <Field Name="DONVICONGTAC" Ordinal="7" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="DIEUKHOAN" Ordinal="8" DbType="22" Precision="2" />
+                    <Field Name="NGAYDANGKY" Ordinal="9" IsOptional="true" DbType="7" />
+                    <Field Name="STATUS" Ordinal="10" IsOptional="true" DbType="22" Precision="10" />
+                  </Fields>
+                </Table>
+                <Table Name="DMCHUCVU">
+                  <PkConstraintName Name="DMCHUCVU_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_85669&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_85669" DbType="22" Precision="10" />
+                    <Field Name="TEN" Ordinal="2" DbType="24" Length="200" />
+                    <Field Name="TRANGTHAI" Ordinal="3" DbType="22" Precision="1" />
+                  </Fields>
+                </Table>
+                <Table Name="DMPHONGBAN">
+                  <PkConstraintName Name="DMPHONGBAN_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_88824&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_88824" DbType="22" Precision="10" />
+                    <Field Name="TEN" Ordinal="2" DbType="40" Length="200" />
+                    <Field Name="UNITCODE" Ordinal="3" DbType="24" Length="50" />
+                    <Field Name="TRANGTHAI" Ordinal="4" DbType="22" Precision="1" />
+                  </Fields>
+                </Table>
+                <Table Name="DMTOCHUC">
+                  <PkConstraintName Name="DMTOCHUC_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_85666&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_85666" DbType="22" Precision="10" />
+                    <Field Name="TEN" Ordinal="2" DbType="24" Length="200" />
+                    <Field Name="TRANGTHAI" Ordinal="3" DbType="22" Precision="1" />
+                  </Fields>
+                </Table>
+                <Table Name="HOME_SHARE">
+                  <PkConstraintName Name="HOME_SHARE_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_82288&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_82288" DbType="22" Precision="10" />
+                    <Field Name="MALINHVUC" Ordinal="2" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="TENLINHVUC" Ordinal="3" IsOptional="true" DbType="24" Length="255" />
+                    <Field Name="SOLIEU" Ordinal="4" IsOptional="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="KYHIEU" Ordinal="5" IsOptional="true" DbType="24" Length="150" />
+                  </Fields>
+                </Table>
+                <Table Name="SYS_REFRESHTOKENS">
+                  <PkConstraintName Name="PK_SYS_REFRESHTOKENS" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_82290&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_82290" DbType="22" Precision="10" />
+                    <Field Name="USERID" Ordinal="2" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="APPID" Ordinal="3" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="EXPIRES" Ordinal="4" IsOptional="true" DbType="7" />
+                    <Field Name="ISEXPIRED" Ordinal="5" IsOptional="true" DbType="22" Precision="1" />
+                    <Field Name="CREATED" Ordinal="6" IsOptional="true" DbType="7" />
+                    <Field Name="CREATEDBYIP" Ordinal="7" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="REVOKED" Ordinal="8" IsOptional="true" DbType="7" />
+                    <Field Name="REVOKEDBYIP" Ordinal="9" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="REPLACEDBYTOKEN" Ordinal="10" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="ISACTIVE" Ordinal="11" IsOptional="true" DbType="22" Precision="1" />
+                    <Field Name="TAG" Ordinal="12" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="TOKEN" Ordinal="13" IsOptional="true" DbType="24" Length="2000" />
+                  </Fields>
+                </Table>
+                <Table Name="SYSAPP">
+                  <PkConstraintName Name="SYSAPP_PK" />
+                  <Fields>
+                    <Field Name="APPID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_82282&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_82282" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="TENAPP" Ordinal="2" IsOptional="true" DbType="40" Length="20" />
+                    <Field Name="MOTA" Ordinal="3" IsOptional="true" DbType="40" Length="200" />
+                    <Field Name="TRANGTHAI" Ordinal="4" IsOptional="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="STATE" Ordinal="5" IsOptional="true" DbType="40" Length="50" />
+                    <Field Name="DINHDANHAPP" Ordinal="6" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="SYSATTACHMENT">
+                  <PkConstraintName Name="SYSATTACHMENT_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_82280&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_82280" DbType="22" Precision="10" />
+                    <Field Name="FILENAME" Ordinal="2" IsOptional="true" DbType="24" Length="1000" />
+                    <Field Name="FILEPATH" Ordinal="3" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="LOCALFILENAME" Ordinal="4" IsOptional="true" DbType="24" Length="1000" />
+                    <Field Name="CREATEBY" Ordinal="5" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="CREATEDATE" Ordinal="6" IsOptional="true" DbType="7" />
+                  </Fields>
+                </Table>
+                <Table Name="SYSDINHDANH">
+                  <PkConstraintName Name="DM_DINHDANH_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_82292&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_82292" DbType="22" Precision="10" />
+                    <Field Name="MA_DINHDANH" Ordinal="2" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="TEN_DONVI" Ordinal="3" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="DIA_CHI" Ordinal="4" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="EMAIL" Ordinal="5" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="SO_DIENTHOAI" Ordinal="6" IsOptional="true" DbType="40" Length="10" />
+                    <Field Name="FAX" Ordinal="7" IsOptional="true" DbType="40" Length="20" />
+                    <Field Name="WEBSITE" Ordinal="8" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="QD_BANHANH" Ordinal="9" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NGAY_BANHANH" Ordinal="10" IsOptional="true" DbType="7" />
+                    <Field Name="COQUAN_BANHANH" Ordinal="11" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="CAP_DINHDANH" Ordinal="12" DbType="22" Precision="10" />
+                    <Field Name="MA_DVQHNS" Ordinal="13" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="MA_TINH" Ordinal="14" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="MA_XA" Ordinal="15" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="MA_HUYEN" Ordinal="16" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="NGAY_HL" Ordinal="17" IsOptional="true" DbType="7" />
+                    <Field Name="NGAY_HHL" Ordinal="18" IsOptional="true" DbType="7" />
+                  </Fields>
+                </Table>
+                <Table Name="SYSDVHANHCHINH">
+                  <PkConstraintName Name="DM_DVHANHCHINH_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_82272&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_82272" DbType="22" Precision="10" />
+                    <Field Name="MA_DBHC" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="TEN_DBHC" Ordinal="3" DbType="24" Length="250" />
+                    <Field Name="MA_DINHDANHTINH" Ordinal="4" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="CAP_DBHC" Ordinal="5" DbType="22" Precision="10" />
+                    <Field Name="NGAY_HL" Ordinal="6" IsOptional="true" DbType="7" />
+                    <Field Name="NGAY_HHL" Ordinal="7" IsOptional="true" DbType="7" />
+                    <Field Name="MA_DBHC_CHA" Ordinal="8" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="SYSDVQHNS">
+                  <PkConstraintName Name="PK_SYSDVQHNS" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_82275&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_82275" DbType="22" Precision="10" />
+                    <Field Name="MA_DVQHNS" Ordinal="2" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="TEN_DVQHNS" Ordinal="3" IsOptional="true" DbType="24" Length="240" />
+                    <Field Name="NGAY_HL" Ordinal="4" IsOptional="true" DbType="7" />
+                    <Field Name="MA_DVQHNS_CHA" Ordinal="5" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="TYPE_DVQHNS" Ordinal="6" IsOptional="true" DbType="24" Length="2" />
+                    <Field Name="MA_LOAIDV" Ordinal="7" IsOptional="true" DbType="24" Length="2" />
+                    <Field Name="NGAY_PS" Ordinal="8" IsOptional="true" DbType="7" />
+                    <Field Name="NGAY_SD" Ordinal="9" IsOptional="true" DbType="7" />
+                    <Field Name="MA_CAP" Ordinal="10" IsOptional="true" DbType="24" Length="1" />
+                    <Field Name="MA_CHUONG" Ordinal="11" IsOptional="true" DbType="24" Length="3" />
+                    <Field Name="MA_TINH" Ordinal="12" IsOptional="true" DbType="24" Length="2" />
+                    <Field Name="MA_XA" Ordinal="13" IsOptional="true" DbType="24" Length="5" />
+                    <Field Name="MA_HUYEN" Ordinal="14" IsOptional="true" DbType="24" Length="3" />
+                    <Field Name="CAN_CU" Ordinal="15" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="TRANG_THAI" Ordinal="16" IsOptional="true" DbType="24" Length="1" />
+                    <Field Name="USER_NAME" Ordinal="17" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="NGAY_HET_HL" Ordinal="18" IsOptional="true" DbType="7" />
+                    <Field Name="MA_DA_DP" Ordinal="19" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="MA_NHOM_DA" Ordinal="20" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="TEN_NHOM_DA" Ordinal="21" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="MA_NKT" Ordinal="22" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="MA_CTMT" Ordinal="23" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="MA_DON_VI" Ordinal="24" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="SHKB" Ordinal="25" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="NGUON_DL" Ordinal="26" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="TINH_TRANG" Ordinal="27" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="TM_DTU" Ordinal="28" IsOptional="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="NGAY_KC" Ordinal="29" IsOptional="true" DbType="7" />
+                    <Field Name="NGAY_HT" Ordinal="30" IsOptional="true" DbType="7" />
+                    <Field Name="CAP_QLY" Ordinal="31" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="TRD_TPCP" Ordinal="32" IsOptional="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="NGAY_TAO" Ordinal="33" IsOptional="true" DbType="7" />
+                    <Field Name="NGUOI_TAO" Ordinal="34" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="NGUOI_QLY" Ordinal="35" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="CAP_NS" Ordinal="36" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="TEN_DA_DP" Ordinal="37" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="NGAY_CHUYEN_DOI" Ordinal="38" IsOptional="true" DbType="7" />
+                    <Field Name="MA_BQLDA" Ordinal="39" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="CQUAN_TLAP" Ordinal="40" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="NVU_THIEN" Ordinal="41" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="TRD_NSNN" Ordinal="42" IsOptional="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="TRD_ODA" Ordinal="43" IsOptional="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="MA_NTT" Ordinal="44" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="CHUDAUTU" Ordinal="45" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="SO_QD" Ordinal="46" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="NGAY_QD" Ordinal="47" IsOptional="true" DbType="7" />
+                    <Field Name="NOI_MO_TK" Ordinal="48" IsOptional="true" DbType="24" Length="120" />
+                    <Field Name="SO_TK" Ordinal="49" IsOptional="true" DbType="24" Length="120" />
+                    <Field Name="DONVI_QL" Ordinal="50" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="SYSGROUP">
+                  <PkConstraintName Name="SYSGROUP_PK" />
+                  <Fields>
+                    <Field Name="GROUPID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_82277&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_82277" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="GROUPNAME" Ordinal="2" IsOptional="true" DbType="40" Length="200" />
+                    <Field Name="UNITCODE" Ordinal="3" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="DESCRIPTION" Ordinal="4" IsOptional="true" DbType="40" Length="250" />
+                    <Field Name="STATUS" Ordinal="5" IsOptional="true" DbType="22" Precision="2" />
+                    <Field Name="APPID" Ordinal="6" IsOptional="true" DbType="11" Precision="38" Scale="38" />
+                  </Fields>
+                </Table>
+                <Table Name="SYSGROUPMENU">
+                  <PkConstraintName Name="SYSGROUPMENU_PK" />
+                  <Fields>
+                    <Field Name="GROUPID" Ordinal="1" IsPrimaryKey="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="MENUID" Ordinal="2" IsPrimaryKey="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="FUNCTION" Ordinal="3" IsOptional="true" DbType="40" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="SYSLOGACTION">
+                  <PkConstraintName Name="SYSLOGACTION_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_97310&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_97310" DbType="22" Precision="10" />
+                    <Field Name="USER_ID" Ordinal="2" IsOptional="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="OBJECT_NAME" Ordinal="3" IsOptional="true" DbType="40" Length="100" />
+                    <Field Name="ACTION" Ordinal="4" IsOptional="true" DbType="40" Length="100" />
+                    <Field Name="NOTE" Ordinal="5" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="DATA" Ordinal="6" IsOptional="true" DbType="6" Length="2147483647" />
+                    <Field Name="DATE_CREATE" Ordinal="7" IsOptional="true" DbType="7" />
+                    <Field Name="IP_CLIENT" Ordinal="8" IsOptional="true" DbType="40" Length="100" />
+                    <Field Name="USER_NAME" Ordinal="9" IsOptional="true" DbType="40" Length="500" />
+                  </Fields>
+                </Table>
+                <Table Name="SYSLOGS">
+                  <PkConstraintName Name="SYSLOGS_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_82286&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_82286" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="ID_MODIFIED" Ordinal="2" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="STATE" Ordinal="3" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="NAME" Ordinal="4" IsOptional="true" DbType="24" Length="300" />
+                    <Field Name="REQUEST_METHOD" Ordinal="5" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="REQUEST_BODY" Ordinal="6" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="RESPONSE_BODY" Ordinal="7" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="NOTE" Ordinal="8" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="I_CREATE_BY" Ordinal="9" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_CREATE_DATE" Ordinal="10" IsOptional="true" DbType="7" />
+                    <Field Name="I_UPDATE_BY" Ordinal="11" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="I_UPDATE_DATE" Ordinal="12" IsOptional="true" DbType="7" />
+                    <Field Name="I_STATE" Ordinal="13" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="UNITCODE" Ordinal="14" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="SYSMENU">
+                  <PkConstraintName Name="SYSMENU_PK" />
+                  <Fields>
+                    <Field Name="MENUID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_82268&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_82268" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="MACHUCNANG" Ordinal="2" IsOptional="true" DbType="40" Length="20" />
+                    <Field Name="MACHA" Ordinal="3" IsOptional="true" DbType="40" Length="20" />
+                    <Field Name="TENCHUCNANG" Ordinal="4" IsOptional="true" DbType="40" Length="200" />
+                    <Field Name="STATE" Ordinal="5" IsOptional="true" DbType="40" Length="100" />
+                    <Field Name="SOTHUTU" Ordinal="6" IsOptional="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="TRANGTHAI" Ordinal="7" IsOptional="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="FUNCTION" Ordinal="8" IsOptional="true" DbType="40" Length="30" />
+                    <Field Name="CSSCLASS" Ordinal="9" IsOptional="true" DbType="40" Length="100" />
+                    <Field Name="ICONCLASS" Ordinal="10" IsOptional="true" DbType="40" Length="100" />
+                    <Field Name="UNITCODE" Ordinal="11" IsOptional="true" DbType="40" Length="20" />
+                    <Field Name="APPID" Ordinal="12" IsOptional="true" DbType="40" Length="20" />
+                  </Fields>
+                </Table>
+                <Table Name="SYSTAOMA">
+                  <PkConstraintName Name="SYSTAOMA_PK" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_82284&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_82284" DbType="22" Precision="10" />
+                    <Field Name="STATE" Ordinal="2" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="KYHIEUBATDAU" Ordinal="3" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="GIATRICAP" Ordinal="4" IsOptional="true" DbType="22" Precision="18" />
+                    <Field Name="UNITCODE" Ordinal="5" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="DODAI" Ordinal="6" IsOptional="true" DbType="22" Precision="3" />
+                  </Fields>
+                </Table>
+                <Table Name="SYSTUDIEN">
+                  <PkConstraintName Name="PK_SYSTUDIEN" />
+                  <Fields>
+                    <Field Name="ID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_82270&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_82270" DbType="22" Precision="10" />
+                    <Field Name="FIELDNAME" Ordinal="2" DbType="24" Length="20" />
+                    <Field Name="MA_TUDIEN" Ordinal="3" DbType="24" Length="50" />
+                    <Field Name="TEN_TUDIEN" Ordinal="4" DbType="24" Length="150" />
+                    <Field Name="TRANG_THAI" Ordinal="5" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="CAP" Ordinal="6" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="GHICHU" Ordinal="7" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="QDBANHANH" Ordinal="8" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="NGAYBANHANH" Ordinal="9" IsOptional="true" DbType="7" />
+                    <Field Name="CQBANHANH" Ordinal="10" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="MA_DINHDANHTINH" Ordinal="11" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="TEN_ENG" Ordinal="12" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="TEN_VIE" Ordinal="13" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="TEN_FIELDNAME" Ordinal="14" IsOptional="true" DbType="40" Length="250" />
+                  </Fields>
+                </Table>
+                <Table Name="SYSUNIT">
+                  <PkConstraintName Name="SYSUNIT_PK" />
+                  <Fields>
+                    <Field Name="UNITCODE" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="50" />
+                    <Field Name="TENDONVI" Ordinal="2" DbType="24" Length="250" />
+                    <Field Name="DIACHI" Ordinal="3" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="EMAIL" Ordinal="4" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="SODIENTHOAI" Ordinal="5" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="FAX" Ordinal="6" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="WEBSITE" Ordinal="7" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="QDBANHANHQDSUADOI" Ordinal="8" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="NGAYBANHANHQD" Ordinal="9" DbType="7" />
+                    <Field Name="COQUANBANHANHQD" Ordinal="10" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="MADINHDANH" Ordinal="11" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="MADVQHNS" Ordinal="12" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="MACHA" Ordinal="13" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="MATINH" Ordinal="14" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="MAHUYEN" Ordinal="15" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="MAXA" Ordinal="16" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="TRANGTHAI" Ordinal="17" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="CAPDONVI" Ordinal="18" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="NGUOILIENHE" Ordinal="19" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="DINHDANHAPP" Ordinal="20" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="ID_DIABAN" Ordinal="21" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="ID_TOCHUC" Ordinal="22" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="TYPE" Ordinal="23" IsOptional="true" DbType="22" Precision="1" />
+                  </Fields>
+                </Table>
+                <Table Name="SYSUSER">
+                  <PkConstraintName Name="SYSUSER_PK" />
+                  <Fields>
+                    <Field Name="USERID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="&quot;APPQTHT&quot;.&quot;ISEQ$$_82295&quot;.nextval" DefaultSequence="10.192.4.30:APPQTHT:ISEQ$$_82295" DbType="22" Precision="10" />
+                    <Field Name="FULLNAME" Ordinal="2" DbType="40" Length="200" />
+                    <Field Name="PASSWORD" Ordinal="3" DbType="24" Length="500" />
+                    <Field Name="UNITCODE" Ordinal="4" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="USERNAME" Ordinal="5" IsOptional="true" DbType="40" Length="50" />
+                    <Field Name="TRANGTHAI" Ordinal="6" IsOptional="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="PHONE" Ordinal="7" IsOptional="true" DbType="40" Length="11" />
+                    <Field Name="EMAIL" Ordinal="8" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="IDSYSTUDIEN" Ordinal="9" IsOptional="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="IMGAVATAR" Ordinal="10" IsOptional="true" DbType="6" Length="2147483647" />
+                    <Field Name="GIOITINH" Ordinal="11" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="NGAYSINH" Ordinal="12" IsOptional="true" DbType="7" />
+                    <Field Name="QUOCTICH" Ordinal="13" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="DIACHI" Ordinal="14" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="MADBHC" Ordinal="15" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="SOCMND" Ordinal="16" IsOptional="true" DbType="22" Precision="18" />
+                    <Field Name="CAP" Ordinal="17" IsOptional="true" DbType="22" Precision="5" />
+                    <Field Name="CHECKISYN" Ordinal="18" IsOptional="true" DbType="22" Precision="1" />
+                    <Field Name="MACHUCVU" Ordinal="19" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="LOAIUSER" Ordinal="20" IsOptional="true" DbType="22" Precision="1" />
+                    <Field Name="APPID" Ordinal="21" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="ID_CHUCVU" Ordinal="22" IsOptional="true" DbType="22" Precision="10" />
+                    <Field Name="PHONGBAN" Ordinal="23" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="MSTHUE" Ordinal="24" IsOptional="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="NGLIENHE" Ordinal="25" IsOptional="true" DbType="24" Length="150" />
+                  </Fields>
+                </Table>
+                <Table Name="SYSUSERGROUP">
+                  <PkConstraintName Name="SYSUSERGROUP_PK" />
+                  <Fields>
+                    <Field Name="USERID" Ordinal="1" IsPrimaryKey="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="GROUPID" Ordinal="2" IsPrimaryKey="true" DbType="11" Precision="38" Scale="38" />
+                  </Fields>
+                </Table>
+                <Table Name="SYSUSERMENU">
+                  <PkConstraintName Name="SYSUSERMENU_PK" />
+                  <Fields>
+                    <Field Name="USERID" Ordinal="1" IsPrimaryKey="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="MENUID" Ordinal="2" IsPrimaryKey="true" DbType="11" Precision="38" Scale="38" />
+                    <Field Name="FUNCTION" Ordinal="3" IsOptional="true" DbType="40" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="TOCHUC_CHUCVU">
+                  <PkConstraintName Name="TOCHUC_CHUCVU_PK" />
+                  <Fields>
+                    <Field Name="ID_TOCHUC" Ordinal="1" IsPrimaryKey="true" DbType="22" Precision="10" />
+                    <Field Name="ID_CHUCVU" Ordinal="2" IsPrimaryKey="true" DbType="22" Precision="10" />
+                    <Field Name="CAP" Ordinal="3" IsOptional="true" DbType="22" Precision="5" />
+                  </Fields>
+                </Table>
+              </Tables>
+              <StoredProcedures>
+                <StoredProcedure Name="GET_MENU_BY_USER" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="P_USER_NAME" Direction="1" Ordinal="1" DbType="24" Length="4000" />
+                    <Parameter Name="P_APPID" Direction="1" Ordinal="2" DbType="22" Precision="38" Scale="38" />
+                    <Parameter Name="CUR" Direction="2" Ordinal="3" IsResultsetParameter="true" DbType="30" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="MACHUCNANG" Ordinal="1" IsOptional="true" DbType="24" Length="20" />
+                        <Field Name="TENCHUCNANG" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                        <Field Name="MACHA" Ordinal="3" IsOptional="true" DbType="24" Length="20" />
+                        <Field Name="MENUID" Ordinal="4" IsOptional="true" DbType="22" Precision="38" Scale="127" />
+                        <Field Name="CSSCLASS" Ordinal="5" IsOptional="true" DbType="24" Length="100" />
+                        <Field Name="ICONCLASS" Ordinal="6" IsOptional="true" DbType="24" Length="100" />
+                        <Field Name="STATE" Ordinal="7" IsOptional="true" DbType="24" Length="100" />
+                        <Field Name="SOTHUTU" Ordinal="8" IsOptional="true" DbType="22" Precision="38" Scale="127" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+              </StoredProcedures>
+            </Schema>
+          </Schemas>
+          <ForeignKeyConstraints>
+            <ForeignKeyConstraint Name="APPQTHT:DMPHONGBAN:DMPHONGBAN_FK1">
+              <FieldPairs>
+                <FieldPair PkField="APPQTHT:SYSUNIT:UNITCODE" FkField="APPQTHT:DMPHONGBAN:UNITCODE" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="APPQTHT:SYS_REFRESHTOKENS:SYS_REFRESHTOKENS_FK1">
+              <FieldPairs>
+                <FieldPair PkField="APPQTHT:SYSUSER:USERID" FkField="APPQTHT:SYS_REFRESHTOKENS:USERID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="APPQTHT:SYSGROUPMENU:SYSGROUPMENU_FK1">
+              <FieldPairs>
+                <FieldPair PkField="APPQTHT:SYSGROUP:GROUPID" FkField="APPQTHT:SYSGROUPMENU:GROUPID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="APPQTHT:SYSGROUPMENU:SYSGROUPMENU_MENU_FK">
+              <FieldPairs>
+                <FieldPair PkField="APPQTHT:SYSMENU:MENUID" FkField="APPQTHT:SYSGROUPMENU:MENUID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="APPQTHT:SYSUNIT:SYSUNIT_FK1">
+              <FieldPairs>
+                <FieldPair PkField="APPQTHT:DMTOCHUC:ID" FkField="APPQTHT:SYSUNIT:ID_TOCHUC" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="APPQTHT:SYSUSERGROUP:SYSUSERGROUP_FK1">
+              <FieldPairs>
+                <FieldPair PkField="APPQTHT:SYSGROUP:GROUPID" FkField="APPQTHT:SYSUSERGROUP:GROUPID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="APPQTHT:SYSUSERGROUP:SYSUSERGROUP_FK2">
+              <FieldPairs>
+                <FieldPair PkField="APPQTHT:SYSUSER:USERID" FkField="APPQTHT:SYSUSERGROUP:USERID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="APPQTHT:SYSUSERMENU:SYSUSERMENU_FK1">
+              <FieldPairs>
+                <FieldPair PkField="APPQTHT:SYSUSER:USERID" FkField="APPQTHT:SYSUSERMENU:USERID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="APPQTHT:SYSUSERMENU:SYSUSERMENU_MENU_FK">
+              <FieldPairs>
+                <FieldPair PkField="APPQTHT:SYSMENU:MENUID" FkField="APPQTHT:SYSUSERMENU:MENUID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="APPQTHT:TOCHUC_CHUCVU:TOCHUC_CHUCVU_FK_CV">
+              <FieldPairs>
+                <FieldPair PkField="APPQTHT:DMCHUCVU:ID" FkField="APPQTHT:TOCHUC_CHUCVU:ID_CHUCVU" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="APPQTHT:TOCHUC_CHUCVU:TOCHUC_CHUCVU_FK_TC">
+              <FieldPairs>
+                <FieldPair PkField="APPQTHT:DMTOCHUC:ID" FkField="APPQTHT:TOCHUC_CHUCVU:ID_TOCHUC" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+          </ForeignKeyConstraints>
+        </Catalog>
+      </Catalogs>
+    </TargetDatabase>
+  </TargetDatabases>
+  <MappingStores>
+    <MappingStore Type="A8034CB0-319D-4cdd-BC7D-1E7CFDBA3B74">
+      <EntityMappings>
+        <EntityMapping EntityName="Appqtht:Dangkychiase" TargetName="10.192.4.30:APPQTHT:DANGKYCHIASE">
+          <FieldMappings>
+            <FieldMapping FieldName="Dieukhoan" TargetFieldName="DIEUKHOAN" />
+            <FieldMapping FieldName="Donvicongtac" TargetFieldName="DONVICONGTAC" />
+            <FieldMapping FieldName="Email" TargetFieldName="EMAIL" />
+            <FieldMapping FieldName="Hoten" TargetFieldName="HOTEN" />
+            <FieldMapping FieldName="Id" TargetFieldName="ID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_83815" />
+            <FieldMapping FieldName="Motadulieu" TargetFieldName="MOTADULIEU" />
+            <FieldMapping FieldName="Ngaydangky" TargetFieldName="NGAYDANGKY" />
+            <FieldMapping FieldName="Sodt" TargetFieldName="SODT" />
+            <FieldMapping FieldName="Status" TargetFieldName="STATUS" />
+            <FieldMapping FieldName="Tendulieu" TargetFieldName="TENDULIEU" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Dmchucvu" TargetName="10.192.4.30:APPQTHT:DMCHUCVU">
+          <FieldMappings>
+            <FieldMapping FieldName="Id" TargetFieldName="ID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_85669" />
+            <FieldMapping FieldName="Ten" TargetFieldName="TEN" />
+            <FieldMapping FieldName="Trangthai" TargetFieldName="TRANGTHAI" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Dmphongban" TargetName="10.192.4.30:APPQTHT:DMPHONGBAN">
+          <FieldMappings>
+            <FieldMapping FieldName="Id" TargetFieldName="ID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_88824" />
+            <FieldMapping FieldName="Ten" TargetFieldName="TEN" />
+            <FieldMapping FieldName="Trangthai" TargetFieldName="TRANGTHAI" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="UNITCODE" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Dmtochuc" TargetName="10.192.4.30:APPQTHT:DMTOCHUC">
+          <FieldMappings>
+            <FieldMapping FieldName="Id" TargetFieldName="ID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_85666" />
+            <FieldMapping FieldName="Ten" TargetFieldName="TEN" />
+            <FieldMapping FieldName="Trangthai" TargetFieldName="TRANGTHAI" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:HomeShare" TargetName="10.192.4.30:APPQTHT:HOME_SHARE">
+          <FieldMappings>
+            <FieldMapping FieldName="Id" TargetFieldName="ID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_82288" />
+            <FieldMapping FieldName="Kyhieu" TargetFieldName="KYHIEU" />
+            <FieldMapping FieldName="Malinhvuc" TargetFieldName="MALINHVUC" />
+            <FieldMapping FieldName="Solieu" TargetFieldName="SOLIEU" />
+            <FieldMapping FieldName="Tenlinhvuc" TargetFieldName="TENLINHVUC" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Sysapp" TargetName="10.192.4.30:APPQTHT:SYSAPP">
+          <FieldMappings>
+            <FieldMapping FieldName="Appid" TargetFieldName="APPID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_82282" />
+            <FieldMapping FieldName="Dinhdanhapp" TargetFieldName="DINHDANHAPP" />
+            <FieldMapping FieldName="Mota" TargetFieldName="MOTA" />
+            <FieldMapping FieldName="State" TargetFieldName="STATE" />
+            <FieldMapping FieldName="Tenapp" TargetFieldName="TENAPP" />
+            <FieldMapping FieldName="Trangthai" TargetFieldName="TRANGTHAI" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Sysattachment" TargetName="10.192.4.30:APPQTHT:SYSATTACHMENT">
+          <FieldMappings>
+            <FieldMapping FieldName="Createby" TargetFieldName="CREATEBY" />
+            <FieldMapping FieldName="Createdate" TargetFieldName="CREATEDATE" />
+            <FieldMapping FieldName="Filename" TargetFieldName="FILENAME" />
+            <FieldMapping FieldName="Filepath" TargetFieldName="FILEPATH" />
+            <FieldMapping FieldName="Id" TargetFieldName="ID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_82280" />
+            <FieldMapping FieldName="Localfilename" TargetFieldName="LOCALFILENAME" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Sysdinhdanh" TargetName="10.192.4.30:APPQTHT:SYSDINHDANH">
+          <FieldMappings>
+            <FieldMapping FieldName="CapDinhdanh" TargetFieldName="CAP_DINHDANH" />
+            <FieldMapping FieldName="CoquanBanhanh" TargetFieldName="COQUAN_BANHANH" />
+            <FieldMapping FieldName="DiaChi" TargetFieldName="DIA_CHI" />
+            <FieldMapping FieldName="Email" TargetFieldName="EMAIL" />
+            <FieldMapping FieldName="Fax" TargetFieldName="FAX" />
+            <FieldMapping FieldName="Id" TargetFieldName="ID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_82292" />
+            <FieldMapping FieldName="MaDinhdanh" TargetFieldName="MA_DINHDANH" />
+            <FieldMapping FieldName="MaDvqhns" TargetFieldName="MA_DVQHNS" />
+            <FieldMapping FieldName="MaHuyen" TargetFieldName="MA_HUYEN" />
+            <FieldMapping FieldName="MaTinh" TargetFieldName="MA_TINH" />
+            <FieldMapping FieldName="MaXa" TargetFieldName="MA_XA" />
+            <FieldMapping FieldName="NgayBanhanh" TargetFieldName="NGAY_BANHANH" />
+            <FieldMapping FieldName="NgayHhl" TargetFieldName="NGAY_HHL" />
+            <FieldMapping FieldName="NgayHl" TargetFieldName="NGAY_HL" />
+            <FieldMapping FieldName="QdBanhanh" TargetFieldName="QD_BANHANH" />
+            <FieldMapping FieldName="SoDienthoai" TargetFieldName="SO_DIENTHOAI" />
+            <FieldMapping FieldName="TenDonvi" TargetFieldName="TEN_DONVI" />
+            <FieldMapping FieldName="Website" TargetFieldName="WEBSITE" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Sysdvhanhchinh" TargetName="10.192.4.30:APPQTHT:SYSDVHANHCHINH">
+          <FieldMappings>
+            <FieldMapping FieldName="CapDbhc" TargetFieldName="CAP_DBHC" />
+            <FieldMapping FieldName="Id" TargetFieldName="ID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_82272" />
+            <FieldMapping FieldName="MaDbhc" TargetFieldName="MA_DBHC" />
+            <FieldMapping FieldName="MaDbhcCha" TargetFieldName="MA_DBHC_CHA" />
+            <FieldMapping FieldName="MaDinhdanhtinh" TargetFieldName="MA_DINHDANHTINH" />
+            <FieldMapping FieldName="NgayHhl" TargetFieldName="NGAY_HHL" />
+            <FieldMapping FieldName="NgayHl" TargetFieldName="NGAY_HL" />
+            <FieldMapping FieldName="TenDbhc" TargetFieldName="TEN_DBHC" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Sysdvqhn" TargetName="10.192.4.30:APPQTHT:SYSDVQHNS">
+          <FieldMappings>
+            <FieldMapping FieldName="CanCu" TargetFieldName="CAN_CU" />
+            <FieldMapping FieldName="CapNs" TargetFieldName="CAP_NS" />
+            <FieldMapping FieldName="CapQly" TargetFieldName="CAP_QLY" />
+            <FieldMapping FieldName="Chudautu" TargetFieldName="CHUDAUTU" />
+            <FieldMapping FieldName="CquanTlap" TargetFieldName="CQUAN_TLAP" />
+            <FieldMapping FieldName="DonviQl" TargetFieldName="DONVI_QL" />
+            <FieldMapping FieldName="Id" TargetFieldName="ID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_82275" />
+            <FieldMapping FieldName="MaBqlda" TargetFieldName="MA_BQLDA" />
+            <FieldMapping FieldName="MaCap" TargetFieldName="MA_CAP" />
+            <FieldMapping FieldName="MaChuong" TargetFieldName="MA_CHUONG" />
+            <FieldMapping FieldName="MaCtmt" TargetFieldName="MA_CTMT" />
+            <FieldMapping FieldName="MaDaDp" TargetFieldName="MA_DA_DP" />
+            <FieldMapping FieldName="MaDonVi" TargetFieldName="MA_DON_VI" />
+            <FieldMapping FieldName="MaDvqhns" TargetFieldName="MA_DVQHNS" />
+            <FieldMapping FieldName="MaDvqhnsCha" TargetFieldName="MA_DVQHNS_CHA" />
+            <FieldMapping FieldName="MaHuyen" TargetFieldName="MA_HUYEN" />
+            <FieldMapping FieldName="MaLoaidv" TargetFieldName="MA_LOAIDV" />
+            <FieldMapping FieldName="MaNhomDa" TargetFieldName="MA_NHOM_DA" />
+            <FieldMapping FieldName="MaNkt" TargetFieldName="MA_NKT" />
+            <FieldMapping FieldName="MaNtt" TargetFieldName="MA_NTT" />
+            <FieldMapping FieldName="MaTinh" TargetFieldName="MA_TINH" />
+            <FieldMapping FieldName="MaXa" TargetFieldName="MA_XA" />
+            <FieldMapping FieldName="NgayChuyenDoi" TargetFieldName="NGAY_CHUYEN_DOI" />
+            <FieldMapping FieldName="NgayHetHl" TargetFieldName="NGAY_HET_HL" />
+            <FieldMapping FieldName="NgayHl" TargetFieldName="NGAY_HL" />
+            <FieldMapping FieldName="NgayHt" TargetFieldName="NGAY_HT" />
+            <FieldMapping FieldName="NgayKc" TargetFieldName="NGAY_KC" />
+            <FieldMapping FieldName="NgayPs" TargetFieldName="NGAY_PS" />
+            <FieldMapping FieldName="NgayQd" TargetFieldName="NGAY_QD" />
+            <FieldMapping FieldName="NgaySd" TargetFieldName="NGAY_SD" />
+            <FieldMapping FieldName="NgayTao" TargetFieldName="NGAY_TAO" />
+            <FieldMapping FieldName="NguoiQly" TargetFieldName="NGUOI_QLY" />
+            <FieldMapping FieldName="NguoiTao" TargetFieldName="NGUOI_TAO" />
+            <FieldMapping FieldName="NguonDl" TargetFieldName="NGUON_DL" />
+            <FieldMapping FieldName="NoiMoTk" TargetFieldName="NOI_MO_TK" />
+            <FieldMapping FieldName="NvuThien" TargetFieldName="NVU_THIEN" />
+            <FieldMapping FieldName="Shkb" TargetFieldName="SHKB" />
+            <FieldMapping FieldName="SoQd" TargetFieldName="SO_QD" />
+            <FieldMapping FieldName="SoTk" TargetFieldName="SO_TK" />
+            <FieldMapping FieldName="TenDaDp" TargetFieldName="TEN_DA_DP" />
+            <FieldMapping FieldName="TenDvqhns" TargetFieldName="TEN_DVQHNS" />
+            <FieldMapping FieldName="TenNhomDa" TargetFieldName="TEN_NHOM_DA" />
+            <FieldMapping FieldName="TinhTrang" TargetFieldName="TINH_TRANG" />
+            <FieldMapping FieldName="TmDtu" TargetFieldName="TM_DTU" />
+            <FieldMapping FieldName="TrangThai" TargetFieldName="TRANG_THAI" />
+            <FieldMapping FieldName="TrdNsnn" TargetFieldName="TRD_NSNN" />
+            <FieldMapping FieldName="TrdOda" TargetFieldName="TRD_ODA" />
+            <FieldMapping FieldName="TrdTpcp" TargetFieldName="TRD_TPCP" />
+            <FieldMapping FieldName="TypeDvqhns" TargetFieldName="TYPE_DVQHNS" />
+            <FieldMapping FieldName="UserName" TargetFieldName="USER_NAME" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Sysgroup" TargetName="10.192.4.30:APPQTHT:SYSGROUP">
+          <FieldMappings>
+            <FieldMapping FieldName="Appid" TargetFieldName="APPID" />
+            <FieldMapping FieldName="Description" TargetFieldName="DESCRIPTION" />
+            <FieldMapping FieldName="Groupid" TargetFieldName="GROUPID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_82277" />
+            <FieldMapping FieldName="Groupname" TargetFieldName="GROUPNAME" />
+            <FieldMapping FieldName="Status" TargetFieldName="STATUS" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="UNITCODE" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Sysgroupmenu" TargetName="10.192.4.30:APPQTHT:SYSGROUPMENU">
+          <FieldMappings>
+            <FieldMapping FieldName="Function" TargetFieldName="FUNCTION" />
+            <FieldMapping FieldName="Groupid" TargetFieldName="GROUPID" />
+            <FieldMapping FieldName="Menuid" TargetFieldName="MENUID" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Syslog" TargetName="10.192.4.30:APPQTHT:SYSLOGS">
+          <FieldMappings>
+            <FieldMapping FieldName="ICreateBy" TargetFieldName="I_CREATE_BY" />
+            <FieldMapping FieldName="ICreateDate" TargetFieldName="I_CREATE_DATE" />
+            <FieldMapping FieldName="Id" TargetFieldName="ID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_82286" />
+            <FieldMapping FieldName="IdModified" TargetFieldName="ID_MODIFIED" />
+            <FieldMapping FieldName="IState" TargetFieldName="I_STATE" />
+            <FieldMapping FieldName="IUpdateBy" TargetFieldName="I_UPDATE_BY" />
+            <FieldMapping FieldName="IUpdateDate" TargetFieldName="I_UPDATE_DATE" />
+            <FieldMapping FieldName="Name" TargetFieldName="NAME" />
+            <FieldMapping FieldName="Note" TargetFieldName="NOTE" />
+            <FieldMapping FieldName="RequestBody" TargetFieldName="REQUEST_BODY" />
+            <FieldMapping FieldName="RequestMethod" TargetFieldName="REQUEST_METHOD" />
+            <FieldMapping FieldName="ResponseBody" TargetFieldName="RESPONSE_BODY" />
+            <FieldMapping FieldName="State" TargetFieldName="STATE" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="UNITCODE" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Syslogaction" TargetName="10.192.4.30:APPQTHT:SYSLOGACTION">
+          <FieldMappings>
+            <FieldMapping FieldName="Action" TargetFieldName="ACTION" />
+            <FieldMapping FieldName="Data" TargetFieldName="DATA" />
+            <FieldMapping FieldName="DateCreate" TargetFieldName="DATE_CREATE" />
+            <FieldMapping FieldName="Id" TargetFieldName="ID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_97310" />
+            <FieldMapping FieldName="IpClient" TargetFieldName="IP_CLIENT" />
+            <FieldMapping FieldName="Note" TargetFieldName="NOTE" />
+            <FieldMapping FieldName="ObjectName" TargetFieldName="OBJECT_NAME" />
+            <FieldMapping FieldName="UserId" TargetFieldName="USER_ID" />
+            <FieldMapping FieldName="UserName" TargetFieldName="USER_NAME" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Sysmenu" TargetName="10.192.4.30:APPQTHT:SYSMENU">
+          <FieldMappings>
+            <FieldMapping FieldName="Appid" TargetFieldName="APPID" />
+            <FieldMapping FieldName="Cssclass" TargetFieldName="CSSCLASS" />
+            <FieldMapping FieldName="Function" TargetFieldName="FUNCTION" />
+            <FieldMapping FieldName="Iconclass" TargetFieldName="ICONCLASS" />
+            <FieldMapping FieldName="Macha" TargetFieldName="MACHA" />
+            <FieldMapping FieldName="Machucnang" TargetFieldName="MACHUCNANG" />
+            <FieldMapping FieldName="Menuid" TargetFieldName="MENUID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_82268" />
+            <FieldMapping FieldName="Sothutu" TargetFieldName="SOTHUTU" />
+            <FieldMapping FieldName="State" TargetFieldName="STATE" />
+            <FieldMapping FieldName="Tenchucnang" TargetFieldName="TENCHUCNANG" />
+            <FieldMapping FieldName="Trangthai" TargetFieldName="TRANGTHAI" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="UNITCODE" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:SysRefreshtoken" TargetName="10.192.4.30:APPQTHT:SYS_REFRESHTOKENS">
+          <FieldMappings>
+            <FieldMapping FieldName="Appid" TargetFieldName="APPID" />
+            <FieldMapping FieldName="Created" TargetFieldName="CREATED" />
+            <FieldMapping FieldName="Createdbyip" TargetFieldName="CREATEDBYIP" />
+            <FieldMapping FieldName="Expires" TargetFieldName="EXPIRES" />
+            <FieldMapping FieldName="Id" TargetFieldName="ID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_82290" />
+            <FieldMapping FieldName="Isactive" TargetFieldName="ISACTIVE" />
+            <FieldMapping FieldName="Isexpired" TargetFieldName="ISEXPIRED" />
+            <FieldMapping FieldName="Replacedbytoken" TargetFieldName="REPLACEDBYTOKEN" />
+            <FieldMapping FieldName="Revoked" TargetFieldName="REVOKED" />
+            <FieldMapping FieldName="Revokedbyip" TargetFieldName="REVOKEDBYIP" />
+            <FieldMapping FieldName="Tag" TargetFieldName="TAG" />
+            <FieldMapping FieldName="Token" TargetFieldName="TOKEN" />
+            <FieldMapping FieldName="Userid" TargetFieldName="USERID" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Systaoma" TargetName="10.192.4.30:APPQTHT:SYSTAOMA">
+          <FieldMappings>
+            <FieldMapping FieldName="Dodai" TargetFieldName="DODAI" />
+            <FieldMapping FieldName="Giatricap" TargetFieldName="GIATRICAP" />
+            <FieldMapping FieldName="Id" TargetFieldName="ID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_82284" />
+            <FieldMapping FieldName="Kyhieubatdau" TargetFieldName="KYHIEUBATDAU" />
+            <FieldMapping FieldName="State" TargetFieldName="STATE" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="UNITCODE" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Systudien" TargetName="10.192.4.30:APPQTHT:SYSTUDIEN">
+          <FieldMappings>
+            <FieldMapping FieldName="Cap" TargetFieldName="CAP" />
+            <FieldMapping FieldName="Cqbanhanh" TargetFieldName="CQBANHANH" />
+            <FieldMapping FieldName="Fieldname" TargetFieldName="FIELDNAME" />
+            <FieldMapping FieldName="Ghichu" TargetFieldName="GHICHU" />
+            <FieldMapping FieldName="Id" TargetFieldName="ID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_82270" />
+            <FieldMapping FieldName="MaDinhdanhtinh" TargetFieldName="MA_DINHDANHTINH" />
+            <FieldMapping FieldName="MaTudien" TargetFieldName="MA_TUDIEN" />
+            <FieldMapping FieldName="Ngaybanhanh" TargetFieldName="NGAYBANHANH" />
+            <FieldMapping FieldName="Qdbanhanh" TargetFieldName="QDBANHANH" />
+            <FieldMapping FieldName="TenEng" TargetFieldName="TEN_ENG" />
+            <FieldMapping FieldName="TenFieldname" TargetFieldName="TEN_FIELDNAME" />
+            <FieldMapping FieldName="TenTudien" TargetFieldName="TEN_TUDIEN" />
+            <FieldMapping FieldName="TenVie" TargetFieldName="TEN_VIE" />
+            <FieldMapping FieldName="TrangThai" TargetFieldName="TRANG_THAI" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Sysunit" TargetName="10.192.4.30:APPQTHT:SYSUNIT">
+          <FieldMappings>
+            <FieldMapping FieldName="Capdonvi" TargetFieldName="CAPDONVI" />
+            <FieldMapping FieldName="Coquanbanhanhqd" TargetFieldName="COQUANBANHANHQD" />
+            <FieldMapping FieldName="Diachi" TargetFieldName="DIACHI" />
+            <FieldMapping FieldName="Dinhdanhapp" TargetFieldName="DINHDANHAPP" />
+            <FieldMapping FieldName="Email" TargetFieldName="EMAIL" />
+            <FieldMapping FieldName="Fax" TargetFieldName="FAX" />
+            <FieldMapping FieldName="IdDiaban" TargetFieldName="ID_DIABAN" />
+            <FieldMapping FieldName="IdTochuc" TargetFieldName="ID_TOCHUC" />
+            <FieldMapping FieldName="Macha" TargetFieldName="MACHA" />
+            <FieldMapping FieldName="Madinhdanh" TargetFieldName="MADINHDANH" />
+            <FieldMapping FieldName="Madvqhns" TargetFieldName="MADVQHNS" />
+            <FieldMapping FieldName="Mahuyen" TargetFieldName="MAHUYEN" />
+            <FieldMapping FieldName="Matinh" TargetFieldName="MATINH" />
+            <FieldMapping FieldName="Maxa" TargetFieldName="MAXA" />
+            <FieldMapping FieldName="Ngaybanhanhqd" TargetFieldName="NGAYBANHANHQD" />
+            <FieldMapping FieldName="Nguoilienhe" TargetFieldName="NGUOILIENHE" />
+            <FieldMapping FieldName="Qdbanhanhqdsuadoi" TargetFieldName="QDBANHANHQDSUADOI" />
+            <FieldMapping FieldName="Sodienthoai" TargetFieldName="SODIENTHOAI" />
+            <FieldMapping FieldName="Tendonvi" TargetFieldName="TENDONVI" />
+            <FieldMapping FieldName="Trangthai" TargetFieldName="TRANGTHAI" />
+            <FieldMapping FieldName="Type" TargetFieldName="TYPE" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="UNITCODE" />
+            <FieldMapping FieldName="Website" TargetFieldName="WEBSITE" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Sysuser" TargetName="10.192.4.30:APPQTHT:SYSUSER">
+          <FieldMappings>
+            <FieldMapping FieldName="Appid" TargetFieldName="APPID" />
+            <FieldMapping FieldName="Cap" TargetFieldName="CAP" />
+            <FieldMapping FieldName="Checkisyn" TargetFieldName="CHECKISYN" />
+            <FieldMapping FieldName="Diachi" TargetFieldName="DIACHI" />
+            <FieldMapping FieldName="Email" TargetFieldName="EMAIL" />
+            <FieldMapping FieldName="Fullname" TargetFieldName="FULLNAME" />
+            <FieldMapping FieldName="Gioitinh" TargetFieldName="GIOITINH" />
+            <FieldMapping FieldName="IdChucvu" TargetFieldName="ID_CHUCVU" />
+            <FieldMapping FieldName="Idsystudien" TargetFieldName="IDSYSTUDIEN" />
+            <FieldMapping FieldName="Imgavatar" TargetFieldName="IMGAVATAR" />
+            <FieldMapping FieldName="Loaiuser" TargetFieldName="LOAIUSER" />
+            <FieldMapping FieldName="Machucvu" TargetFieldName="MACHUCVU" />
+            <FieldMapping FieldName="Madbhc" TargetFieldName="MADBHC" />
+            <FieldMapping FieldName="Msthue" TargetFieldName="MSTHUE" />
+            <FieldMapping FieldName="Ngaysinh" TargetFieldName="NGAYSINH" />
+            <FieldMapping FieldName="Nglienhe" TargetFieldName="NGLIENHE" />
+            <FieldMapping FieldName="Password" TargetFieldName="PASSWORD" />
+            <FieldMapping FieldName="Phone" TargetFieldName="PHONE" />
+            <FieldMapping FieldName="Phongban" TargetFieldName="PHONGBAN" />
+            <FieldMapping FieldName="Quoctich" TargetFieldName="QUOCTICH" />
+            <FieldMapping FieldName="Socmnd" TargetFieldName="SOCMND" />
+            <FieldMapping FieldName="Trangthai" TargetFieldName="TRANGTHAI" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="UNITCODE" />
+            <FieldMapping FieldName="Userid" TargetFieldName="USERID" SequenceToUse="10.192.4.30:APPQTHT:ISEQ$$_82295" />
+            <FieldMapping FieldName="Username" TargetFieldName="USERNAME" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Sysusergroup" TargetName="10.192.4.30:APPQTHT:SYSUSERGROUP">
+          <FieldMappings>
+            <FieldMapping FieldName="Groupid" TargetFieldName="GROUPID" />
+            <FieldMapping FieldName="Userid" TargetFieldName="USERID" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:Sysusermenu" TargetName="10.192.4.30:APPQTHT:SYSUSERMENU">
+          <FieldMappings>
+            <FieldMapping FieldName="Function" TargetFieldName="FUNCTION" />
+            <FieldMapping FieldName="Menuid" TargetFieldName="MENUID" />
+            <FieldMapping FieldName="Userid" TargetFieldName="USERID" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqtht:TochucChucvu" TargetName="10.192.4.30:APPQTHT:TOCHUC_CHUCVU">
+          <FieldMappings>
+            <FieldMapping FieldName="Cap" TargetFieldName="CAP" />
+            <FieldMapping FieldName="IdChucvu" TargetFieldName="ID_CHUCVU" />
+            <FieldMapping FieldName="IdTochuc" TargetFieldName="ID_TOCHUC" />
+          </FieldMappings>
+        </EntityMapping>
+      </EntityMappings>
+      <TypedViewMappings />
+      <SPCallMappings>
+        <SPCallMapping SPCallName="Appqtht:GetMenuByUser" TargetName="10.192.4.30:APPQTHT:GET_MENU_BY_USER">
+          <FieldMappings>
+            <FieldMapping FieldName="Cur" TargetFieldName="CUR" />
+            <FieldMapping FieldName="PAppid" TargetFieldName="P_APPID" />
+            <FieldMapping FieldName="PUserName" TargetFieldName="P_USER_NAME" />
+          </FieldMappings>
+        </SPCallMapping>
+      </SPCallMappings>
+      <TvfCallMappings />
+      <TypeConversionDefinitions />
+    </MappingStore>
+  </MappingStores>
+  <ModelViews />
+</Project>

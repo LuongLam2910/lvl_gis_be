@@ -1,0 +1,7 @@
+{
+  "PortConfig": {
+    "Api_Gateway": "16000",
+    "App_GIS": "17010",
+    "App_QTHT_GIS": "17020"
+  }
+}

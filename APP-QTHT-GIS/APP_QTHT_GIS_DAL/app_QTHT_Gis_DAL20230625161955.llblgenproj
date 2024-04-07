@@ -1,0 +1,1580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--LLBLGen Pro v5.10 project file. Do not manually edit this file. Incorrect references could lead to an unloadable project file.-->
+<Project Version="5.10" TargetFrameworkName="LLBLGen Pro Runtime Framework" UseLegacyDefaults="false">
+  <Properties>
+    <Abbreviations />
+    <Property Name="AdditionalTaskPerformerFolder" Value="" />
+    <Property Name="AdditionalTasksFolder" Value="" />
+    <Property Name="AdditionalTemplatesFolder" Value="" />
+    <Property Name="AdditionalTypeConverterFolder" Value="" />
+    <Property Name="AddNewElementsAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AddNewFieldsAfterRefresh_v5" Value="true" />
+    <Property Name="AddNewFieldsAfterRelationalModelDataSync_v5" Value="true" />
+    <Property Name="AddNewViewsAsEntitiesAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewViewsAsEntitiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AutoAddManyToManyRelationships" Value="false" />
+    <Property Name="AutoAssignSequencesToIntegerPks" Value="true" />
+    <Property Name="AutoAssignTypeConverterToFieldMapping" Value="true" />
+    <Property Name="AutomaticallyGenerateSourceCodeOnProjectSave" Value="false" />
+    <Property Name="ConnectionStringKeyNamePattern" Value="CongAn_Gis_ConnectionString" />
+    <Property Name="DefaultDDLSQLScriptDestinationFolder" Value=".\DDLSQLScripts" />
+    <Property Name="DefaultDeleteRuleAction" Value="1" />
+    <Property Name="DefaultSourceCodeDestinationFolder" Value="C:\code\data_warehouse\BE\APP-GIS\APP_GIS_DAL" />
+    <Property Name="DefaultUpdateRuleAction" Value="0" />
+    <Property Name="DeleteObsoleteFiles" Value="true" />
+    <Property Name="ElementNamePrefixPattern" Value="{$SchemaName}" />
+    <Property Name="ElementNamePrefixPatternIsAppliedWhen" Value="1" />
+    <Property Name="EncodingToUse" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForTable" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForView" Value="4" />
+    <Property Name="EntityFieldNameStripPattern" Value="{}{}" />
+    <Property Name="EntityNameStripPattern" Value="{tbl_}{}" />
+    <Property Name="ExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="FailCodeGenerationOnWriteError" Value="false" />
+    <Property Name="FieldMappedOntoRelatedFieldPattern" Value="{$RelatedFieldName}" />
+    <Property Name="FkFieldsAreNamedAfterTargetField" Value="true" />
+    <Property Name="ForeignKeyConstraintPattern" Value="FK_{$Guid}" />
+    <Property Name="ForeignKeyFieldPattern" Value="{$NavigatorName}{$RelatedFieldName}" />
+    <Property Name="GroupUsage" Value="0" />
+    <Property Name="IdentifyingFieldsFollowDBPrimaryKeyConstraints_v5" Value="true" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseInsensitiveDBs" Value="false" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseSensitiveDBs" Value="false" />
+    <Property Name="LengthPrecisionScaleFollowDBLengthPrecisionScale_v5" Value="true" />
+    <Property Name="MakeElementNamePascalCasing" Value="true" />
+    <Property Name="NavigatorMappedOntoManyToManyPattern" Value="{$EndEntityName}CollectionVia{$IntermediateEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneManyToOnePattern" Value="{$EndEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneToManyPattern" Value="{$EndEntityName$P}" />
+    <Property Name="NonExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="PreferDecimalOverCurrencyTypes" Value="true" />
+    <Property Name="PreferNaturalCharacterTypes" Value="true" />
+    <Property Name="PreferSystemSequencesOverSchemaSequencesIfApplicable" Value="true" />
+    <Property Name="PreferVariableLengthTypes" Value="true" />
+    <Property Name="PrimaryKeyConstraintPattern" Value="PK_{$Guid}" />
+    <Property Name="ProjectCreator" Value="app_Congan_Gis_DAL" />
+    <Property Name="ProjectName" Value="app_QTHT_Gis_DAL" />
+    <Property Name="ReflectNullabilityOfElementFieldInTargetField_v5" Value="false" />
+    <Property Name="ReflectTypeOfElementFieldInTargetField_v5" Value="true" />
+    <Property Name="RelationalModelDataElementNameCasingCaseInsensitiveDBs" Value="3" />
+    <Property Name="RelationalModelDataElementNameCasingCaseSensitiveDBs" Value="3" />
+    <Property Name="RelationshipsFollowDBForeignKeyConstraints_v5" Value="true" />
+    <Property Name="RemoveUnderscoresFromElementName" Value="true" />
+    <Property Name="RemoveUnmappedElementsAfterRefresh_v5" Value="false" />
+    <Property Name="RemoveUnmappedElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRefresh" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRelationalModelDataSync" Value="false" />
+    <Property Name="RetrieveDBCustomProperties" Value="false" />
+    <Property Name="RootNamespace" Value="" />
+    <Property Name="SequenceNameMatchingPattern" Value="SEQ_{$TableName}" />
+    <Property Name="SequencePattern" Value="SEQ_{$EntityName}" />
+    <Property Name="SetGroupNameAfterSchemaName" Value="true" />
+    <Property Name="SetSchemaNameAfterGroupName" Value="true" />
+    <Property Name="SingularizeElementNames" Value="true" />
+    <Property Name="StoredProcNameStripPattern" Value="{pr_, sp_}{}" />
+    <Property Name="StoreTimeLastGeneratedIntoProject" Value="false" />
+    <Property Name="StoreTimeLastSyncIntoProject" Value="true" />
+    <Property Name="SyncCustomFieldOrderingWithTableFieldIndex" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="SyncRelationalModelDataElementNameWithModelElementName_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="TableValuedFunctionNameStripPattern" Value="{fn_, pr_, sp_}{}" />
+    <Property Name="TargetPerEntityEdgesRequireBackingFkConstraint" Value="true" />
+    <Property Name="TypedViewFieldNameStripPattern" Value="{}{}" />
+    <Property Name="TypedViewMappedOnResultsetPattern" Value="{$ProcFunctionName}{$ResultsetName}Result" />
+    <Property Name="TypedViewNameStripPattern" Value="{vw_}{}" />
+    <Property Name="UniqueConstraintPattern" Value="UC_{$Guid}" />
+    <Property Name="UniqueConstraintsFollowDBUniqueConstraints_v5" Value="true" />
+    <Property Name="UpdateCustomPropertiesAfterRefresh_v5" Value="false" />
+    <Property Name="UpdateCustomPropertiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="UseCustomFieldOrderingOnNewElements" Value="false" />
+  </Properties>
+  <TypeShortcuts />
+  <IgnoredWarnings />
+  <SavedSearchQueries />
+  <CodeGenerationCyclePreferences>
+    <OutputType Value="3">
+      <LastUsedPreferences>
+        <DestinationRootFolder Value="C:\code\data_warehouse\BE\APP-QTHT-GIS\APP_QTHT_GIS_DAL" />
+        <FrameworkName Value="LLBLGen Pro Runtime Framework" />
+        <LanguageName Value="C#" />
+        <PlatformName Value=".NET 7" />
+        <PresetName Value="SD.Presets.Adapter.General.Netstandard" />
+        <RootNamespace Value="App.QTHTGis.Dal" />
+        <TemplateGroup Value="Adapter" />
+        <TemplateBindings>
+          <Binding Name="SD.TemplateBindings.PostgreSqlSpecific" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates.Net7" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates" />
+          <Binding Name="SD.TemplateBindings.General" />
+        </TemplateBindings>
+        <AdhocTemplateSets />
+      </LastUsedPreferences>
+    </OutputType>
+    <OutputType Value="1">
+      <LastUsedPreferences>
+        <DestinationRootFolder Value=".\DDLSQLScripts" />
+        <FrameworkName Value="DDL SQL" />
+        <LanguageName Value="SQL" />
+        <PlatformName Value="RDBMS" />
+        <PresetName Value="SD.Presets.DDLSQL.CreateScript" />
+        <RootNamespace Value="" />
+        <TemplateGroup Value="Create DDL SQL" />
+        <TemplateBindings>
+          <Binding Name="SD.TemplateBindings.DB2Specific.DDLSQL" />
+          <Binding Name="SD.TemplateBindings.FirebirdSpecific.DDLSQL" />
+          <Binding Name="SD.TemplateBindings.MySqlSpecific.DDLSQL" />
+          <Binding Name="SD.TemplateBindings.OracleSpecific.DDLSQL" />
+          <Binding Name="SD.TemplateBindings.PostgreSqlSpecific.DDLSQL" />
+          <Binding Name="SD.TemplateBindings.SqlServerSpecific.DDLSQL" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates.DDLSQL" />
+        </TemplateBindings>
+        <AdhocTemplateSets />
+      </LastUsedPreferences>
+    </OutputType>
+  </CodeGenerationCyclePreferences>
+  <OutputSettingValues>
+    <SettingValues>
+      <SettingValue Name="1:AdapterDbGenericSubFolderName" Value="DatabaseGeneric" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificNamespaceSuffix" Value="DatabaseSpecific" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificProjectFileSuffix" Value="DBSpecific" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificSubFolderName" Value="DatabaseSpecific" Type="18" />
+      <SettingValue Name="1:ConvertNulledReferenceTypesToDefaultValue" Value="true" Type="3" />
+      <SettingValue Name="1:EntityBaseClassNameDefault" Value="CommonEntityBase" Type="18" />
+      <SettingValue Name="1:FieldPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateAsNullableTypeDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldFactory" Value="false" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldsFactory" Value="false" Type="3" />
+      <SettingValue Name="1:InlineValueTypedFields" Value="true" Type="3" />
+      <SettingValue Name="1:LazyLoadingWithoutResultReturnsNew" Value="false" Type="3" />
+      <SettingValue Name="1:NavigatorPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:SupportedActionCombinations" Value="0,1,2,3,4,5,6,7" Type="18" />
+      <SettingValue Name="1:TdlEmitTimeDateInOutputFiles" Value="false" Type="3" />
+      <SettingValue Name="1:TypedListOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+      <SettingValue Name="1:TypedViewOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+    </SettingValues>
+  </OutputSettingValues>
+  <CodeGenerationMetaDataDefaults>
+    <TargetElement Type="256">
+      <Defaults>
+        <Attributes>
+          <Attribute Value="Browsable($false)" />
+        </Attributes>
+      </Defaults>
+    </TargetElement>
+  </CodeGenerationMetaDataDefaults>
+  <EntityModel>
+    <ValueTypeDefinitions />
+    <EntityDefinitions>
+      <EntityDefinition Name="Dangkychiase" GroupName="Appqthtgis" ObjectID="fde33ebd-981d-4e92-822a-86bdbf574daf">
+        <Fields>
+          <Field Name="Dieukhoan" Type="short" Precision="5" />
+          <Field Name="Donvicongtac" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="Email" Type="string" MaxLength="50" />
+          <Field Name="Hoten" Type="string" MaxLength="150" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="Motadulieu" Type="string" MaxLength="1073741824" />
+          <Field Name="Ngaydangky" Type="datetime" IsOptional="true" />
+          <Field Name="Sodt" Type="string" MaxLength="11" />
+          <Field Name="Status" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Tendulieu" Type="string" MaxLength="255" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Dmchucvu" GroupName="Appqthtgis" ObjectID="5632b741-c27c-4538-912c-f62aa3593fcc">
+        <Fields>
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="Ten" Type="string" MaxLength="200" />
+          <Field Name="Trangthai" Type="short" Precision="5" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Dmphongban" GroupName="Appqthtgis" ObjectID="19d7212d-ca9e-430b-93cb-0548df7ae71d">
+        <Fields>
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="Ten" Type="string" MaxLength="200" />
+          <Field Name="Trangthai" Type="short" Precision="5" />
+          <Field Name="Unitcode" Type="string" MaxLength="50" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Dmtochuc" GroupName="Appqthtgis" ObjectID="df472bdd-92b1-48b9-8265-c2e51b2c7f35">
+        <Fields>
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="Ten" Type="string" MaxLength="200" />
+          <Field Name="Trangthai" Type="short" Precision="5" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="HomeShare" GroupName="Appqthtgis" ObjectID="dfc76257-56d7-4ae9-a50f-345bff195b97">
+        <Fields>
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="Kyhieu" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="Malinhvuc" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="Solieu" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Tenlinhvuc" Type="string" IsOptional="true" MaxLength="255" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Logdag" GroupName="Appqthtgis" ObjectID="1881ab0e-9e6d-428f-8280-38c642ff40e4">
+        <Fields>
+          <Field Name="Appid" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="Banghihientai" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Dagid" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="Inserted" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Ngaychay" Type="datetime" IsOptional="true" />
+          <Field Name="Ngayketthuc" Type="datetime" IsOptional="true" />
+          <Field Name="Nguon" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="Pagenumber" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Pagesize" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Tinhtrang" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="Tongbanghinguon" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Trung" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Updated" Type="long" IsOptional="true" Precision="20" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysapp" GroupName="Appqthtgis" ObjectID="57df5406-03e9-4128-8465-8406de193a5f">
+        <Fields>
+          <Field Name="Appid" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="Dinhdanhapp" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Mota" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="State" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Tenapp" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Trangthai" Type="long" IsOptional="true" Precision="20" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysattachment" GroupName="Appqthtgis" ObjectID="574b0839-ff67-4ef6-bdec-8ab55eb70c10">
+        <Fields>
+          <Field Name="Createby" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Createdate" Type="datetime" IsOptional="true" />
+          <Field Name="Filename" Type="string" IsOptional="true" MaxLength="1000" />
+          <Field Name="Filepath" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="Localfilename" Type="string" IsOptional="true" MaxLength="1000" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysdinhdanh" GroupName="Appqthtgis" ObjectID="b96c94de-e26b-4005-87f5-03f59c3da8d7">
+        <Fields>
+          <Field Name="CapDinhdanh" Type="long" Precision="20" />
+          <Field Name="CoquanBanhanh" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="DiaChi" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="Email" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="Fax" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="MaDinhdanh" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="MaDvqhns" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="MaHuyen" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="MaTinh" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="MaXa" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="NgayBanhanh" Type="datetime" IsOptional="true" />
+          <Field Name="NgayHhl" Type="datetime" IsOptional="true" />
+          <Field Name="NgayHl" Type="datetime" IsOptional="true" />
+          <Field Name="QdBanhanh" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="SoDienthoai" Type="string" IsOptional="true" MaxLength="10" />
+          <Field Name="TenDonvi" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="Website" Type="string" IsOptional="true" MaxLength="150" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysdvhanhchinh" GroupName="Appqthtgis" ObjectID="99ccdb25-4f5d-4f20-9997-1ff87de5e34c">
+        <Fields>
+          <Field Name="CapDbhc" Type="long" Precision="20" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="MaDbhc" Type="string" MaxLength="50" />
+          <Field Name="MaDbhcCha" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="MaDinhdanhtinh" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="NgayHhl" Type="datetime" IsOptional="true" />
+          <Field Name="NgayHl" Type="datetime" IsOptional="true" />
+          <Field Name="TenDbhc" Type="string" MaxLength="250" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysdvqhn" GroupName="Appqthtgis" ObjectID="78fcf43d-751f-4715-98cb-0abc028625d9">
+        <Fields>
+          <Field Name="CanCu" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="CapNs" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="CapQly" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="Chudautu" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="CquanTlap" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="DonviQl" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="MaBqlda" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="MaCap" Type="string" IsOptional="true" MaxLength="1" />
+          <Field Name="MaChuong" Type="string" IsOptional="true" MaxLength="3" />
+          <Field Name="MaCtmt" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="MaDaDp" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="MaDonVi" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="MaDvqhns" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="MaDvqhnsCha" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="MaHuyen" Type="string" IsOptional="true" MaxLength="3" />
+          <Field Name="MaLoaidv" Type="string" IsOptional="true" MaxLength="2" />
+          <Field Name="MaNhomDa" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="MaNkt" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="MaNtt" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="MaTinh" Type="string" IsOptional="true" MaxLength="2" />
+          <Field Name="MaXa" Type="string" IsOptional="true" MaxLength="5" />
+          <Field Name="NgayChuyenDoi" Type="datetime" IsOptional="true" />
+          <Field Name="NgayHetHl" Type="datetime" IsOptional="true" />
+          <Field Name="NgayHl" Type="datetime" IsOptional="true" />
+          <Field Name="NgayHt" Type="datetime" IsOptional="true" />
+          <Field Name="NgayKc" Type="datetime" IsOptional="true" />
+          <Field Name="NgayPs" Type="datetime" IsOptional="true" />
+          <Field Name="NgayQd" Type="datetime" IsOptional="true" />
+          <Field Name="NgaySd" Type="datetime" IsOptional="true" />
+          <Field Name="NgayTao" Type="datetime" IsOptional="true" />
+          <Field Name="NguoiQly" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="NguoiTao" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="NguonDl" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="NoiMoTk" Type="string" IsOptional="true" MaxLength="120" />
+          <Field Name="NvuThien" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="Shkb" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="SoQd" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="SoTk" Type="string" IsOptional="true" MaxLength="120" />
+          <Field Name="TenDaDp" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="TenDvqhns" Type="string" IsOptional="true" MaxLength="240" />
+          <Field Name="TenNhomDa" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="TinhTrang" Type="string" IsOptional="true" MaxLength="9" />
+          <Field Name="TmDtu" Type="decimal" IsOptional="true" Precision="38" />
+          <Field Name="TrangThai" Type="string" IsOptional="true" MaxLength="1" />
+          <Field Name="TrdNsnn" Type="decimal" IsOptional="true" Precision="38" />
+          <Field Name="TrdOda" Type="decimal" IsOptional="true" Precision="38" />
+          <Field Name="TrdTpcp" Type="decimal" IsOptional="true" Precision="38" />
+          <Field Name="TypeDvqhns" Type="string" IsOptional="true" MaxLength="2" />
+          <Field Name="UserName" Type="string" IsOptional="true" MaxLength="20" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysgroup" GroupName="Appqthtgis" ObjectID="00676450-1fcd-4589-9ff2-57802cff8055">
+        <Fields>
+          <Field Name="Appid" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Description" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="Groupid" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="Groupname" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="Status" Type="short" IsOptional="true" Precision="5" />
+          <Field Name="Unitcode" Type="string" IsOptional="true" MaxLength="50" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysgroupmenu" GroupName="Appqthtgis" ObjectID="8ed0acb2-0480-4561-b16e-112bf4802ac4">
+        <Fields>
+          <Field Name="Function" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Groupid" Type="long" Precision="20" IsPrimaryKey="true" />
+          <Field Name="Menuid" Type="long" Precision="20" IsPrimaryKey="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Syslog" GroupName="Appqthtgis" ObjectID="6286e54e-8062-4918-a0f4-62fa50e5ebe7">
+        <Fields>
+          <Field Name="ICreateBy" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="ICreateDate" Type="datetime" IsOptional="true" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="IdModified" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="IState" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="IUpdateBy" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="IUpdateDate" Type="datetime" IsOptional="true" />
+          <Field Name="Name" Type="string" IsOptional="true" MaxLength="300" />
+          <Field Name="Note" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="RequestBody" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="RequestMethod" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="ResponseBody" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="State" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Unitcode" Type="string" IsOptional="true" MaxLength="50" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Syslogaction" GroupName="Appqthtgis" ObjectID="8ba96f15-6435-44ab-ae4d-0b22974227d5">
+        <Fields>
+          <Field Name="Action" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Data" Type="string" IsOptional="true" MaxLength="1073741824" />
+          <Field Name="DateCreate" Type="datetime" IsOptional="true" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="IpClient" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Note" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="ObjectName" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="UserId" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="UserName" Type="string" IsOptional="true" MaxLength="500" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysmenu" GroupName="Appqthtgis" ObjectID="952e8079-5a61-4054-9319-68037b032459">
+        <Fields>
+          <Field Name="Appid" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="Cssclass" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Function" Type="string" IsOptional="true" MaxLength="30" />
+          <Field Name="Iconclass" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Macha" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="Machucnang" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="Menuid" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="Sothutu" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="State" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Tenchucnang" Type="string" IsOptional="true" MaxLength="300" />
+          <Field Name="Trangthai" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Unitcode" Type="string" IsOptional="true" MaxLength="20" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SysRefreshtoken" GroupName="Appqthtgis" ObjectID="24578606-b3ad-4b0c-ab5c-9f26cc3649e9">
+        <Fields>
+          <Field Name="Appid" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Created" Type="datetime" IsOptional="true" />
+          <Field Name="Createdbyip" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Expires" Type="datetime" IsOptional="true" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="Isactive" Type="short" IsOptional="true" Precision="5" />
+          <Field Name="Isexpired" Type="short" IsOptional="true" Precision="5" />
+          <Field Name="Replacedbytoken" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="Revoked" Type="datetime" IsOptional="true" />
+          <Field Name="Revokedbyip" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Tag" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="Token" Type="string" IsOptional="true" MaxLength="2000" />
+          <Field Name="Userid" Type="long" IsOptional="true" Precision="20" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Systaoma" GroupName="Appqthtgis" ObjectID="ebab12fd-982a-4e8c-9092-37bf8cadf70b">
+        <Fields>
+          <Field Name="Dodai" Type="short" IsOptional="true" Precision="5" />
+          <Field Name="Giatricap" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="Kyhieubatdau" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="State" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Unitcode" Type="string" IsOptional="true" MaxLength="50" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Systudien" GroupName="Appqthtgis" ObjectID="a379bd11-15d7-4c13-8a2e-112f2b55ead2">
+        <Fields>
+          <Field Name="Cap" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Cqbanhanh" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="Fieldname" Type="string" MaxLength="20" />
+          <Field Name="Ghichu" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="Id" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="MaDinhdanhtinh" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="MaTudien" Type="string" MaxLength="50" />
+          <Field Name="Ngaybanhanh" Type="datetime" IsOptional="true" />
+          <Field Name="Qdbanhanh" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="TenEng" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="TenFieldname" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="TenTudien" Type="string" MaxLength="150" />
+          <Field Name="TenVie" Type="string" IsOptional="true" MaxLength="250" />
+          <Field Name="TrangThai" Type="long" IsOptional="true" Precision="20" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysunit" GroupName="Appqthtgis" ObjectID="fbfb7993-465d-493e-844d-e8ca1fab9f77">
+        <Fields>
+          <Field Name="Capdonvi" Type="string" IsOptional="true" MaxLength="20" />
+          <Field Name="Coquanbanhanhqd" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="DbhcTc" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Diachi" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="Dinhdanhapp" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Email" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Fax" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="IdDiaban" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="IdTochuc" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Khongsudung" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Loaiunit" Type="short" IsOptional="true" Precision="5" />
+          <Field Name="Macha" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Machudautu" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="MaDbhc" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Madinhdanh" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Madvqhns" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Mahuyen" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Matinh" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Maxa" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Ngaybanhanhqd" Type="datetime" />
+          <Field Name="Nguoilienhe" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="Qdbanhanhqdsuadoi" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Sodienthoai" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Tendonvi" Type="string" MaxLength="250" />
+          <Field Name="Trangthai" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Type" Type="short" IsOptional="true" Precision="5" />
+          <Field Name="Unitcode" Type="string" MaxLength="50" IsPrimaryKey="true" />
+          <Field Name="Website" Type="string" IsOptional="true" MaxLength="50" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysuser" GroupName="Appqthtgis" ObjectID="8ce65e26-84bd-4d38-850d-91a13a107f52">
+        <Fields>
+          <Field Name="Appid" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Cap" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Checkisyn" Type="short" IsOptional="true" Precision="5" />
+          <Field Name="Diachi" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="Email" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="Fullname" Type="string" MaxLength="200" />
+          <Field Name="Gioitinh" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="IdChucvu" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Idsystudien" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Imgavatar" Type="string" IsOptional="true" MaxLength="1073741824" />
+          <Field Name="Loaiuser" Type="short" IsOptional="true" Precision="5" />
+          <Field Name="Machucvu" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="Madbhc" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Msthue" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Ngaysinh" Type="datetime" IsOptional="true" />
+          <Field Name="Nglienhe" Type="string" IsOptional="true" MaxLength="150" />
+          <Field Name="Password" Type="string" MaxLength="500" />
+          <Field Name="Phone" Type="string" IsOptional="true" MaxLength="11" />
+          <Field Name="Phongban" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Quoctich" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Socmnd" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Trangthai" Type="long" IsOptional="true" Precision="20" />
+          <Field Name="Unitcode" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Userid" Type="long" IsReadOnly="true" Precision="20" IsPrimaryKey="true" />
+          <Field Name="Username" Type="string" IsOptional="true" MaxLength="50" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysusergroup" GroupName="Appqthtgis" ObjectID="8c7812bb-ff5c-4b79-84a1-fb29d5be1e4e">
+        <Fields>
+          <Field Name="Groupid" Type="long" Precision="20" IsPrimaryKey="true" />
+          <Field Name="Userid" Type="long" Precision="20" IsPrimaryKey="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysusermenu" GroupName="Appqthtgis" ObjectID="64f5eaed-6a62-476d-93d7-fa1781ecc409">
+        <Fields>
+          <Field Name="Function" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Menuid" Type="long" Precision="20" IsPrimaryKey="true" />
+          <Field Name="Userid" Type="long" Precision="20" IsPrimaryKey="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="TochucChucvu" GroupName="Appqthtgis" ObjectID="155ced50-92f8-4a1a-9745-edc411abeb71">
+        <Fields>
+          <Field Name="Cap" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="IdChucvu" Type="long" Precision="20" IsPrimaryKey="true" />
+          <Field Name="IdTochuc" Type="long" Precision="20" IsPrimaryKey="true" />
+        </Fields>
+      </EntityDefinition>
+    </EntityDefinitions>
+    <Relationships>
+      <NormalRelationship Name="Appqthtgis.Dmphongban.Sysunit-Appqthtgis.Sysunit.Dmphongbans" Start="Appqthtgis:Dmphongban" End="Appqthtgis:Sysunit" StartNavigator="Sysunit" EndNavigator="Dmphongbans" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="Unitcode" PkField="Unitcode" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqthtgis.Sysgroupmenu.Sysgroup-Appqthtgis.Sysgroup.Sysgroupmenus" Start="Appqthtgis:Sysgroupmenu" End="Appqthtgis:Sysgroup" StartNavigator="Sysgroup" EndNavigator="Sysgroupmenus" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="Groupid" PkField="Groupid" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqthtgis.Sysgroupmenu.Sysmenu-Appqthtgis.Sysmenu.Sysgroupmenus" Start="Appqthtgis:Sysgroupmenu" End="Appqthtgis:Sysmenu" StartNavigator="Sysmenu" EndNavigator="Sysgroupmenus" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="Menuid" PkField="Menuid" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqthtgis.SysRefreshtoken.Sysuser-Appqthtgis.Sysuser.SysRefreshtokens" Start="Appqthtgis:SysRefreshtoken" End="Appqthtgis:Sysuser" StartNavigator="Sysuser" EndNavigator="SysRefreshtokens" Type="4" EndIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="Userid" PkField="Userid" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqthtgis.Sysunit.Dmtochuc-Appqthtgis.Dmtochuc.Sysunits" Start="Appqthtgis:Sysunit" End="Appqthtgis:Dmtochuc" StartNavigator="Dmtochuc" EndNavigator="Sysunits" Type="4" EndIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdTochuc" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqthtgis.Sysusergroup.Sysgroup-Appqthtgis.Sysgroup.Sysusergroups" Start="Appqthtgis:Sysusergroup" End="Appqthtgis:Sysgroup" StartNavigator="Sysgroup" EndNavigator="Sysusergroups" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="Groupid" PkField="Groupid" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqthtgis.Sysusermenu.Sysmenu-Appqthtgis.Sysmenu.Sysusermenus" Start="Appqthtgis:Sysusermenu" End="Appqthtgis:Sysmenu" StartNavigator="Sysmenu" EndNavigator="Sysusermenus" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="Menuid" PkField="Menuid" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqthtgis.TochucChucvu.Dmchucvu-Appqthtgis.Dmchucvu.TochucChucvus" Start="Appqthtgis:TochucChucvu" End="Appqthtgis:Dmchucvu" StartNavigator="Dmchucvu" EndNavigator="TochucChucvus" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdChucvu" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Appqthtgis.TochucChucvu.Dmtochuc-Appqthtgis.Dmtochuc.TochucChucvus" Start="Appqthtgis:TochucChucvu" End="Appqthtgis:Dmtochuc" StartNavigator="Dmtochuc" EndNavigator="TochucChucvus" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="IdTochuc" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+    </Relationships>
+    <InheritanceHierarchies />
+  </EntityModel>
+  <TypedViewDefinitions>
+    <TypedViewDefinition Name="appqthtgisGetMenuByUserFuncResult" GroupName="Appqthtgis" ObjectID="3de6ff00-43e7-43b9-b468-ab7b0b40c9f1">
+      <Fields>
+        <Field Name="Cssclass" Type="string" MaxLength="1073741824" />
+        <Field Name="Iconclass" Type="string" MaxLength="1073741824" />
+        <Field Name="Macha" Type="string" MaxLength="1073741824" />
+        <Field Name="Machucnang" Type="string" MaxLength="1073741824" />
+        <Field Name="Menuid" Type="long" />
+        <Field Name="Sothutu" Type="long" />
+        <Field Name="State" Type="string" MaxLength="1073741824" />
+        <Field Name="Tenchucnang" Type="string" MaxLength="1073741824" />
+      </Fields>
+    </TypedViewDefinition>
+    <TypedViewDefinition Name="appqthtgisGetMenuByUserFuncResult1" GroupName="Appqthtgis" ObjectID="50c6681e-c1b8-4fc2-bc76-8cf19ee7bdac">
+      <Fields>
+        <Field Name="Cssclass" Type="string" MaxLength="1073741824" />
+        <Field Name="Iconclass" Type="string" MaxLength="1073741824" />
+        <Field Name="Macha" Type="string" MaxLength="1073741824" />
+        <Field Name="Machucnang" Type="string" MaxLength="1073741824" />
+        <Field Name="Menuid" Type="long" />
+        <Field Name="Sothutu" Type="long" />
+        <Field Name="State" Type="string" MaxLength="1073741824" />
+        <Field Name="Tenchucnang" Type="string" MaxLength="1073741824" />
+      </Fields>
+    </TypedViewDefinition>
+    <TypedViewDefinition Name="GetMenuByUserFuncResult" GroupName="Appqthtgis" ObjectID="a3294aff-47bb-44ab-8ce9-7cff0acabbe9">
+      <Fields>
+        <Field Name="Cssclass" Type="string" MaxLength="1073741824" />
+        <Field Name="Iconclass" Type="string" MaxLength="1073741824" />
+        <Field Name="Macha" Type="string" MaxLength="1073741824" />
+        <Field Name="Machucnang" Type="string" MaxLength="1073741824" />
+        <Field Name="Menuid" Type="long" />
+        <Field Name="Sothutu" Type="long" />
+        <Field Name="State" Type="string" MaxLength="1073741824" />
+        <Field Name="Tenchucnang" Type="string" MaxLength="1073741824" />
+      </Fields>
+    </TypedViewDefinition>
+  </TypedViewDefinitions>
+  <SPCallDefinitions>
+    <SPCallDefinition Name="GetMenuByUserFunc" GroupName="Appqthtgis" ObjectID="c0311b13-5a63-462f-bc81-59b1b5a076e4">
+      <Parameters>
+        <Parameter Name="PAppid" Type="int" />
+        <Parameter Name="PUserName" Type="string" MaxLength="10485760" />
+      </Parameters>
+    </SPCallDefinition>
+  </SPCallDefinitions>
+  <TvfCallDefinitions>
+    <TvfCallDefinition Name="GetMenuByUserFunc" GroupName="Appqthtgis" ObjectID="af07fc27-430d-4f39-97b4-557ee55dea89" ReturnElement="Appqthtgis:appqthtgisGetMenuByUserFuncResult1">
+      <Parameters>
+        <Parameter Name="PAppid" Type="int" />
+        <Parameter Name="PUserName" Type="string" MaxLength="10485760" />
+      </Parameters>
+    </TvfCallDefinition>
+  </TvfCallDefinitions>
+  <TargetDatabases>
+    <TargetDatabase Type="88EBFD8C-CBDD-4452-88AF-1C99E41A123F" SyncSource="2">
+      <ConnectionElements>
+        <ConnectionElement Name="ServerName" Value="10.192.4.112" />
+        <ConnectionElement Name="CatalogName" Value="OpendataBG" />
+        <ConnectionElement Name="UserID" Value="anhnd" />
+        <ConnectionElement Name="Password" Value="" />
+        <ConnectionElement Name="PortNumber" Value="27600" />
+        <ConnectionElement Name="SslMode" Value="Disable" />
+      </ConnectionElements>
+      <SystemSequences>
+        <Sequence Name="SystemIdentity" />
+      </SystemSequences>
+      <Catalogs>
+        <Catalog Name="OpendataBG">
+          <Schemas>
+            <Schema Name="appqthtgis" SyncSource="2" LastSyncWithDatabase="2023-06-25T09:18:35.8228575Z">
+              <Sequences>
+                <Sequence Name="dangkychiase_id_seq" />
+                <Sequence Name="dmchucvu_id_seq" />
+                <Sequence Name="dmphongban_id_seq" />
+                <Sequence Name="dmtochuc_id_seq" />
+                <Sequence Name="home_share_id_seq" />
+                <Sequence Name="logdag_id_seq" />
+                <Sequence Name="sys_refreshtokens_id_seq" />
+                <Sequence Name="sysapp_appid_seq" />
+                <Sequence Name="sysattachment_id_seq" />
+                <Sequence Name="sysdinhdanh_id_seq" />
+                <Sequence Name="sysdvhanhchinh_id_seq" />
+                <Sequence Name="sysdvqhns_id_seq" />
+                <Sequence Name="sysgroup_groupid_seq" />
+                <Sequence Name="syslogaction_id_seq" />
+                <Sequence Name="syslogs_id_seq" />
+                <Sequence Name="sysmenu_menuid_seq" />
+                <Sequence Name="systaoma_id_seq" />
+                <Sequence Name="systudien_id_seq" />
+                <Sequence Name="sysuser_userid_seq" />
+              </Sequences>
+              <Tables>
+                <Table Name="dangkychiase">
+                  <PkConstraintName Name="dangkychiase_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="tendulieu" Ordinal="2" DbType="24" Length="255" />
+                    <Field Name="motadulieu" Ordinal="3" DbType="19" Length="1073741824" />
+                    <Field Name="hoten" Ordinal="4" DbType="24" Length="150" />
+                    <Field Name="sodt" Ordinal="5" DbType="24" Length="11" />
+                    <Field Name="email" Ordinal="6" DbType="24" Length="50" />
+                    <Field Name="donvicongtac" Ordinal="7" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="dieukhoan" Ordinal="8" DbType="8" Precision="5" />
+                    <Field Name="ngaydangky" Ordinal="9" IsOptional="true" DbType="22" />
+                    <Field Name="status" Ordinal="10" IsOptional="true" DbType="10" Precision="20" />
+                  </Fields>
+                </Table>
+                <Table Name="dmchucvu">
+                  <PkConstraintName Name="dmchucvu_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="ten" Ordinal="2" DbType="24" Length="200" />
+                    <Field Name="trangthai" Ordinal="3" DbType="8" Precision="5" />
+                  </Fields>
+                </Table>
+                <Table Name="dmphongban">
+                  <PkConstraintName Name="dmphongban_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="ten" Ordinal="2" DbType="24" Length="200" />
+                    <Field Name="unitcode" Ordinal="3" DbType="24" Length="50" />
+                    <Field Name="trangthai" Ordinal="4" DbType="8" Precision="5" />
+                  </Fields>
+                </Table>
+                <Table Name="dmtochuc">
+                  <PkConstraintName Name="dmtochuc_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="ten" Ordinal="2" DbType="24" Length="200" />
+                    <Field Name="trangthai" Ordinal="3" DbType="8" Precision="5" />
+                  </Fields>
+                </Table>
+                <Table Name="home_share">
+                  <PkConstraintName Name="home_share_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="malinhvuc" Ordinal="2" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="tenlinhvuc" Ordinal="3" IsOptional="true" DbType="24" Length="255" />
+                    <Field Name="solieu" Ordinal="4" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="kyhieu" Ordinal="5" IsOptional="true" DbType="24" Length="150" />
+                  </Fields>
+                </Table>
+                <Table Name="logdag">
+                  <PkConstraintName Name="logdag_pkey" />
+                  <Fields>
+                    <Field Name="dagid" Ordinal="1" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="ngaychay" Ordinal="2" IsOptional="true" DbType="22" />
+                    <Field Name="ngayketthuc" Ordinal="3" IsOptional="true" DbType="22" />
+                    <Field Name="tongbanghinguon" Ordinal="4" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="banghihientai" Ordinal="5" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="id" Ordinal="6" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="inserted" Ordinal="7" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="updated" Ordinal="8" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="tinhtrang" Ordinal="9" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="pagenumber" Ordinal="10" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="pagesize" Ordinal="11" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="trung" Ordinal="12" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="nguon" Ordinal="13" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="appid" Ordinal="14" IsOptional="true" DbType="24" Length="2000" />
+                  </Fields>
+                </Table>
+                <Table Name="sys_refreshtokens">
+                  <PkConstraintName Name="sys_refreshtokens_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="userid" Ordinal="2" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="appid" Ordinal="3" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="expires" Ordinal="4" IsOptional="true" DbType="22" />
+                    <Field Name="isexpired" Ordinal="5" IsOptional="true" DbType="8" Precision="5" />
+                    <Field Name="created" Ordinal="6" IsOptional="true" DbType="22" />
+                    <Field Name="createdbyip" Ordinal="7" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="revoked" Ordinal="8" IsOptional="true" DbType="22" />
+                    <Field Name="revokedbyip" Ordinal="9" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="replacedbytoken" Ordinal="10" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="isactive" Ordinal="11" IsOptional="true" DbType="8" Precision="5" />
+                    <Field Name="tag" Ordinal="12" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="token" Ordinal="13" IsOptional="true" DbType="24" Length="2000" />
+                  </Fields>
+                </Table>
+                <Table Name="sysapp">
+                  <PkConstraintName Name="sysapp_pkey" />
+                  <Fields>
+                    <Field Name="appid" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="tenapp" Ordinal="2" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="mota" Ordinal="3" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="trangthai" Ordinal="4" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="state" Ordinal="5" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="dinhdanhapp" Ordinal="6" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="sysattachment">
+                  <PkConstraintName Name="sysattachment_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="filename" Ordinal="2" IsOptional="true" DbType="24" Length="1000" />
+                    <Field Name="filepath" Ordinal="3" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="localfilename" Ordinal="4" IsOptional="true" DbType="24" Length="1000" />
+                    <Field Name="createby" Ordinal="5" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="createdate" Ordinal="6" IsOptional="true" DbType="22" />
+                  </Fields>
+                </Table>
+                <Table Name="sysdinhdanh">
+                  <PkConstraintName Name="sysdinhdanh_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="ma_dinhdanh" Ordinal="2" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="ten_donvi" Ordinal="3" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="dia_chi" Ordinal="4" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="email" Ordinal="5" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="so_dienthoai" Ordinal="6" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="fax" Ordinal="7" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="website" Ordinal="8" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="qd_banhanh" Ordinal="9" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="ngay_banhanh" Ordinal="10" IsOptional="true" DbType="22" />
+                    <Field Name="coquan_banhanh" Ordinal="11" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="cap_dinhdanh" Ordinal="12" DbType="10" Precision="20" />
+                    <Field Name="ma_dvqhns" Ordinal="13" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="ma_tinh" Ordinal="14" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="ma_xa" Ordinal="15" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="ma_huyen" Ordinal="16" IsOptional="true" DbType="24" Length="10" />
+                    <Field Name="ngay_hl" Ordinal="17" IsOptional="true" DbType="22" />
+                    <Field Name="ngay_hhl" Ordinal="18" IsOptional="true" DbType="22" />
+                  </Fields>
+                </Table>
+                <Table Name="sysdvhanhchinh">
+                  <PkConstraintName Name="sysdvhanhchinh_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="ma_dbhc" Ordinal="2" DbType="24" Length="50" />
+                    <Field Name="ten_dbhc" Ordinal="3" DbType="24" Length="250" />
+                    <Field Name="ma_dinhdanhtinh" Ordinal="4" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="cap_dbhc" Ordinal="5" DbType="10" Precision="20" />
+                    <Field Name="ngay_hl" Ordinal="6" IsOptional="true" DbType="22" />
+                    <Field Name="ngay_hhl" Ordinal="7" IsOptional="true" DbType="22" />
+                    <Field Name="ma_dbhc_cha" Ordinal="8" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="sysdvqhns">
+                  <PkConstraintName Name="sysdvqhns_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="ma_dvqhns" Ordinal="2" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="ten_dvqhns" Ordinal="3" IsOptional="true" DbType="24" Length="240" />
+                    <Field Name="ngay_hl" Ordinal="4" IsOptional="true" DbType="22" />
+                    <Field Name="ma_dvqhns_cha" Ordinal="5" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="type_dvqhns" Ordinal="6" IsOptional="true" DbType="24" Length="2" />
+                    <Field Name="ma_loaidv" Ordinal="7" IsOptional="true" DbType="24" Length="2" />
+                    <Field Name="ngay_ps" Ordinal="8" IsOptional="true" DbType="22" />
+                    <Field Name="ngay_sd" Ordinal="9" IsOptional="true" DbType="22" />
+                    <Field Name="ma_cap" Ordinal="10" IsOptional="true" DbType="24" Length="1" />
+                    <Field Name="ma_chuong" Ordinal="11" IsOptional="true" DbType="24" Length="3" />
+                    <Field Name="ma_tinh" Ordinal="12" IsOptional="true" DbType="24" Length="2" />
+                    <Field Name="ma_xa" Ordinal="13" IsOptional="true" DbType="24" Length="5" />
+                    <Field Name="ma_huyen" Ordinal="14" IsOptional="true" DbType="24" Length="3" />
+                    <Field Name="can_cu" Ordinal="15" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="trang_thai" Ordinal="16" IsOptional="true" DbType="24" Length="1" />
+                    <Field Name="user_name" Ordinal="17" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="ngay_het_hl" Ordinal="18" IsOptional="true" DbType="22" />
+                    <Field Name="ma_da_dp" Ordinal="19" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="ma_nhom_da" Ordinal="20" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="ten_nhom_da" Ordinal="21" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="ma_nkt" Ordinal="22" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="ma_ctmt" Ordinal="23" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="ma_don_vi" Ordinal="24" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="shkb" Ordinal="25" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="nguon_dl" Ordinal="26" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="tinh_trang" Ordinal="27" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="tm_dtu" Ordinal="28" IsOptional="true" DbType="14" Precision="38" />
+                    <Field Name="ngay_kc" Ordinal="29" IsOptional="true" DbType="22" />
+                    <Field Name="ngay_ht" Ordinal="30" IsOptional="true" DbType="22" />
+                    <Field Name="cap_qly" Ordinal="31" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="trd_tpcp" Ordinal="32" IsOptional="true" DbType="14" Precision="38" />
+                    <Field Name="ngay_tao" Ordinal="33" IsOptional="true" DbType="22" />
+                    <Field Name="nguoi_tao" Ordinal="34" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="nguoi_qly" Ordinal="35" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="cap_ns" Ordinal="36" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="ten_da_dp" Ordinal="37" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="ngay_chuyen_doi" Ordinal="38" IsOptional="true" DbType="22" />
+                    <Field Name="ma_bqlda" Ordinal="39" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="cquan_tlap" Ordinal="40" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="nvu_thien" Ordinal="41" IsOptional="true" DbType="24" Length="9" />
+                    <Field Name="trd_nsnn" Ordinal="42" IsOptional="true" DbType="14" Precision="38" />
+                    <Field Name="trd_oda" Ordinal="43" IsOptional="true" DbType="14" Precision="38" />
+                    <Field Name="ma_ntt" Ordinal="44" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="chudautu" Ordinal="45" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="so_qd" Ordinal="46" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="ngay_qd" Ordinal="47" IsOptional="true" DbType="22" />
+                    <Field Name="noi_mo_tk" Ordinal="48" IsOptional="true" DbType="24" Length="120" />
+                    <Field Name="so_tk" Ordinal="49" IsOptional="true" DbType="24" Length="120" />
+                    <Field Name="donvi_ql" Ordinal="50" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="sysgroup">
+                  <PkConstraintName Name="sysgroup_pkey" />
+                  <Fields>
+                    <Field Name="groupid" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="groupname" Ordinal="2" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="unitcode" Ordinal="3" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="description" Ordinal="4" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="status" Ordinal="5" IsOptional="true" DbType="8" Precision="5" />
+                    <Field Name="appid" Ordinal="6" IsOptional="true" DbType="10" Precision="20" />
+                  </Fields>
+                </Table>
+                <Table Name="sysgroupmenu">
+                  <PkConstraintName Name="sysgroupmenu_pkey" />
+                  <Fields>
+                    <Field Name="groupid" Ordinal="1" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="menuid" Ordinal="2" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="function" Ordinal="3" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="syslogaction">
+                  <PkConstraintName Name="syslogaction_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="user_id" Ordinal="2" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="object_name" Ordinal="3" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="action" Ordinal="4" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="note" Ordinal="5" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="data" Ordinal="6" IsOptional="true" DbType="19" Length="1073741824" />
+                    <Field Name="date_create" Ordinal="7" IsOptional="true" DbType="22" />
+                    <Field Name="ip_client" Ordinal="8" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="user_name" Ordinal="9" IsOptional="true" DbType="24" Length="500" />
+                  </Fields>
+                </Table>
+                <Table Name="syslogs">
+                  <PkConstraintName Name="syslogs_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="id_modified" Ordinal="2" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="state" Ordinal="3" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="name" Ordinal="4" IsOptional="true" DbType="24" Length="300" />
+                    <Field Name="request_method" Ordinal="5" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="request_body" Ordinal="6" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="response_body" Ordinal="7" IsOptional="true" DbType="24" Length="2000" />
+                    <Field Name="note" Ordinal="8" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="i_create_by" Ordinal="9" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="i_create_date" Ordinal="10" IsOptional="true" DbType="22" />
+                    <Field Name="i_update_by" Ordinal="11" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="i_update_date" Ordinal="12" IsOptional="true" DbType="22" />
+                    <Field Name="i_state" Ordinal="13" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="unitcode" Ordinal="14" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="sysmenu">
+                  <PkConstraintName Name="sysmenu_pkey" />
+                  <Fields>
+                    <Field Name="menuid" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="machucnang" Ordinal="2" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="macha" Ordinal="3" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="tenchucnang" Ordinal="4" IsOptional="true" DbType="24" Length="300" />
+                    <Field Name="state" Ordinal="5" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="sothutu" Ordinal="6" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="trangthai" Ordinal="7" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="function" Ordinal="8" IsOptional="true" DbType="24" Length="30" />
+                    <Field Name="cssclass" Ordinal="9" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="iconclass" Ordinal="10" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="unitcode" Ordinal="11" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="appid" Ordinal="12" IsOptional="true" DbType="24" Length="20" />
+                  </Fields>
+                </Table>
+                <Table Name="systaoma">
+                  <PkConstraintName Name="systaoma_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="state" Ordinal="2" IsOptional="true" DbType="24" Length="50">
+                      <CustomProperties>
+                        <CustomProperty Name="Description" Value="table name hoac state tren menu" />
+                      </CustomProperties>
+                    </Field>
+                    <Field Name="kyhieubatdau" Ordinal="3" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="giatricap" Ordinal="4" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="unitcode" Ordinal="5" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="dodai" Ordinal="6" IsOptional="true" DbType="8" Precision="5">
+                      <CustomProperties>
+                        <CustomProperty Name="Description" Value="KYHIEU + DODAI + GIATRI" />
+                      </CustomProperties>
+                    </Field>
+                  </Fields>
+                </Table>
+                <Table Name="systudien">
+                  <PkConstraintName Name="systudien_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="fieldname" Ordinal="2" DbType="24" Length="20" />
+                    <Field Name="ma_tudien" Ordinal="3" DbType="24" Length="50" />
+                    <Field Name="ten_tudien" Ordinal="4" DbType="24" Length="150" />
+                    <Field Name="trang_thai" Ordinal="5" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="cap" Ordinal="6" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="ghichu" Ordinal="7" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="qdbanhanh" Ordinal="8" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="ngaybanhanh" Ordinal="9" IsOptional="true" DbType="22" />
+                    <Field Name="cqbanhanh" Ordinal="10" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="ma_dinhdanhtinh" Ordinal="11" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="ten_eng" Ordinal="12" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="ten_vie" Ordinal="13" IsOptional="true" DbType="24" Length="250" />
+                    <Field Name="ten_fieldname" Ordinal="14" IsOptional="true" DbType="24" Length="250" />
+                  </Fields>
+                </Table>
+                <Table Name="sysunit">
+                  <PkConstraintName Name="sysunit_pkey" />
+                  <Fields>
+                    <Field Name="unitcode" Ordinal="1" IsPrimaryKey="true" DbType="24" Length="50" />
+                    <Field Name="tendonvi" Ordinal="2" DbType="24" Length="250" />
+                    <Field Name="diachi" Ordinal="3" IsOptional="true" DbType="24" Length="500" />
+                    <Field Name="email" Ordinal="4" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="sodienthoai" Ordinal="5" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="fax" Ordinal="6" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="website" Ordinal="7" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="qdbanhanhqdsuadoi" Ordinal="8" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="ngaybanhanhqd" Ordinal="9" DbType="22" />
+                    <Field Name="coquanbanhanhqd" Ordinal="10" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="madinhdanh" Ordinal="11" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="madvqhns" Ordinal="12" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="macha" Ordinal="13" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="matinh" Ordinal="14" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="mahuyen" Ordinal="15" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="maxa" Ordinal="16" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="trangthai" Ordinal="17" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="capdonvi" Ordinal="18" IsOptional="true" DbType="24" Length="20" />
+                    <Field Name="nguoilienhe" Ordinal="19" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="dinhdanhapp" Ordinal="20" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="id_diaban" Ordinal="21" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="id_tochuc" Ordinal="22" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="type" Ordinal="23" IsOptional="true" DbType="8" Precision="5">
+                      <CustomProperties>
+                        <CustomProperty Name="Description" Value="null: cqnn; 0: nguời dân; 1-2: doanhnghiệp" />
+                      </CustomProperties>
+                    </Field>
+                    <Field Name="loaiunit" Ordinal="24" IsOptional="true" DbType="8" Precision="5" />
+                    <Field Name="machudautu" Ordinal="25" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="ma_dbhc" Ordinal="26" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="khongsudung" Ordinal="27" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="dbhc_tc" Ordinal="28" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="sysuser">
+                  <PkConstraintName Name="sysuser_pkey" />
+                  <Fields>
+                    <Field Name="userid" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="fullname" Ordinal="2" DbType="24" Length="200" />
+                    <Field Name="password" Ordinal="3" DbType="24" Length="500" />
+                    <Field Name="unitcode" Ordinal="4" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="username" Ordinal="5" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="trangthai" Ordinal="6" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="phone" Ordinal="7" IsOptional="true" DbType="24" Length="11" />
+                    <Field Name="email" Ordinal="8" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="idsystudien" Ordinal="9" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="imgavatar" Ordinal="10" IsOptional="true" DbType="19" Length="1073741824" />
+                    <Field Name="gioitinh" Ordinal="11" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="ngaysinh" Ordinal="12" IsOptional="true" DbType="22" />
+                    <Field Name="quoctich" Ordinal="13" IsOptional="true" DbType="24" Length="100" />
+                    <Field Name="diachi" Ordinal="14" IsOptional="true" DbType="24" Length="200" />
+                    <Field Name="madbhc" Ordinal="15" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="socmnd" Ordinal="16" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="cap" Ordinal="17" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="checkisyn" Ordinal="18" IsOptional="true" DbType="8" Precision="5" />
+                    <Field Name="machucvu" Ordinal="19" IsOptional="true" DbType="24" Length="150" />
+                    <Field Name="loaiuser" Ordinal="20" IsOptional="true" DbType="8" Precision="5" />
+                    <Field Name="appid" Ordinal="21" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="id_chucvu" Ordinal="22" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="phongban" Ordinal="23" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="msthue" Ordinal="24" IsOptional="true" DbType="10" Precision="20" />
+                    <Field Name="nglienhe" Ordinal="25" IsOptional="true" DbType="24" Length="150" />
+                  </Fields>
+                </Table>
+                <Table Name="sysusergroup">
+                  <PkConstraintName Name="sysusergroup_pkey" />
+                  <Fields>
+                    <Field Name="userid" Ordinal="1" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="groupid" Ordinal="2" IsPrimaryKey="true" DbType="10" Precision="20" />
+                  </Fields>
+                </Table>
+                <Table Name="sysusermenu">
+                  <PkConstraintName Name="sysusermenu_pkey" />
+                  <Fields>
+                    <Field Name="userid" Ordinal="1" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="menuid" Ordinal="2" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="function" Ordinal="3" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="tochuc_chucvu">
+                  <PkConstraintName Name="tochuc_chucvu_pkey" />
+                  <Fields>
+                    <Field Name="id_tochuc" Ordinal="1" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="id_chucvu" Ordinal="2" IsPrimaryKey="true" DbType="10" Precision="20" />
+                    <Field Name="cap" Ordinal="3" IsOptional="true" DbType="9" Precision="10" />
+                  </Fields>
+                </Table>
+              </Tables>
+              <StoredProcedures>
+                <StoredProcedure Name="get_menu_by_user_func" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="p_user_name" Direction="1" Ordinal="1" DbType="24" Length="10485760" />
+                    <Parameter Name="p_appid" Direction="1" Ordinal="2" DbType="9" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="machucnang" Ordinal="1" DbType="24" Length="1073741824" />
+                        <Field Name="tenchucnang" Ordinal="2" DbType="24" Length="1073741824" />
+                        <Field Name="macha" Ordinal="3" DbType="24" Length="1073741824" />
+                        <Field Name="menuid" Ordinal="4" DbType="10" />
+                        <Field Name="cssclass" Ordinal="5" DbType="24" Length="1073741824" />
+                        <Field Name="iconclass" Ordinal="6" DbType="24" Length="1073741824" />
+                        <Field Name="state" Ordinal="7" DbType="24" Length="1073741824" />
+                        <Field Name="sothutu" Ordinal="8" DbType="10" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+              </StoredProcedures>
+              <TableValuedFunctions>
+                <TableValuedFunction Name="get_menu_by_user_func" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="p_user_name" Direction="1" Ordinal="1" DbType="24" Length="10485760" />
+                    <Parameter Name="p_appid" Direction="1" Ordinal="2" DbType="9" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="machucnang" Ordinal="1" DbType="24" Length="1073741824" />
+                        <Field Name="tenchucnang" Ordinal="2" DbType="24" Length="1073741824" />
+                        <Field Name="macha" Ordinal="3" DbType="24" Length="1073741824" />
+                        <Field Name="menuid" Ordinal="4" DbType="10" />
+                        <Field Name="cssclass" Ordinal="5" DbType="24" Length="1073741824" />
+                        <Field Name="iconclass" Ordinal="6" DbType="24" Length="1073741824" />
+                        <Field Name="state" Ordinal="7" DbType="24" Length="1073741824" />
+                        <Field Name="sothutu" Ordinal="8" DbType="10" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </TableValuedFunction>
+              </TableValuedFunctions>
+            </Schema>
+          </Schemas>
+          <ForeignKeyConstraints>
+            <ForeignKeyConstraint Name="appqthtgis:dmphongban:dmphongban_fk">
+              <FieldPairs>
+                <FieldPair PkField="appqthtgis:sysunit:unitcode" FkField="appqthtgis:dmphongban:unitcode" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="appqthtgis:sys_refreshtokens:sys_refreshtokens_fk">
+              <FieldPairs>
+                <FieldPair PkField="appqthtgis:sysuser:userid" FkField="appqthtgis:sys_refreshtokens:userid" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="appqthtgis:sysgroupmenu:sysgroupmenu_fk1">
+              <FieldPairs>
+                <FieldPair PkField="appqthtgis:sysgroup:groupid" FkField="appqthtgis:sysgroupmenu:groupid" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="appqthtgis:sysgroupmenu:sysgroupmenu_menu_fk">
+              <FieldPairs>
+                <FieldPair PkField="appqthtgis:sysmenu:menuid" FkField="appqthtgis:sysgroupmenu:menuid" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="appqthtgis:sysunit:sysunit_fk">
+              <FieldPairs>
+                <FieldPair PkField="appqthtgis:dmtochuc:id" FkField="appqthtgis:sysunit:id_tochuc" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="appqthtgis:sysusergroup:sysusergroup_fk1">
+              <FieldPairs>
+                <FieldPair PkField="appqthtgis:sysgroup:groupid" FkField="appqthtgis:sysusergroup:groupid" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="appqthtgis:sysusermenu:sysusermenu_menu_fk">
+              <FieldPairs>
+                <FieldPair PkField="appqthtgis:sysmenu:menuid" FkField="appqthtgis:sysusermenu:menuid" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="appqthtgis:tochuc_chucvu:tochuc_chucvu_fk">
+              <FieldPairs>
+                <FieldPair PkField="appqthtgis:dmchucvu:id" FkField="appqthtgis:tochuc_chucvu:id_chucvu" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="appqthtgis:tochuc_chucvu:tochuc_chucvu_fk_1">
+              <FieldPairs>
+                <FieldPair PkField="appqthtgis:dmtochuc:id" FkField="appqthtgis:tochuc_chucvu:id_tochuc" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+          </ForeignKeyConstraints>
+        </Catalog>
+      </Catalogs>
+    </TargetDatabase>
+  </TargetDatabases>
+  <MappingStores>
+    <MappingStore Type="88EBFD8C-CBDD-4452-88AF-1C99E41A123F">
+      <EntityMappings>
+        <EntityMapping EntityName="Appqthtgis:Dangkychiase" TargetName="OpendataBG:appqthtgis:dangkychiase">
+          <FieldMappings>
+            <FieldMapping FieldName="Dieukhoan" TargetFieldName="dieukhoan" />
+            <FieldMapping FieldName="Donvicongtac" TargetFieldName="donvicongtac" />
+            <FieldMapping FieldName="Email" TargetFieldName="email" />
+            <FieldMapping FieldName="Hoten" TargetFieldName="hoten" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Motadulieu" TargetFieldName="motadulieu" />
+            <FieldMapping FieldName="Ngaydangky" TargetFieldName="ngaydangky" />
+            <FieldMapping FieldName="Sodt" TargetFieldName="sodt" />
+            <FieldMapping FieldName="Status" TargetFieldName="status" />
+            <FieldMapping FieldName="Tendulieu" TargetFieldName="tendulieu" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Dmchucvu" TargetName="OpendataBG:appqthtgis:dmchucvu">
+          <FieldMappings>
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Ten" TargetFieldName="ten" />
+            <FieldMapping FieldName="Trangthai" TargetFieldName="trangthai" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Dmphongban" TargetName="OpendataBG:appqthtgis:dmphongban">
+          <FieldMappings>
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Ten" TargetFieldName="ten" />
+            <FieldMapping FieldName="Trangthai" TargetFieldName="trangthai" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="unitcode" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Dmtochuc" TargetName="OpendataBG:appqthtgis:dmtochuc">
+          <FieldMappings>
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Ten" TargetFieldName="ten" />
+            <FieldMapping FieldName="Trangthai" TargetFieldName="trangthai" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:HomeShare" TargetName="OpendataBG:appqthtgis:home_share">
+          <FieldMappings>
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Kyhieu" TargetFieldName="kyhieu" />
+            <FieldMapping FieldName="Malinhvuc" TargetFieldName="malinhvuc" />
+            <FieldMapping FieldName="Solieu" TargetFieldName="solieu" />
+            <FieldMapping FieldName="Tenlinhvuc" TargetFieldName="tenlinhvuc" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Logdag" TargetName="OpendataBG:appqthtgis:logdag">
+          <FieldMappings>
+            <FieldMapping FieldName="Appid" TargetFieldName="appid" />
+            <FieldMapping FieldName="Banghihientai" TargetFieldName="banghihientai" />
+            <FieldMapping FieldName="Dagid" TargetFieldName="dagid" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Inserted" TargetFieldName="inserted" />
+            <FieldMapping FieldName="Ngaychay" TargetFieldName="ngaychay" />
+            <FieldMapping FieldName="Ngayketthuc" TargetFieldName="ngayketthuc" />
+            <FieldMapping FieldName="Nguon" TargetFieldName="nguon" />
+            <FieldMapping FieldName="Pagenumber" TargetFieldName="pagenumber" />
+            <FieldMapping FieldName="Pagesize" TargetFieldName="pagesize" />
+            <FieldMapping FieldName="Tinhtrang" TargetFieldName="tinhtrang" />
+            <FieldMapping FieldName="Tongbanghinguon" TargetFieldName="tongbanghinguon" />
+            <FieldMapping FieldName="Trung" TargetFieldName="trung" />
+            <FieldMapping FieldName="Updated" TargetFieldName="updated" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Sysapp" TargetName="OpendataBG:appqthtgis:sysapp">
+          <FieldMappings>
+            <FieldMapping FieldName="Appid" TargetFieldName="appid" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Dinhdanhapp" TargetFieldName="dinhdanhapp" />
+            <FieldMapping FieldName="Mota" TargetFieldName="mota" />
+            <FieldMapping FieldName="State" TargetFieldName="state" />
+            <FieldMapping FieldName="Tenapp" TargetFieldName="tenapp" />
+            <FieldMapping FieldName="Trangthai" TargetFieldName="trangthai" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Sysattachment" TargetName="OpendataBG:appqthtgis:sysattachment">
+          <FieldMappings>
+            <FieldMapping FieldName="Createby" TargetFieldName="createby" />
+            <FieldMapping FieldName="Createdate" TargetFieldName="createdate" />
+            <FieldMapping FieldName="Filename" TargetFieldName="filename" />
+            <FieldMapping FieldName="Filepath" TargetFieldName="filepath" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Localfilename" TargetFieldName="localfilename" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Sysdinhdanh" TargetName="OpendataBG:appqthtgis:sysdinhdanh">
+          <FieldMappings>
+            <FieldMapping FieldName="CapDinhdanh" TargetFieldName="cap_dinhdanh" />
+            <FieldMapping FieldName="CoquanBanhanh" TargetFieldName="coquan_banhanh" />
+            <FieldMapping FieldName="DiaChi" TargetFieldName="dia_chi" />
+            <FieldMapping FieldName="Email" TargetFieldName="email" />
+            <FieldMapping FieldName="Fax" TargetFieldName="fax" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="MaDinhdanh" TargetFieldName="ma_dinhdanh" />
+            <FieldMapping FieldName="MaDvqhns" TargetFieldName="ma_dvqhns" />
+            <FieldMapping FieldName="MaHuyen" TargetFieldName="ma_huyen" />
+            <FieldMapping FieldName="MaTinh" TargetFieldName="ma_tinh" />
+            <FieldMapping FieldName="MaXa" TargetFieldName="ma_xa" />
+            <FieldMapping FieldName="NgayBanhanh" TargetFieldName="ngay_banhanh" />
+            <FieldMapping FieldName="NgayHhl" TargetFieldName="ngay_hhl" />
+            <FieldMapping FieldName="NgayHl" TargetFieldName="ngay_hl" />
+            <FieldMapping FieldName="QdBanhanh" TargetFieldName="qd_banhanh" />
+            <FieldMapping FieldName="SoDienthoai" TargetFieldName="so_dienthoai" />
+            <FieldMapping FieldName="TenDonvi" TargetFieldName="ten_donvi" />
+            <FieldMapping FieldName="Website" TargetFieldName="website" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Sysdvhanhchinh" TargetName="OpendataBG:appqthtgis:sysdvhanhchinh">
+          <FieldMappings>
+            <FieldMapping FieldName="CapDbhc" TargetFieldName="cap_dbhc" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="MaDbhc" TargetFieldName="ma_dbhc" />
+            <FieldMapping FieldName="MaDbhcCha" TargetFieldName="ma_dbhc_cha" />
+            <FieldMapping FieldName="MaDinhdanhtinh" TargetFieldName="ma_dinhdanhtinh" />
+            <FieldMapping FieldName="NgayHhl" TargetFieldName="ngay_hhl" />
+            <FieldMapping FieldName="NgayHl" TargetFieldName="ngay_hl" />
+            <FieldMapping FieldName="TenDbhc" TargetFieldName="ten_dbhc" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Sysdvqhn" TargetName="OpendataBG:appqthtgis:sysdvqhns">
+          <FieldMappings>
+            <FieldMapping FieldName="CanCu" TargetFieldName="can_cu" />
+            <FieldMapping FieldName="CapNs" TargetFieldName="cap_ns" />
+            <FieldMapping FieldName="CapQly" TargetFieldName="cap_qly" />
+            <FieldMapping FieldName="Chudautu" TargetFieldName="chudautu" />
+            <FieldMapping FieldName="CquanTlap" TargetFieldName="cquan_tlap" />
+            <FieldMapping FieldName="DonviQl" TargetFieldName="donvi_ql" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="MaBqlda" TargetFieldName="ma_bqlda" />
+            <FieldMapping FieldName="MaCap" TargetFieldName="ma_cap" />
+            <FieldMapping FieldName="MaChuong" TargetFieldName="ma_chuong" />
+            <FieldMapping FieldName="MaCtmt" TargetFieldName="ma_ctmt" />
+            <FieldMapping FieldName="MaDaDp" TargetFieldName="ma_da_dp" />
+            <FieldMapping FieldName="MaDonVi" TargetFieldName="ma_don_vi" />
+            <FieldMapping FieldName="MaDvqhns" TargetFieldName="ma_dvqhns" />
+            <FieldMapping FieldName="MaDvqhnsCha" TargetFieldName="ma_dvqhns_cha" />
+            <FieldMapping FieldName="MaHuyen" TargetFieldName="ma_huyen" />
+            <FieldMapping FieldName="MaLoaidv" TargetFieldName="ma_loaidv" />
+            <FieldMapping FieldName="MaNhomDa" TargetFieldName="ma_nhom_da" />
+            <FieldMapping FieldName="MaNkt" TargetFieldName="ma_nkt" />
+            <FieldMapping FieldName="MaNtt" TargetFieldName="ma_ntt" />
+            <FieldMapping FieldName="MaTinh" TargetFieldName="ma_tinh" />
+            <FieldMapping FieldName="MaXa" TargetFieldName="ma_xa" />
+            <FieldMapping FieldName="NgayChuyenDoi" TargetFieldName="ngay_chuyen_doi" />
+            <FieldMapping FieldName="NgayHetHl" TargetFieldName="ngay_het_hl" />
+            <FieldMapping FieldName="NgayHl" TargetFieldName="ngay_hl" />
+            <FieldMapping FieldName="NgayHt" TargetFieldName="ngay_ht" />
+            <FieldMapping FieldName="NgayKc" TargetFieldName="ngay_kc" />
+            <FieldMapping FieldName="NgayPs" TargetFieldName="ngay_ps" />
+            <FieldMapping FieldName="NgayQd" TargetFieldName="ngay_qd" />
+            <FieldMapping FieldName="NgaySd" TargetFieldName="ngay_sd" />
+            <FieldMapping FieldName="NgayTao" TargetFieldName="ngay_tao" />
+            <FieldMapping FieldName="NguoiQly" TargetFieldName="nguoi_qly" />
+            <FieldMapping FieldName="NguoiTao" TargetFieldName="nguoi_tao" />
+            <FieldMapping FieldName="NguonDl" TargetFieldName="nguon_dl" />
+            <FieldMapping FieldName="NoiMoTk" TargetFieldName="noi_mo_tk" />
+            <FieldMapping FieldName="NvuThien" TargetFieldName="nvu_thien" />
+            <FieldMapping FieldName="Shkb" TargetFieldName="shkb" />
+            <FieldMapping FieldName="SoQd" TargetFieldName="so_qd" />
+            <FieldMapping FieldName="SoTk" TargetFieldName="so_tk" />
+            <FieldMapping FieldName="TenDaDp" TargetFieldName="ten_da_dp" />
+            <FieldMapping FieldName="TenDvqhns" TargetFieldName="ten_dvqhns" />
+            <FieldMapping FieldName="TenNhomDa" TargetFieldName="ten_nhom_da" />
+            <FieldMapping FieldName="TinhTrang" TargetFieldName="tinh_trang" />
+            <FieldMapping FieldName="TmDtu" TargetFieldName="tm_dtu" />
+            <FieldMapping FieldName="TrangThai" TargetFieldName="trang_thai" />
+            <FieldMapping FieldName="TrdNsnn" TargetFieldName="trd_nsnn" />
+            <FieldMapping FieldName="TrdOda" TargetFieldName="trd_oda" />
+            <FieldMapping FieldName="TrdTpcp" TargetFieldName="trd_tpcp" />
+            <FieldMapping FieldName="TypeDvqhns" TargetFieldName="type_dvqhns" />
+            <FieldMapping FieldName="UserName" TargetFieldName="user_name" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Sysgroup" TargetName="OpendataBG:appqthtgis:sysgroup">
+          <FieldMappings>
+            <FieldMapping FieldName="Appid" TargetFieldName="appid" />
+            <FieldMapping FieldName="Description" TargetFieldName="description" />
+            <FieldMapping FieldName="Groupid" TargetFieldName="groupid" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Groupname" TargetFieldName="groupname" />
+            <FieldMapping FieldName="Status" TargetFieldName="status" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="unitcode" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Sysgroupmenu" TargetName="OpendataBG:appqthtgis:sysgroupmenu">
+          <FieldMappings>
+            <FieldMapping FieldName="Function" TargetFieldName="function" />
+            <FieldMapping FieldName="Groupid" TargetFieldName="groupid" />
+            <FieldMapping FieldName="Menuid" TargetFieldName="menuid" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Syslog" TargetName="OpendataBG:appqthtgis:syslogs">
+          <FieldMappings>
+            <FieldMapping FieldName="ICreateBy" TargetFieldName="i_create_by" />
+            <FieldMapping FieldName="ICreateDate" TargetFieldName="i_create_date" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="IdModified" TargetFieldName="id_modified" />
+            <FieldMapping FieldName="IState" TargetFieldName="i_state" />
+            <FieldMapping FieldName="IUpdateBy" TargetFieldName="i_update_by" />
+            <FieldMapping FieldName="IUpdateDate" TargetFieldName="i_update_date" />
+            <FieldMapping FieldName="Name" TargetFieldName="name" />
+            <FieldMapping FieldName="Note" TargetFieldName="note" />
+            <FieldMapping FieldName="RequestBody" TargetFieldName="request_body" />
+            <FieldMapping FieldName="RequestMethod" TargetFieldName="request_method" />
+            <FieldMapping FieldName="ResponseBody" TargetFieldName="response_body" />
+            <FieldMapping FieldName="State" TargetFieldName="state" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="unitcode" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Syslogaction" TargetName="OpendataBG:appqthtgis:syslogaction">
+          <FieldMappings>
+            <FieldMapping FieldName="Action" TargetFieldName="action" />
+            <FieldMapping FieldName="Data" TargetFieldName="data" />
+            <FieldMapping FieldName="DateCreate" TargetFieldName="date_create" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="IpClient" TargetFieldName="ip_client" />
+            <FieldMapping FieldName="Note" TargetFieldName="note" />
+            <FieldMapping FieldName="ObjectName" TargetFieldName="object_name" />
+            <FieldMapping FieldName="UserId" TargetFieldName="user_id" />
+            <FieldMapping FieldName="UserName" TargetFieldName="user_name" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Sysmenu" TargetName="OpendataBG:appqthtgis:sysmenu">
+          <FieldMappings>
+            <FieldMapping FieldName="Appid" TargetFieldName="appid" />
+            <FieldMapping FieldName="Cssclass" TargetFieldName="cssclass" />
+            <FieldMapping FieldName="Function" TargetFieldName="function" />
+            <FieldMapping FieldName="Iconclass" TargetFieldName="iconclass" />
+            <FieldMapping FieldName="Macha" TargetFieldName="macha" />
+            <FieldMapping FieldName="Machucnang" TargetFieldName="machucnang" />
+            <FieldMapping FieldName="Menuid" TargetFieldName="menuid" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Sothutu" TargetFieldName="sothutu" />
+            <FieldMapping FieldName="State" TargetFieldName="state" />
+            <FieldMapping FieldName="Tenchucnang" TargetFieldName="tenchucnang" />
+            <FieldMapping FieldName="Trangthai" TargetFieldName="trangthai" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="unitcode" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:SysRefreshtoken" TargetName="OpendataBG:appqthtgis:sys_refreshtokens">
+          <FieldMappings>
+            <FieldMapping FieldName="Appid" TargetFieldName="appid" />
+            <FieldMapping FieldName="Created" TargetFieldName="created" />
+            <FieldMapping FieldName="Createdbyip" TargetFieldName="createdbyip" />
+            <FieldMapping FieldName="Expires" TargetFieldName="expires" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Isactive" TargetFieldName="isactive" />
+            <FieldMapping FieldName="Isexpired" TargetFieldName="isexpired" />
+            <FieldMapping FieldName="Replacedbytoken" TargetFieldName="replacedbytoken" />
+            <FieldMapping FieldName="Revoked" TargetFieldName="revoked" />
+            <FieldMapping FieldName="Revokedbyip" TargetFieldName="revokedbyip" />
+            <FieldMapping FieldName="Tag" TargetFieldName="tag" />
+            <FieldMapping FieldName="Token" TargetFieldName="token" />
+            <FieldMapping FieldName="Userid" TargetFieldName="userid" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Systaoma" TargetName="OpendataBG:appqthtgis:systaoma">
+          <FieldMappings>
+            <FieldMapping FieldName="Dodai" TargetFieldName="dodai" />
+            <FieldMapping FieldName="Giatricap" TargetFieldName="giatricap" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Kyhieubatdau" TargetFieldName="kyhieubatdau" />
+            <FieldMapping FieldName="State" TargetFieldName="state" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="unitcode" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Systudien" TargetName="OpendataBG:appqthtgis:systudien">
+          <FieldMappings>
+            <FieldMapping FieldName="Cap" TargetFieldName="cap" />
+            <FieldMapping FieldName="Cqbanhanh" TargetFieldName="cqbanhanh" />
+            <FieldMapping FieldName="Fieldname" TargetFieldName="fieldname" />
+            <FieldMapping FieldName="Ghichu" TargetFieldName="ghichu" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="MaDinhdanhtinh" TargetFieldName="ma_dinhdanhtinh" />
+            <FieldMapping FieldName="MaTudien" TargetFieldName="ma_tudien" />
+            <FieldMapping FieldName="Ngaybanhanh" TargetFieldName="ngaybanhanh" />
+            <FieldMapping FieldName="Qdbanhanh" TargetFieldName="qdbanhanh" />
+            <FieldMapping FieldName="TenEng" TargetFieldName="ten_eng" />
+            <FieldMapping FieldName="TenFieldname" TargetFieldName="ten_fieldname" />
+            <FieldMapping FieldName="TenTudien" TargetFieldName="ten_tudien" />
+            <FieldMapping FieldName="TenVie" TargetFieldName="ten_vie" />
+            <FieldMapping FieldName="TrangThai" TargetFieldName="trang_thai" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Sysunit" TargetName="OpendataBG:appqthtgis:sysunit">
+          <FieldMappings>
+            <FieldMapping FieldName="Capdonvi" TargetFieldName="capdonvi" />
+            <FieldMapping FieldName="Coquanbanhanhqd" TargetFieldName="coquanbanhanhqd" />
+            <FieldMapping FieldName="DbhcTc" TargetFieldName="dbhc_tc" />
+            <FieldMapping FieldName="Diachi" TargetFieldName="diachi" />
+            <FieldMapping FieldName="Dinhdanhapp" TargetFieldName="dinhdanhapp" />
+            <FieldMapping FieldName="Email" TargetFieldName="email" />
+            <FieldMapping FieldName="Fax" TargetFieldName="fax" />
+            <FieldMapping FieldName="IdDiaban" TargetFieldName="id_diaban" />
+            <FieldMapping FieldName="IdTochuc" TargetFieldName="id_tochuc" />
+            <FieldMapping FieldName="Khongsudung" TargetFieldName="khongsudung" />
+            <FieldMapping FieldName="Loaiunit" TargetFieldName="loaiunit" />
+            <FieldMapping FieldName="Macha" TargetFieldName="macha" />
+            <FieldMapping FieldName="Machudautu" TargetFieldName="machudautu" />
+            <FieldMapping FieldName="MaDbhc" TargetFieldName="ma_dbhc" />
+            <FieldMapping FieldName="Madinhdanh" TargetFieldName="madinhdanh" />
+            <FieldMapping FieldName="Madvqhns" TargetFieldName="madvqhns" />
+            <FieldMapping FieldName="Mahuyen" TargetFieldName="mahuyen" />
+            <FieldMapping FieldName="Matinh" TargetFieldName="matinh" />
+            <FieldMapping FieldName="Maxa" TargetFieldName="maxa" />
+            <FieldMapping FieldName="Ngaybanhanhqd" TargetFieldName="ngaybanhanhqd" />
+            <FieldMapping FieldName="Nguoilienhe" TargetFieldName="nguoilienhe" />
+            <FieldMapping FieldName="Qdbanhanhqdsuadoi" TargetFieldName="qdbanhanhqdsuadoi" />
+            <FieldMapping FieldName="Sodienthoai" TargetFieldName="sodienthoai" />
+            <FieldMapping FieldName="Tendonvi" TargetFieldName="tendonvi" />
+            <FieldMapping FieldName="Trangthai" TargetFieldName="trangthai" />
+            <FieldMapping FieldName="Type" TargetFieldName="type" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="unitcode" />
+            <FieldMapping FieldName="Website" TargetFieldName="website" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Sysuser" TargetName="OpendataBG:appqthtgis:sysuser">
+          <FieldMappings>
+            <FieldMapping FieldName="Appid" TargetFieldName="appid" />
+            <FieldMapping FieldName="Cap" TargetFieldName="cap" />
+            <FieldMapping FieldName="Checkisyn" TargetFieldName="checkisyn" />
+            <FieldMapping FieldName="Diachi" TargetFieldName="diachi" />
+            <FieldMapping FieldName="Email" TargetFieldName="email" />
+            <FieldMapping FieldName="Fullname" TargetFieldName="fullname" />
+            <FieldMapping FieldName="Gioitinh" TargetFieldName="gioitinh" />
+            <FieldMapping FieldName="IdChucvu" TargetFieldName="id_chucvu" />
+            <FieldMapping FieldName="Idsystudien" TargetFieldName="idsystudien" />
+            <FieldMapping FieldName="Imgavatar" TargetFieldName="imgavatar" />
+            <FieldMapping FieldName="Loaiuser" TargetFieldName="loaiuser" />
+            <FieldMapping FieldName="Machucvu" TargetFieldName="machucvu" />
+            <FieldMapping FieldName="Madbhc" TargetFieldName="madbhc" />
+            <FieldMapping FieldName="Msthue" TargetFieldName="msthue" />
+            <FieldMapping FieldName="Ngaysinh" TargetFieldName="ngaysinh" />
+            <FieldMapping FieldName="Nglienhe" TargetFieldName="nglienhe" />
+            <FieldMapping FieldName="Password" TargetFieldName="password" />
+            <FieldMapping FieldName="Phone" TargetFieldName="phone" />
+            <FieldMapping FieldName="Phongban" TargetFieldName="phongban" />
+            <FieldMapping FieldName="Quoctich" TargetFieldName="quoctich" />
+            <FieldMapping FieldName="Socmnd" TargetFieldName="socmnd" />
+            <FieldMapping FieldName="Trangthai" TargetFieldName="trangthai" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="unitcode" />
+            <FieldMapping FieldName="Userid" TargetFieldName="userid" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Username" TargetFieldName="username" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Sysusergroup" TargetName="OpendataBG:appqthtgis:sysusergroup">
+          <FieldMappings>
+            <FieldMapping FieldName="Groupid" TargetFieldName="groupid" />
+            <FieldMapping FieldName="Userid" TargetFieldName="userid" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:Sysusermenu" TargetName="OpendataBG:appqthtgis:sysusermenu">
+          <FieldMappings>
+            <FieldMapping FieldName="Function" TargetFieldName="function" />
+            <FieldMapping FieldName="Menuid" TargetFieldName="menuid" />
+            <FieldMapping FieldName="Userid" TargetFieldName="userid" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appqthtgis:TochucChucvu" TargetName="OpendataBG:appqthtgis:tochuc_chucvu">
+          <FieldMappings>
+            <FieldMapping FieldName="Cap" TargetFieldName="cap" />
+            <FieldMapping FieldName="IdChucvu" TargetFieldName="id_chucvu" />
+            <FieldMapping FieldName="IdTochuc" TargetFieldName="id_tochuc" />
+          </FieldMappings>
+        </EntityMapping>
+      </EntityMappings>
+      <TypedViewMappings>
+        <TypedViewMapping TypedViewName="Appqthtgis:appqthtgisGetMenuByUserFuncResult" TargetName="OpendataBG:appqthtgis:get_menu_by_user_func:Resultset1">
+          <FieldMappings>
+            <FieldMapping FieldName="Cssclass" TargetFieldName="cssclass" />
+            <FieldMapping FieldName="Iconclass" TargetFieldName="iconclass" />
+            <FieldMapping FieldName="Macha" TargetFieldName="macha" />
+            <FieldMapping FieldName="Machucnang" TargetFieldName="machucnang" />
+            <FieldMapping FieldName="Menuid" TargetFieldName="menuid" />
+            <FieldMapping FieldName="Sothutu" TargetFieldName="sothutu" />
+            <FieldMapping FieldName="State" TargetFieldName="state" />
+            <FieldMapping FieldName="Tenchucnang" TargetFieldName="tenchucnang" />
+          </FieldMappings>
+        </TypedViewMapping>
+        <TypedViewMapping TypedViewName="Appqthtgis:appqthtgisGetMenuByUserFuncResult1" TargetName="OpendataBG:appqthtgis:get_menu_by_user_func:Resultset1" IsAutoCreated="true">
+          <FieldMappings>
+            <FieldMapping FieldName="Cssclass" TargetFieldName="cssclass" />
+            <FieldMapping FieldName="Iconclass" TargetFieldName="iconclass" />
+            <FieldMapping FieldName="Macha" TargetFieldName="macha" />
+            <FieldMapping FieldName="Machucnang" TargetFieldName="machucnang" />
+            <FieldMapping FieldName="Menuid" TargetFieldName="menuid" />
+            <FieldMapping FieldName="Sothutu" TargetFieldName="sothutu" />
+            <FieldMapping FieldName="State" TargetFieldName="state" />
+            <FieldMapping FieldName="Tenchucnang" TargetFieldName="tenchucnang" />
+          </FieldMappings>
+        </TypedViewMapping>
+      </TypedViewMappings>
+      <SPCallMappings>
+        <SPCallMapping SPCallName="Appqthtgis:GetMenuByUserFunc" TargetName="OpendataBG:appqthtgis:get_menu_by_user_func">
+          <FieldMappings>
+            <FieldMapping FieldName="PAppid" TargetFieldName="p_appid" />
+            <FieldMapping FieldName="PUserName" TargetFieldName="p_user_name" />
+          </FieldMappings>
+        </SPCallMapping>
+      </SPCallMappings>
+      <TvfCallMappings>
+        <TvfCallMapping TvfCallName="Appqthtgis:GetMenuByUserFunc" TargetName="OpendataBG:appqthtgis:get_menu_by_user_func">
+          <FieldMappings>
+            <FieldMapping FieldName="PAppid" TargetFieldName="p_appid" />
+            <FieldMapping FieldName="PUserName" TargetFieldName="p_user_name" />
+          </FieldMappings>
+        </TvfCallMapping>
+      </TvfCallMappings>
+      <TypeConversionDefinitions />
+    </MappingStore>
+  </MappingStores>
+  <ModelViews />
+</Project>

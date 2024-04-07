@@ -1,0 +1,64 @@
+variables:
+  GIT_DEPTH: '0'
+  DOCKER_HOST: tcp://10.192.4.160:2375/
+
+stages:
+  - docker-image-creation
+  - deploy
+
+docker_image-creation-gis-bg:
+  stage: docker-image-creation # notice a new 
+  tags:
+   - build
+  cache:
+    policy: pull
+  services:
+    - docker:dind #used to be able to execute docker commands inside of a docker container
+  before_script:
+    - ls -lh
+  script:
+    - docker login -u $USERNAME_HUB -p $PASSWORD_HUB hub.btsoftvn.com 
+    - docker build -t hub.btsoftvn.com/apigisbg/$(git rev-parse --short HEAD) -f APP-GIS/App.ConganGis.Api/Dockerfile .
+    - docker push hub.btsoftvn.com/apigisbg/$(git rev-parse --short HEAD) # pushes the create docker image to docker registry
+  
+docker_image-creation-gis-qtht:
+  stage: docker-image-creation # notice a new 
+  tags:
+   - build
+  cache:
+    policy: pull
+  services:
+    - docker:dind #used to be able to execute docker commands inside of a docker container
+  before_script:
+    - ls -lh
+  script:
+    - docker login -u $USERNAME_HUB -p $PASSWORD_HUB hub.btsoftvn.com 
+    - docker build -t hub.btsoftvn.com/apigisqtht/$(git rev-parse --short HEAD) -f APP-QTHT-GIS/App.Qtht.Gis.Api/Dockerfile .
+    - docker push hub.btsoftvn.com/apigisqtht/$(git rev-parse --short HEAD) # pushes the create docker image to docker registry
+
+
+deploy_docker_apiappgis_to_server:
+  cache:
+    policy: pull
+  stage: deploy #new stage after release
+  script:
+    - docker login -u ${USERNAME_HUB} -p ${PASSWORD_HUB} hub.btsoftvn.com
+    - docker stop begisbg > /dev/null 2>&1 && echo 'stop container' || echo 'nothing to stop'
+    - docker rm -f begisbg > /dev/null 2>&1 && echo 'removed container' || echo 'nothing to remove'
+    - docker run --name begisbg -d -p 17010:17010 hub.btsoftvn.com/apigisbg/$(git rev-parse --short HEAD)
+    - 'curl -s -X POST https://api.telegram.org/bot5990399638:AAHnRCxdthb0L6ED3JOTtUEbvo4nuNnJpBU/sendMessage  -F chat_id="-1001456476126" -F text="API-GIS-BG: New deploy has publish in: http://10.192.4.160:17010" '
+  tags:
+   - build
+
+deploy_docker_apiqtht_to_server:
+  cache:
+    policy: pull
+  stage: deploy #new stage after release
+  script:
+    - docker login -u ${USERNAME_HUB} -p ${PASSWORD_HUB} hub.btsoftvn.com
+    - docker stop begisqtht > /dev/null 2>&1 && echo 'stop container' || echo 'nothing to stop'
+    - docker rm -f begisqtht > /dev/null 2>&1 && echo 'removed container' || echo 'nothing to remove'
+    - docker run --name begisqtht -d -p 17020:17020 hub.btsoftvn.com/apigisqtht/$(git rev-parse --short HEAD)
+    - 'curl -s -X POST https://api.telegram.org/bot5990399638:AAHnRCxdthb0L6ED3JOTtUEbvo4nuNnJpBU/sendMessage  -F chat_id="-1001456476126" -F text="API-QTHT-GIS-BG: New deploy has publish in: http://10.192.4.160:17020" '
+  tags:
+   - build

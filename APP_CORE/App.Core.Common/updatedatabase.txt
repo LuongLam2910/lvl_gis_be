@@ -1,0 +1,138 @@
+﻿ngay 01/5/2023
+ALTER TABLE appcongan.taikhoan ALTER COLUMN cmnd TYPE varchar(200) USING cmnd::varchar;
+ALTER TABLE appcongan.taikhoan ALTER COLUMN cmnd TYPE varchar(200) USING sdt::varchar;
+
+ALTER TABLE appqtht.sysuser ALTER COLUMN username TYPE varchar(200) USING username::varchar;
+ALTER TABLE appqtht.sysuser ALTER COLUMN phone TYPE varchar(200) USING phone::varchar;
+
+// ngày 04/5/
+update view view_nhatro_phongtro thêm cột loainhatro
+--1. appcongan.view_nhatro_phongtro source
+
+CREATE OR REPLACE VIEW appcongan.view_nhatro_phongtro
+AS SELECT n.id,
+    n.tennhatro,
+    n.loainhatro,
+    p.id AS idphong,
+    p.tenphong,
+    n.tinh AS matinh,
+    n.huyen AS mahuyen,
+    n.xa AS maxa,
+    n.madiabankey AS mathon
+   FROM appcongan.nhatro n
+     LEFT JOIN appcongan.phongtro p ON n.id = p.idnhatro
+  WHERE n.trangthai = 1;
+
+
+--2. update store func_dskhachthue_paging thêm cột loạinhatro
+
+CREATE OR REPLACE FUNCTION appcongan.func_dskhachthue_paging(p_hktttinh character varying, p_hktthuyen character varying, p_hkttxa character varying, p_nttinh character varying, p_nthuyen character varying, p_ntxa character varying, p_ntthon character varying, p_ntid integer, p_lstdantoc character varying, p_gioitinh integer, p_tutuoi integer, p_dentuoi integer, p_tungay character varying, p_denngay character varying, p_trangthai integer, p_txtsearch character varying, p_pagesize integer, p_pageindex integer, p_nghenghiep integer, p_noilamviec character varying)
+ RETURNS TABLE(id integer, hoten character varying, loainhatro integer, nhatroid integer, tennhatro character varying, idphong integer, tenphong character varying, ngaythue timestamp with time zone, n_mathon character varying, n_maxa character varying, n_mahuyen character varying, trangthai bigint, cccd character varying, nt_thon character varying, nt_maxa character varying, nt_mahuyen character varying, nt_matinh character varying, nt_madiabankey character varying, ngaysinh timestamp with time zone, gioitinh integer, dantoc character varying, dienthoai character varying, rnum bigint, totalrecord numeric, noilamviec character varying, nghenghiep integer)
+ LANGUAGE plpgsql
+AS $function$
+declare 
+	v_sql text;
+	v_ngt_where text := '1=1';
+	v_nt_where text := '1=1';
+	v_where text := '1=1';
+	first_index int;
+	last_index int;
+begin
+	last_index := p_pagesize * p_pageindex;
+	first_index := last_index - p_pagesize;
+
+	if p_hktttinh is not null and p_hktttinh <> '' then 
+		v_ngt_where := v_ngt_where || ' and nt.matinh = '''|| p_hktttinh ||''' ';
+	end if;
+	if p_hktthuyen is not null and p_hktthuyen <> '' then 
+		v_ngt_where := v_ngt_where || ' and nt.mahuyen = '''|| p_hktthuyen ||''' ';
+	end if;
+	if p_hkttxa is not null and p_hkttxa <> '' then 
+		v_ngt_where := v_ngt_where || ' and nt.maxa = '''|| p_hkttxa ||''' ';
+	end if;
+	if p_gioitinh <> 99 then
+		v_ngt_where := v_ngt_where || ' and nt.gioitinh = '|| p_gioitinh ||' ';
+	end if;
+	if p_tutuoi <> 0 then 
+		v_ngt_where := v_ngt_where || ' and extract(year from age(current_date, nt.ngaysinh)) >= '|| p_tutuoi ||' ';
+	end if;
+	if p_dentuoi <> 0 then 
+		v_ngt_where := v_ngt_where || ' and extract(year from age(current_date, nt.ngaysinh)) <= '|| p_dentuoi ||' ';
+	end if;
+	if p_tungay is not null and p_tungay <> '' then 
+		v_ngt_where := v_ngt_where || ' and to_date(cast(np.ngaytao  as TEXT), ''YYYY-MM-DD'') >= to_date('''|| p_tungay ||''', ''dd/MM/yyyy'') ';
+	end if;
+	if p_denngay is not null and p_denngay <> '' then 
+		v_ngt_where := v_ngt_where || ' and to_date(cast(np.ngaytao  as TEXT), ''YYYY-MM-DD'') <= to_date('''|| p_denngay ||''', ''dd/MM/yyyy'') ';
+	end if;
+
+	if p_nttinh is not null and p_nttinh <> '' then 
+		v_ngt_where := v_ngt_where || ' and vnp.matinh = '''|| p_nttinh ||''' ';
+	end if;
+	if p_nthuyen is not null and p_nthuyen <> '' then 
+		v_ngt_where := v_ngt_where || ' and vnp.mahuyen = '''|| p_nthuyen ||''' ';
+	end if;
+	if p_ntxa is not null and p_ntxa <> '' then 
+		v_ngt_where := v_ngt_where || ' and vnp.maxa = '''|| p_ntxa ||''' ';
+	end if;
+	if p_ntthon is not null and p_ntthon <> '' then 
+		v_ngt_where := v_ngt_where || ' and vnp.mathon = '''|| p_ntthon ||''' ';
+	end if;
+	if p_ntid <> 0 then 
+		v_ngt_where := v_ngt_where || ' and vnp.id = '|| p_ntid ||' ';
+	end if;
+
+	if p_lstdantoc is not null then
+		v_ngt_where := v_ngt_where || ' and nt.dantoc in ('|| p_lstdantoc ||')';
+	end if;
+	if p_trangthai <> 0 then
+		v_ngt_where := v_ngt_where || ' and np.trangthai = '|| p_trangthai ||' ';
+	end if;
+	if p_txtsearch is not null and p_txtsearch <> '' then 
+		v_ngt_where := v_ngt_where || ' and (lower(nt.hoten) like ''%' || p_txtsearch ||'%'' or nt.dienthoai like ''%'|| p_txtsearch ||'%'' or nt.cccd like ''%'|| p_txtsearch ||'%'' )';
+	end if;
+	if( p_nghenghiep <> -1) then v_ngt_where := v_ngt_where || ' and nt.nghenghiep = '|| p_nghenghiep ||' '; 
+	end if;
+	if p_noilamviec is not null and p_noilamviec <> '' then 
+		v_ngt_where := v_ngt_where || 'and nt.noicongtac = '''|| p_noilamviec ||'''';
+	end if;
+
+	if (p_pagesize <> 0) then
+		v_sql := 'select * from (select s.id, s.hoten,s.loainhatro, s.nhatroid , s.tennhatro , s.idphong , s.tenphong , s.ngaythue , s.n_mathon, s.n_maxa, s.n_mahuyen
+					, s.trangthai, s.cccd , s.nt_thon , s.nt_maxa , s.nt_mahuyen, s.nt_matinh, s.nt_madiabankey , s.ngaysinh , s.gioitinh , s.dantoc , s.dienthoai
+					, ROW_NUMBER() OVER (ORDER BY s.ngaythue DESC) AS rnum, sum(count(s.id)) over() as totalrecord, s.noicongtac, s.nghenghiep from (
+						select nt.id, nt.hoten,vnp.loainhatro, vnp.id nhatroid, vnp.tennhatro , vnp.idphong , vnp.tenphong
+							, vnp.mathon n_mathon ,vnp.maxa n_maxa , vnp.mahuyen n_mahuyen , nt.ngaythue , np.trangthai,  nt.cccd
+							, nt.matinh nt_matinh , nt.mahuyen nt_mahuyen , nt.maxa nt_maxa , nt.thon nt_thon, nt.madiabankey nt_madiabankey , nt.ngaysinh, nt.gioitinh , nt.dantoc, nt.dienthoai, nt.noicongtac, nt.nghenghiep
+						from appcongan.view_nguoithue_phong nt
+						join appcongan.nguoithue_phong np on nt.id = np.idnguoithue and nt.ngaythue = np.ngaytao
+						join appcongan.view_nhatro_phongtro vnp on vnp.idphong = np.idphong
+						where '|| v_ngt_where ||'
+						order by nt.ngaythue desc
+					) s group by s.id, s.hoten,s.loainhatro, s.nhatroid , s.tennhatro , s.idphong , s.tenphong , s.trangthai
+						 , s.n_mathon , s.n_maxa, s.n_mahuyen, s.ngaythue , s.cccd, s.nt_thon , s.nt_maxa , s.nt_mahuyen , s.nt_matinh, s.nt_madiabankey , s.ngaysinh , s.gioitinh , s.dantoc , s.dienthoai, s.noicongtac, s.nghenghiep
+				) a where a.rnum between '|| first_index ||' and '|| last_index ||' ';
+		else
+			v_sql := 'select * from (select s.id, s.hoten,s.loainhatro, s.nhatroid , s.tennhatro , s.idphong , s.tenphong , s.ngaythue , s.n_mathon, s.n_maxa, s.n_mahuyen
+					, s.trangthai, s.cccd , s.nt_thon , s.nt_maxa , s.nt_mahuyen, s.nt_matinh, s.nt_madiabankey , s.ngaysinh , s.gioitinh , s.dantoc , s.dienthoai
+					, ROW_NUMBER() OVER (ORDER BY s.ngaythue DESC) AS rnum, sum(count(s.id)) over() as totalrecord, s.noicongtac, s.nghenghiep from (
+						select nt.id, nt.hoten,vnp.loainhatro, vnp.id nhatroid, vnp.tennhatro , vnp.idphong , vnp.tenphong
+							, vnp.mathon n_mathon ,vnp.maxa n_maxa , vnp.mahuyen n_mahuyen , nt.ngaythue , np.trangthai,  nt.cccd
+							, nt.matinh nt_matinh , nt.mahuyen nt_mahuyen , nt.maxa nt_maxa , nt.thon nt_thon, nt.madiabankey nt_madiabankey , nt.ngaysinh, nt.gioitinh , nt.dantoc, nt.dienthoai, nt.noicongtac, nt.nghenghiep
+						from appcongan.view_nguoithue_phong nt
+						join appcongan.nguoithue_phong np on nt.id = np.idnguoithue and nt.ngaythue = np.ngaytao
+						join appcongan.view_nhatro_phongtro vnp on vnp.idphong = np.idphong
+						where '|| v_ngt_where ||'
+						order by nt.ngaythue desc
+					) s group by s.id, s.hoten,s.loainhatro, s.nhatroid , s.tennhatro , s.idphong , s.tenphong , s.trangthai
+						 , s.n_mathon , s.n_maxa, s.n_mahuyen, s.ngaythue , s.cccd, s.nt_thon , s.nt_maxa , s.nt_mahuyen , s.nt_matinh, s.nt_madiabankey , s.ngaysinh , s.gioitinh , s.dantoc , s.dienthoai, s.noicongtac, s.nghenghiep
+				) a ';
+		end if;
+	RAISE NOTICE 'v_sql: %', v_sql;
+	RETURN QUERY EXECUTE v_sql  ;
+--return next;
+END;$function$
+;
+ngay 5.5
+1. update view_diaban_nhatro thêm cột loại nhà tro
+2. sửa store func_dsnhatro_paging thêm điều kiện loainhatro, và sửa  p_conguoithue bool thành  p_conguoithue integer

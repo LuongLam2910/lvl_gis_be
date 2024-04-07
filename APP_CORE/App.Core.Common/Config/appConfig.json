@@ -1,0 +1,77 @@
+{
+  "Authorize": {
+    "Authority": "",
+    "DefaultScheme": "Bearer",
+    "ClientName": "bt_client",
+    "ClientSecret": "6FFBDB8F-A4BF-4A0A-A6FE-7D83B1128599"
+  },
+  "ServiceProtocol": "http://localhost",
+  "GetTokenNgsp": {
+    "Url": "https://113.160.159.26:8243/token",
+    "Key": "TElXMUdOeWJNU2E4eVFXT3RtcFY0UlFzT2ZjYTpXaTg3UFZhZ2ZBNGV0ODJ5dU8wWjRfb1ZYdnNh"
+  },
+  "GetTokenLgspBacGiang": {
+    "Url": "https://lgsp.bacgiang.gov.vn:8243/token",
+    "Key": "TktkSjBtWEhfNUp2ZjB1bXBIZzc3ZDJmbVhjYTpHaDlENVRQdFJpdWd3dm90a0oxVGRxRk5wcmNh"
+  },
+  "logEx": {
+    "log": false
+  },
+  "VBQPPL": {
+    "TimKiem": "https://lgsp.bacgiang.gov.vn:8243/VBQPPL_TimKiemVanbanFull/1.0",
+    "GetAllLinhVuc": "https://lgsp.bacgiang.gov.vn:8243/VBQPPL_GetAllLinhVuc/1.0",
+    "GetAllCoQuanBienTap": "https://lgsp.bacgiang.gov.vn:8243/VBQPPL_GetAllCoQuanBienTap/1.0",
+    "GetAllCoQuanPhatHanh": "https://lgsp.bacgiang.gov.vn:8243/VBQPPL_GetAllCoQuanBanHanh/1.0",
+    "GetById": "https://lgsp.bacgiang.gov.vn:8243/VBQPPL_GetById/1.0",
+    "GetAllLoaiVanBan": "https://lgsp.bacgiang.gov.vn:8243/VBQPPL_GetAllLoaiVanBan/1.0",
+    "GetAllNguoiKy": "https://lgsp.bacgiang.gov.vn:8243/VBQPPL_GetAllNguoiKy/1.0",
+    "GetAllChucDanh": "https://lgsp.bacgiang.gov.vn:8243/VBQPPL_GetAllChucDanh/1.0",
+    "TaiFileDinhKem": "https://lgsp.bacgiang.gov.vn:8243/VBQPPL_TaiFileDinhKem/1.0"
+  },
+    "FileLocation": {
+    "Path": "", // Is null = CurrentRootDirectory\\FileProjectBT
+        "MaxSize": 100 // 100MB
+    },
+    "AllowOrigins": [
+        "http://10.192.4.192",
+        "http://10.192.4.192:8080",
+        "http://DEV_NHATRO",
+        "http://localhost:83",
+        "http://localhost:8100",
+        "http://localhost:8101",
+        "http://localhost:8100",
+        "http://localhost:21000",
+        "https://localhost:21000",
+        "http://localhost:12000",
+        "https://localhost:12000",
+        "https://qlnt.btsoftvn.com",
+        "http://localhost:4200",
+        "http://localhost:7010"
+    ],
+  "CASBG": {
+    "providerUrl": "https://ids.bacgiang.gov.vn:9943/",
+    "clientId": "eUfp8F29c0VZkwR1ewdYY8oFlbAa",
+    "clientSecret": "EdGPfzaOF2RiggrwR0D3rpTjq1Ya",
+    "redirectUri": "http://localhost:4200/list-app",
+    "AdminName": "admin",
+    "AdminPass": "AAssdd12@123",
+    "methodToken": "oauth2/token",
+    "validAccessTokenMethod": "oauth2/introspect",
+    "methodRevokeToken": "oauth2/revoke"
+  },
+  "GoogleMapsAPI": "AIzaSyAIdB1Ci2xvhpeY3uDkCTBE3Y8QHg5b4TE",
+  "SchedulerJob": {
+    "Hour": 9,
+    "Minute": 32
+  },
+  "BingAPI": "AvZ5DAID8daT8zrXD66O4AoOrX0495feAd_sjSHTfMNHrrQhpfKZp4sfK-UPPuXP",
+  "Scheduler": {
+    "NotificationForPoliceJob": "1 * * * * ?",
+    "PingJob": "0/5 * * * * ?",
+    "TemporaryCheckJob": "0 8 * * * ?"
+  },
+  "AESCryptSetting": {
+    "IV": "conchoancutngong", //16bit
+    "Key": "conchoancutngongconchoancutngong" //32bit
+  }
+}

@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="BingMapsRESTToolkit" Version="1.1.4" />
+    <PackageReference Include="EPPlus" Version="6.2.4" />
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
+    <PackageReference Include="GeoAPI" Version="1.7.5" />
+    <PackageReference Include="GoogleMaps.LocationServices" Version="1.2.0.5" />
+    <PackageReference Include="HttpMultipartParser" Version="8.1.0" />
+    <PackageReference Include="Microsoft.AspNet.SignalR" Version="2.4.3" />
+    <PackageReference Include="Nancy" Version="2.0.0" />
+    <PackageReference Include="NetTopologySuite" Version="2.4.0" />
+    <PackageReference Include="NetTopologySuite.CoordinateSystems" Version="1.15.3" />
+    <PackageReference Include="NetTopologySuite.IO.GeoJSON" Version="2.0.4" />
+    <PackageReference Include="NetTopologySuite.IO.ShapeFile" Version="2.1.0" />
+    <PackageReference Include="ProjNet" Version="2.0.0" />
+    <PackageReference Include="Quartz" Version="3.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\APP_CORE\App.Core.Common\App.Core.Common.csproj" />
+    <ProjectReference Include="..\APP_GIS_DAL\DatabaseGeneric\App.CongAnGis.Dal.csproj" />
+    <ProjectReference Include="..\APP_GIS_DAL\DatabaseSpecific\App.CongAnGis.DalDBSpecific.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Business\DataAccess\" />
+  </ItemGroup>
+
+</Project>

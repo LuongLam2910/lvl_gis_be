@@ -1,0 +1,863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--LLBLGen Pro v5.10 project file. Do not manually edit this file. Incorrect references could lead to an unloadable project file.-->
+<Project Version="5.10" TargetFrameworkName="LLBLGen Pro Runtime Framework" UseLegacyDefaults="false">
+  <Properties>
+    <Abbreviations />
+    <Property Name="AdditionalTaskPerformerFolder" Value="" />
+    <Property Name="AdditionalTasksFolder" Value="" />
+    <Property Name="AdditionalTemplatesFolder" Value="" />
+    <Property Name="AdditionalTypeConverterFolder" Value="" />
+    <Property Name="AddNewElementsAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AddNewFieldsAfterRefresh_v5" Value="true" />
+    <Property Name="AddNewFieldsAfterRelationalModelDataSync_v5" Value="true" />
+    <Property Name="AddNewViewsAsEntitiesAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewViewsAsEntitiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AutoAddManyToManyRelationships" Value="false" />
+    <Property Name="AutoAssignSequencesToIntegerPks" Value="true" />
+    <Property Name="AutoAssignTypeConverterToFieldMapping" Value="true" />
+    <Property Name="AutomaticallyGenerateSourceCodeOnProjectSave" Value="false" />
+    <Property Name="ConnectionStringKeyNamePattern" Value="CongAn_Gis_ConnectionString" />
+    <Property Name="DefaultDDLSQLScriptDestinationFolder" Value=".\DDLSQLScripts" />
+    <Property Name="DefaultDeleteRuleAction" Value="1" />
+    <Property Name="DefaultSourceCodeDestinationFolder" Value="C:\code\data_warehouse\BE\APP-GIS\APP_GIS_DAL" />
+    <Property Name="DefaultUpdateRuleAction" Value="0" />
+    <Property Name="DeleteObsoleteFiles" Value="true" />
+    <Property Name="ElementNamePrefixPattern" Value="{$SchemaName}" />
+    <Property Name="ElementNamePrefixPatternIsAppliedWhen" Value="1" />
+    <Property Name="EncodingToUse" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForTable" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForView" Value="4" />
+    <Property Name="EntityFieldNameStripPattern" Value="{}{}" />
+    <Property Name="EntityNameStripPattern" Value="{tbl_}{}" />
+    <Property Name="ExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="FailCodeGenerationOnWriteError" Value="false" />
+    <Property Name="FieldMappedOntoRelatedFieldPattern" Value="{$RelatedFieldName}" />
+    <Property Name="FkFieldsAreNamedAfterTargetField" Value="true" />
+    <Property Name="ForeignKeyConstraintPattern" Value="FK_{$Guid}" />
+    <Property Name="ForeignKeyFieldPattern" Value="{$NavigatorName}{$RelatedFieldName}" />
+    <Property Name="GroupUsage" Value="0" />
+    <Property Name="IdentifyingFieldsFollowDBPrimaryKeyConstraints_v5" Value="true" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseInsensitiveDBs" Value="false" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseSensitiveDBs" Value="false" />
+    <Property Name="LengthPrecisionScaleFollowDBLengthPrecisionScale_v5" Value="true" />
+    <Property Name="MakeElementNamePascalCasing" Value="true" />
+    <Property Name="NavigatorMappedOntoManyToManyPattern" Value="{$EndEntityName}CollectionVia{$IntermediateEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneManyToOnePattern" Value="{$EndEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneToManyPattern" Value="{$EndEntityName$P}" />
+    <Property Name="NonExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="PreferDecimalOverCurrencyTypes" Value="true" />
+    <Property Name="PreferNaturalCharacterTypes" Value="true" />
+    <Property Name="PreferSystemSequencesOverSchemaSequencesIfApplicable" Value="true" />
+    <Property Name="PreferVariableLengthTypes" Value="true" />
+    <Property Name="PrimaryKeyConstraintPattern" Value="PK_{$Guid}" />
+    <Property Name="ProjectCreator" Value="app_Congan_Gis_DAL" />
+    <Property Name="ProjectName" Value="app_Congan_Gis_DAL" />
+    <Property Name="ReflectNullabilityOfElementFieldInTargetField_v5" Value="false" />
+    <Property Name="ReflectTypeOfElementFieldInTargetField_v5" Value="true" />
+    <Property Name="RelationalModelDataElementNameCasingCaseInsensitiveDBs" Value="3" />
+    <Property Name="RelationalModelDataElementNameCasingCaseSensitiveDBs" Value="3" />
+    <Property Name="RelationshipsFollowDBForeignKeyConstraints_v5" Value="true" />
+    <Property Name="RemoveUnderscoresFromElementName" Value="true" />
+    <Property Name="RemoveUnmappedElementsAfterRefresh_v5" Value="false" />
+    <Property Name="RemoveUnmappedElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRefresh" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRelationalModelDataSync" Value="false" />
+    <Property Name="RetrieveDBCustomProperties" Value="false" />
+    <Property Name="RootNamespace" Value="" />
+    <Property Name="SequenceNameMatchingPattern" Value="SEQ_{$TableName}" />
+    <Property Name="SequencePattern" Value="SEQ_{$EntityName}" />
+    <Property Name="SetGroupNameAfterSchemaName" Value="true" />
+    <Property Name="SetSchemaNameAfterGroupName" Value="true" />
+    <Property Name="SingularizeElementNames" Value="true" />
+    <Property Name="StoredProcNameStripPattern" Value="{pr_, sp_}{}" />
+    <Property Name="StoreTimeLastGeneratedIntoProject" Value="false" />
+    <Property Name="StoreTimeLastSyncIntoProject" Value="true" />
+    <Property Name="SyncCustomFieldOrderingWithTableFieldIndex" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="SyncRelationalModelDataElementNameWithModelElementName_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="TableValuedFunctionNameStripPattern" Value="{fn_, pr_, sp_}{}" />
+    <Property Name="TargetPerEntityEdgesRequireBackingFkConstraint" Value="true" />
+    <Property Name="TypedViewFieldNameStripPattern" Value="{}{}" />
+    <Property Name="TypedViewMappedOnResultsetPattern" Value="{$ProcFunctionName}{$ResultsetName}Result" />
+    <Property Name="TypedViewNameStripPattern" Value="{vw_}{}" />
+    <Property Name="UniqueConstraintPattern" Value="UC_{$Guid}" />
+    <Property Name="UniqueConstraintsFollowDBUniqueConstraints_v5" Value="true" />
+    <Property Name="UpdateCustomPropertiesAfterRefresh_v5" Value="false" />
+    <Property Name="UpdateCustomPropertiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="UseCustomFieldOrderingOnNewElements" Value="false" />
+  </Properties>
+  <TypeShortcuts />
+  <IgnoredWarnings />
+  <SavedSearchQueries />
+  <CodeGenerationCyclePreferences>
+    <OutputType Value="3">
+      <LastUsedPreferences>
+        <DestinationRootFolder Value="C:\Code\BacGiang\BE\APP-GIS\APP_GIS_DAL" />
+        <FrameworkName Value="LLBLGen Pro Runtime Framework" />
+        <LanguageName Value="C#" />
+        <PlatformName Value=".NET 7" />
+        <PresetName Value="SD.Presets.Adapter.General.Netstandard" />
+        <RootNamespace Value="App.CongAnGis.Dal" />
+        <TemplateGroup Value="Adapter" />
+        <TemplateBindings>
+          <Binding Name="SD.TemplateBindings.PostgreSqlSpecific" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates.Net7" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates" />
+          <Binding Name="SD.TemplateBindings.General" />
+        </TemplateBindings>
+        <AdhocTemplateSets />
+      </LastUsedPreferences>
+    </OutputType>
+    <OutputType Value="1">
+      <LastUsedPreferences>
+        <DestinationRootFolder Value=".\DDLSQLScripts" />
+        <FrameworkName Value="DDL SQL" />
+        <LanguageName Value="SQL" />
+        <PlatformName Value="RDBMS" />
+        <PresetName Value="SD.Presets.DDLSQL.CreateScript" />
+        <RootNamespace Value="" />
+        <TemplateGroup Value="Create DDL SQL" />
+        <TemplateBindings>
+          <Binding Name="SD.TemplateBindings.DB2Specific.DDLSQL" />
+          <Binding Name="SD.TemplateBindings.FirebirdSpecific.DDLSQL" />
+          <Binding Name="SD.TemplateBindings.MySqlSpecific.DDLSQL" />
+          <Binding Name="SD.TemplateBindings.OracleSpecific.DDLSQL" />
+          <Binding Name="SD.TemplateBindings.PostgreSqlSpecific.DDLSQL" />
+          <Binding Name="SD.TemplateBindings.SqlServerSpecific.DDLSQL" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates.DDLSQL" />
+        </TemplateBindings>
+        <AdhocTemplateSets />
+      </LastUsedPreferences>
+    </OutputType>
+  </CodeGenerationCyclePreferences>
+  <OutputSettingValues>
+    <SettingValues>
+      <SettingValue Name="1:AdapterDbGenericSubFolderName" Value="DatabaseGeneric" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificNamespaceSuffix" Value="DatabaseSpecific" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificProjectFileSuffix" Value="DBSpecific" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificSubFolderName" Value="DatabaseSpecific" Type="18" />
+      <SettingValue Name="1:ConvertNulledReferenceTypesToDefaultValue" Value="true" Type="3" />
+      <SettingValue Name="1:EntityBaseClassNameDefault" Value="CommonEntityBase" Type="18" />
+      <SettingValue Name="1:FieldPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateAsNullableTypeDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldFactory" Value="false" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldsFactory" Value="false" Type="3" />
+      <SettingValue Name="1:InlineValueTypedFields" Value="true" Type="3" />
+      <SettingValue Name="1:LazyLoadingWithoutResultReturnsNew" Value="false" Type="3" />
+      <SettingValue Name="1:NavigatorPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:SupportedActionCombinations" Value="0,1,2,3,4,5,6,7" Type="18" />
+      <SettingValue Name="1:TdlEmitTimeDateInOutputFiles" Value="false" Type="3" />
+      <SettingValue Name="1:TypedListOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+      <SettingValue Name="1:TypedViewOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+    </SettingValues>
+  </OutputSettingValues>
+  <CodeGenerationMetaDataDefaults>
+    <TargetElement Type="256">
+      <Defaults>
+        <Attributes>
+          <Attribute Value="Browsable($false)" />
+        </Attributes>
+      </Defaults>
+    </TargetElement>
+  </CodeGenerationMetaDataDefaults>
+  <EntityModel>
+    <ValueTypeDefinitions />
+    <EntityDefinitions>
+      <EntityDefinition Name="Sysbaochay" GroupName="Appcongangis" ObjectID="580d6524-b96a-4098-917f-318358c77220">
+        <Fields>
+          <Field Name="Address" Type="string" IsOptional="true" MaxLength="1073741824" />
+          <Field Name="Createby" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Createbyid" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Createdate" Type="datetime" IsOptional="true" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Iddata" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Lnglat" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Phonenumber" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Reasonfire" Type="string" IsOptional="true" MaxLength="255" />
+          <Field Name="Status" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Tablename" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="Updateat" Type="datetime" IsOptional="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysdataset" GroupName="Appcongangis" ObjectID="5cd0bf7c-f585-4ce3-ab72-27dca0274943">
+        <Fields>
+          <Field Name="Config" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Datecreated" Type="datetime" IsOptional="true" />
+          <Field Name="Datemodified" Type="datetime" IsOptional="true" />
+          <Field Name="Description" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Name" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Parentid" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Unitcode" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Usercreated" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Usermodified" Type="int" IsOptional="true" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SysdatasetUser" GroupName="Appcongangis" ObjectID="8c7434c0-9db3-4bd1-9e19-e81ea18200b1">
+        <Fields>
+          <Field Name="Config" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Datasetid" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Datecreated" Type="datetime" IsOptional="true" />
+          <Field Name="Datemodified" Type="datetime" IsOptional="true" />
+          <Field Name="Groupid" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Permission" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Usercreated" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Username" Type="string" IsOptional="true" MaxLength="10485760" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysdmtrangthietbipccc" GroupName="Appcongangis" ObjectID="3cebd39d-31dc-4b6b-8e12-5a465d88db16">
+        <Fields>
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Loaithietbi" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Macha" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Mota" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Tenthietbi" Type="string" MaxLength="10485760" />
+          <Field Name="Trangthai" Type="int" IsOptional="true" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysfeatureclass" GroupName="Appcongangis" ObjectID="626928ce-cc35-4f0b-9f60-8816a496480e">
+        <Fields>
+          <Field Name="Config" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Datacreated" Type="datetime" IsOptional="true" />
+          <Field Name="Datasetid" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Datemodified" Type="datetime" IsOptional="true" />
+          <Field Name="Description" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Geotype" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Name" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Prj" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Status" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Tablename" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Unitcode" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Usercreated" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Usermodified" Type="int" IsOptional="true" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SysfeatureclassUser" GroupName="Appcongangis" ObjectID="ef87511a-a0f4-4dfa-a27f-1d70c8311efc">
+        <Fields>
+          <Field Name="Config" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Datecreated" Type="datetime" IsOptional="true" />
+          <Field Name="Datemodified" Type="datetime" IsOptional="true" />
+          <Field Name="Featureclassid" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Groupid" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Permission" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Usercreated" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Username" Type="string" IsOptional="true" MaxLength="10485760" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysfield" GroupName="Appcongangis" ObjectID="501a9a47-7268-4169-a77a-86b37a8fde0b">
+        <Fields>
+          <Field Name="Config" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Datalength" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Datatype" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Datecreated" Type="datetime" IsOptional="true" />
+          <Field Name="Datemodified" Type="datetime" IsOptional="true" />
+          <Field Name="Featureclass" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Fieldname" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Name" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Show" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Status" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Unitcode" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Usercreated" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Usermodified" Type="int" IsOptional="true" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysfile" GroupName="Appcongangis" ObjectID="cb7a4a67-3534-4477-a1ff-e59056c1ebed">
+        <Fields>
+          <Field Name="Createby" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Folder" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Length" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Name" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Path" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Type" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Unitcode" Type="string" IsOptional="true" MaxLength="10485760" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysfilemanager" GroupName="Appcongangis" ObjectID="c463edde-fbae-4948-97e6-889598e2c3b8">
+        <Fields>
+          <Field Name="Createddate" Type="datetime" IsOptional="true" />
+          <Field Name="Createuserid" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Filename" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Filepath" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Idddata" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Tablename" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Typefile" Type="string" IsOptional="true" MaxLength="10485760" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysfolder" GroupName="Appcongangis" ObjectID="4beac4b8-825b-4ff9-b1f2-a740bc74d9ac">
+        <Fields>
+          <Field Name="Createby" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Createdate" Type="datetime" IsOptional="true" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Name" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Parentid" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Path" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Unitcode" Type="string" IsOptional="true" MaxLength="10485760" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SysimportLog" GroupName="Appcongangis" ObjectID="8a88c57b-e10d-44bb-b4d3-b3901597b882">
+        <Fields>
+          <Field Name="Config" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Count" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Endtime" Type="datetime" IsOptional="true" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Message" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Starttime" Type="datetime" IsOptional="true" />
+          <Field Name="Status" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Tablename" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Unitcode" Type="string" IsOptional="true" MaxLength="10485760" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Sysmap" GroupName="Appcongangis" ObjectID="f811483d-be99-4171-ab64-6c618dc0b7fd">
+        <Fields>
+          <Field Name="Config" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Datecreated" Type="datetime" IsOptional="true" />
+          <Field Name="Datemodified" Type="datetime" IsOptional="true" />
+          <Field Name="Iconhome" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Name" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Status" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Unitcode" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Usercreated" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Usermodified" Type="int" IsOptional="true" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SysmapUser" GroupName="Appcongangis" ObjectID="aa7ed963-cfbf-45df-8413-ecf854137b59">
+        <Fields>
+          <Field Name="Config" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Datecreated" Type="datetime" IsOptional="true" />
+          <Field Name="Datemodified" Type="datetime" IsOptional="true" />
+          <Field Name="Groupid" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Mapid" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Permission" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Usercreated" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Userid" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Username" Type="string" IsOptional="true" MaxLength="10485760" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Syssetting" GroupName="Appcongangis" ObjectID="873b0d85-2195-4297-9e49-c127d4ec86a3">
+        <Fields>
+          <Field Name="Code" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Config" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Datecreated" Type="datetime" IsOptional="true" />
+          <Field Name="Datemodified" Type="datetime" IsOptional="true" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Name" Type="string" IsOptional="true" MaxLength="10485760" />
+          <Field Name="Usercreated" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Usermodified" Type="int" IsOptional="true" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+    </EntityDefinitions>
+    <Relationships />
+    <InheritanceHierarchies />
+  </EntityModel>
+  <SPCallDefinitions>
+    <SPCallDefinition Name="CountData" GroupName="Appcongangis" ObjectID="4e55d8f2-63ff-4e5a-a789-cee7ee68f485">
+      <Parameters>
+        <Parameter Name="TableName" Type="string" MaxLength="1073741824" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="CountRecords" GroupName="Appcongangis" ObjectID="12604937-e3de-4e74-8f2d-849cee1dd022">
+      <Parameters>
+        <Parameter Name="ISql" Type="string" MaxLength="1073741824" />
+      </Parameters>
+    </SPCallDefinition>
+  </SPCallDefinitions>
+  <TargetDatabases>
+    <TargetDatabase Type="88EBFD8C-CBDD-4452-88AF-1C99E41A123F" SyncSource="2">
+      <ConnectionElements>
+        <ConnectionElement Name="ServerName" Value="10.192.4.112" />
+        <ConnectionElement Name="CatalogName" Value="OpendataBG" />
+        <ConnectionElement Name="UserID" Value="anhnd" />
+        <ConnectionElement Name="Password" Value="" />
+        <ConnectionElement Name="PortNumber" Value="27600" />
+        <ConnectionElement Name="SslMode" Value="Disable" />
+      </ConnectionElements>
+      <SystemSequences>
+        <Sequence Name="SystemIdentity" />
+      </SystemSequences>
+      <Catalogs>
+        <Catalog Name="OpendataBG">
+          <Schemas>
+            <Schema Name="appcongangis" SyncSource="2" LastSyncWithDatabase="2023-06-15T04:30:55.6895186Z">
+              <Sequences>
+                <Sequence Name="a_id_seq" />
+                <Sequence Name="aohobechuanuoc_id_seq" />
+                <Sequence Name="bacgiang_id_seq" />
+                <Sequence Name="camera_id_seq" />
+                <Sequence Name="congtrinhthuydien_id_seq" />
+                <Sequence Name="cosokinhdoanhchatkhihoalong_id_seq" />
+                <Sequence Name="cosokinhdoanhnguyenlieuthuocla_id_seq" />
+                <Sequence Name="cotphatsong_id_seq" />
+                <Sequence Name="cttdvpccn_id_seq" />
+                <Sequence Name="daptran_id_seq" />
+                <Sequence Name="donvipccc_id_seq" />
+                <Sequence Name="donviphanphoidien_id_seq" />
+                <Sequence Name="giaothong_id_seq" />
+                <Sequence Name="nhatro_id_seq" />
+                <Sequence Name="sysbaochay_id_seq" />
+                <Sequence Name="sysdataset_id_seq" />
+                <Sequence Name="sysdataset_user_id_seq" />
+                <Sequence Name="sysfeatureclass_id_seq" />
+                <Sequence Name="sysfeatureclass_user_id_seq" />
+                <Sequence Name="sysfield_id_seq" />
+                <Sequence Name="sysfile_id_seq" />
+                <Sequence Name="sysfilemanager_id_seq" />
+                <Sequence Name="sysfolder_id_seq" />
+                <Sequence Name="sysimport_logs_id_seq" />
+                <Sequence Name="sysmap_id_seq" />
+                <Sequence Name="sysmap_user_id_seq" />
+                <Sequence Name="syssettings_id_seq" />
+                <Sequence Name="systrangthietbi_id_seq" />
+                <Sequence Name="trambienap_id_seq" />
+                <Sequence Name="trucapnuocchuachay_id_seq" />
+                <Sequence Name="trungtamyte_id_seq" />
+                <Sequence Name="vtncxrcr_id_seq" />
+              </Sequences>
+              <Tables>
+                <Table Name="sysbaochay">
+                  <PkConstraintName Name="sysbaochay_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="9" Precision="10" />
+                    <Field Name="iddata" Ordinal="2" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="createbyid" Ordinal="3" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="createby" Ordinal="4" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="createdate" Ordinal="5" IsOptional="true" DbType="22" />
+                    <Field Name="address" Ordinal="6" IsOptional="true" DbType="19" Length="1073741824" />
+                    <Field Name="phonenumber" Ordinal="7" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="reasonfire" Ordinal="8" IsOptional="true" DbType="24" Length="255" />
+                    <Field Name="status" Ordinal="9" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="updateat" Ordinal="10" IsOptional="true" DbType="5" />
+                    <Field Name="tablename" Ordinal="11" IsOptional="true" DbType="24" Length="50" />
+                    <Field Name="lnglat" Ordinal="12" IsOptional="true" DbType="24" Length="50" />
+                  </Fields>
+                </Table>
+                <Table Name="sysdataset">
+                  <PkConstraintName Name="sysdataset_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="9" Precision="10" />
+                    <Field Name="name" Ordinal="2" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="parentid" Ordinal="3" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="config" Ordinal="4" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="usercreated" Ordinal="5" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="datecreated" Ordinal="6" IsOptional="true" DbType="5" />
+                    <Field Name="datemodified" Ordinal="7" IsOptional="true" DbType="5" />
+                    <Field Name="usermodified" Ordinal="8" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="description" Ordinal="9" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="unitcode" Ordinal="10" IsOptional="true" DbType="24" Length="10485760" />
+                  </Fields>
+                </Table>
+                <Table Name="sysdataset_user">
+                  <PkConstraintName Name="sysdataset_user_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="9" Precision="10" />
+                    <Field Name="datasetid" Ordinal="2" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="username" Ordinal="3" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="config" Ordinal="4" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="usercreated" Ordinal="5" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="datecreated" Ordinal="6" IsOptional="true" DbType="5" />
+                    <Field Name="datemodified" Ordinal="7" IsOptional="true" DbType="5" />
+                    <Field Name="groupid" Ordinal="8" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="permission" Ordinal="9" IsOptional="true" DbType="24" Length="10485760" />
+                  </Fields>
+                </Table>
+                <Table Name="sysdmtrangthietbipccc">
+                  <PkConstraintName Name="systrangthietbi_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="9" Precision="10" />
+                    <Field Name="tenthietbi" Ordinal="2" DbType="24" Length="10485760" />
+                    <Field Name="macha" Ordinal="3" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="mota" Ordinal="4" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="loaithietbi" Ordinal="5" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="trangthai" Ordinal="6" IsOptional="true" HasDefaultValue="true" DefaultValue="1" DbType="9" Precision="10" />
+                  </Fields>
+                </Table>
+                <Table Name="sysfeatureclass">
+                  <PkConstraintName Name="sysfeatureclass_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="9" Precision="10" />
+                    <Field Name="name" Ordinal="2" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="tablename" Ordinal="3" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="datasetid" Ordinal="4" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="config" Ordinal="5" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="usercreated" Ordinal="6" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="datacreated" Ordinal="7" IsOptional="true" DbType="5" />
+                    <Field Name="datemodified" Ordinal="8" IsOptional="true" DbType="5" />
+                    <Field Name="usermodified" Ordinal="9" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="description" Ordinal="10" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="prj" Ordinal="11" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="geotype" Ordinal="12" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="status" Ordinal="13" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="unitcode" Ordinal="14" IsOptional="true" DbType="24" Length="10485760" />
+                  </Fields>
+                </Table>
+                <Table Name="sysfeatureclass_user">
+                  <PkConstraintName Name="sysfeatureclass_user_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="9" Precision="10" />
+                    <Field Name="featureclassid" Ordinal="2" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="username" Ordinal="3" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="config" Ordinal="4" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="usercreated" Ordinal="5" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="datecreated" Ordinal="6" IsOptional="true" DbType="5" />
+                    <Field Name="datemodified" Ordinal="7" IsOptional="true" DbType="5" />
+                    <Field Name="groupid" Ordinal="8" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="permission" Ordinal="9" IsOptional="true" DbType="24" Length="10485760" />
+                  </Fields>
+                </Table>
+                <Table Name="sysfield">
+                  <PkConstraintName Name="sysfield_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="9" Precision="10" />
+                    <Field Name="name" Ordinal="2" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="datatype" Ordinal="3" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="datalength" Ordinal="4" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="show" Ordinal="5" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="fieldname" Ordinal="6" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="featureclass" Ordinal="7" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="config" Ordinal="8" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="usercreated" Ordinal="9" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="datecreated" Ordinal="10" IsOptional="true" DbType="5" />
+                    <Field Name="datemodified" Ordinal="11" IsOptional="true" DbType="5" />
+                    <Field Name="usermodified" Ordinal="12" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="unitcode" Ordinal="13" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="status" Ordinal="14" IsOptional="true" DbType="9" Precision="10" />
+                  </Fields>
+                </Table>
+                <Table Name="sysfile">
+                  <PkConstraintName Name="sysfile_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="9" Precision="10" />
+                    <Field Name="name" Ordinal="2" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="folder" Ordinal="3" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="path" Ordinal="4" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="createby" Ordinal="5" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="length" Ordinal="6" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="type" Ordinal="7" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="unitcode" Ordinal="8" IsOptional="true" DbType="24" Length="10485760" />
+                  </Fields>
+                </Table>
+                <Table Name="sysfilemanager">
+                  <PkConstraintName Name="sysfilemanager_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="9" Precision="10" />
+                    <Field Name="tablename" Ordinal="2" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="filename" Ordinal="3" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="filepath" Ordinal="4" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="createddate" Ordinal="5" IsOptional="true" DbType="5" />
+                    <Field Name="createuserid" Ordinal="6" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="idddata" Ordinal="7" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="typefile" Ordinal="8" IsOptional="true" DbType="24" Length="10485760" />
+                  </Fields>
+                </Table>
+                <Table Name="sysfolder">
+                  <PkConstraintName Name="sysfolder_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="9" Precision="10" />
+                    <Field Name="name" Ordinal="2" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="path" Ordinal="3" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="createby" Ordinal="4" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="createdate" Ordinal="5" IsOptional="true" DbType="5" />
+                    <Field Name="parentid" Ordinal="6" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="unitcode" Ordinal="7" IsOptional="true" DbType="24" Length="10485760" />
+                  </Fields>
+                </Table>
+                <Table Name="sysimport_logs">
+                  <PkConstraintName Name="sysimport_logs_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="9" Precision="10" />
+                    <Field Name="starttime" Ordinal="2" IsOptional="true" DbType="5" />
+                    <Field Name="endtime" Ordinal="3" IsOptional="true" DbType="5" />
+                    <Field Name="status" Ordinal="4" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="count" Ordinal="5" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="message" Ordinal="6" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="config" Ordinal="7" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="tablename" Ordinal="8" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="unitcode" Ordinal="9" IsOptional="true" DbType="24" Length="10485760" />
+                  </Fields>
+                </Table>
+                <Table Name="sysmap">
+                  <PkConstraintName Name="sysmap_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="9" Precision="10" />
+                    <Field Name="name" Ordinal="2" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="config" Ordinal="3" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="usercreated" Ordinal="4" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="datecreated" Ordinal="5" IsOptional="true" DbType="5" />
+                    <Field Name="datemodified" Ordinal="6" IsOptional="true" DbType="5" />
+                    <Field Name="usermodified" Ordinal="7" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="status" Ordinal="8" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="iconhome" Ordinal="9" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="unitcode" Ordinal="10" IsOptional="true" DbType="24" Length="10485760" />
+                  </Fields>
+                </Table>
+                <Table Name="sysmap_user">
+                  <PkConstraintName Name="sysmap_user_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="9" Precision="10" />
+                    <Field Name="mapid" Ordinal="2" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="username" Ordinal="3" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="config" Ordinal="4" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="usercreated" Ordinal="5" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="datecreated" Ordinal="6" IsOptional="true" DbType="5" />
+                    <Field Name="datemodified" Ordinal="7" IsOptional="true" DbType="5" />
+                    <Field Name="groupid" Ordinal="8" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="permission" Ordinal="9" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="userid" Ordinal="10" IsOptional="true" DbType="9" Precision="10" />
+                  </Fields>
+                </Table>
+                <Table Name="syssettings">
+                  <PkConstraintName Name="syssettings_pkey" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="9" Precision="10" />
+                    <Field Name="name" Ordinal="2" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="config" Ordinal="3" IsOptional="true" DbType="24" Length="10485760" />
+                    <Field Name="usercreated" Ordinal="4" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="datecreated" Ordinal="5" IsOptional="true" DbType="5" />
+                    <Field Name="datemodified" Ordinal="6" IsOptional="true" DbType="5" />
+                    <Field Name="usermodified" Ordinal="7" IsOptional="true" DbType="9" Precision="10" />
+                    <Field Name="code" Ordinal="8" IsOptional="true" DbType="24" Length="10485760" />
+                  </Fields>
+                </Table>
+              </Tables>
+              <StoredProcedures>
+                <StoredProcedure Name="count_data">
+                  <Parameters>
+                    <Parameter Name="table_name" Direction="1" Ordinal="1" DbType="19" Length="1073741824" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="count_records">
+                  <Parameters>
+                    <Parameter Name="i_sql" Direction="1" Ordinal="1" DbType="19" Length="1073741824" />
+                  </Parameters>
+                </StoredProcedure>
+              </StoredProcedures>
+            </Schema>
+          </Schemas>
+        </Catalog>
+      </Catalogs>
+    </TargetDatabase>
+  </TargetDatabases>
+  <MappingStores>
+    <MappingStore Type="88EBFD8C-CBDD-4452-88AF-1C99E41A123F">
+      <EntityMappings>
+        <EntityMapping EntityName="Appcongangis:Sysbaochay" TargetName="OpendataBG:appcongangis:sysbaochay">
+          <FieldMappings>
+            <FieldMapping FieldName="Address" TargetFieldName="address" />
+            <FieldMapping FieldName="Createby" TargetFieldName="createby" />
+            <FieldMapping FieldName="Createbyid" TargetFieldName="createbyid" />
+            <FieldMapping FieldName="Createdate" TargetFieldName="createdate" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Iddata" TargetFieldName="iddata" />
+            <FieldMapping FieldName="Lnglat" TargetFieldName="lnglat" />
+            <FieldMapping FieldName="Phonenumber" TargetFieldName="phonenumber" />
+            <FieldMapping FieldName="Reasonfire" TargetFieldName="reasonfire" />
+            <FieldMapping FieldName="Status" TargetFieldName="status" />
+            <FieldMapping FieldName="Tablename" TargetFieldName="tablename" />
+            <FieldMapping FieldName="Updateat" TargetFieldName="updateat" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appcongangis:Sysdataset" TargetName="OpendataBG:appcongangis:sysdataset">
+          <FieldMappings>
+            <FieldMapping FieldName="Config" TargetFieldName="config" />
+            <FieldMapping FieldName="Datecreated" TargetFieldName="datecreated" />
+            <FieldMapping FieldName="Datemodified" TargetFieldName="datemodified" />
+            <FieldMapping FieldName="Description" TargetFieldName="description" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Name" TargetFieldName="name" />
+            <FieldMapping FieldName="Parentid" TargetFieldName="parentid" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="unitcode" />
+            <FieldMapping FieldName="Usercreated" TargetFieldName="usercreated" />
+            <FieldMapping FieldName="Usermodified" TargetFieldName="usermodified" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appcongangis:SysdatasetUser" TargetName="OpendataBG:appcongangis:sysdataset_user">
+          <FieldMappings>
+            <FieldMapping FieldName="Config" TargetFieldName="config" />
+            <FieldMapping FieldName="Datasetid" TargetFieldName="datasetid" />
+            <FieldMapping FieldName="Datecreated" TargetFieldName="datecreated" />
+            <FieldMapping FieldName="Datemodified" TargetFieldName="datemodified" />
+            <FieldMapping FieldName="Groupid" TargetFieldName="groupid" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Permission" TargetFieldName="permission" />
+            <FieldMapping FieldName="Usercreated" TargetFieldName="usercreated" />
+            <FieldMapping FieldName="Username" TargetFieldName="username" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appcongangis:Sysdmtrangthietbipccc" TargetName="OpendataBG:appcongangis:sysdmtrangthietbipccc">
+          <FieldMappings>
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Loaithietbi" TargetFieldName="loaithietbi" />
+            <FieldMapping FieldName="Macha" TargetFieldName="macha" />
+            <FieldMapping FieldName="Mota" TargetFieldName="mota" />
+            <FieldMapping FieldName="Tenthietbi" TargetFieldName="tenthietbi" />
+            <FieldMapping FieldName="Trangthai" TargetFieldName="trangthai" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appcongangis:Sysfeatureclass" TargetName="OpendataBG:appcongangis:sysfeatureclass">
+          <FieldMappings>
+            <FieldMapping FieldName="Config" TargetFieldName="config" />
+            <FieldMapping FieldName="Datacreated" TargetFieldName="datacreated" />
+            <FieldMapping FieldName="Datasetid" TargetFieldName="datasetid" />
+            <FieldMapping FieldName="Datemodified" TargetFieldName="datemodified" />
+            <FieldMapping FieldName="Description" TargetFieldName="description" />
+            <FieldMapping FieldName="Geotype" TargetFieldName="geotype" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Name" TargetFieldName="name" />
+            <FieldMapping FieldName="Prj" TargetFieldName="prj" />
+            <FieldMapping FieldName="Status" TargetFieldName="status" />
+            <FieldMapping FieldName="Tablename" TargetFieldName="tablename" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="unitcode" />
+            <FieldMapping FieldName="Usercreated" TargetFieldName="usercreated" />
+            <FieldMapping FieldName="Usermodified" TargetFieldName="usermodified" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appcongangis:SysfeatureclassUser" TargetName="OpendataBG:appcongangis:sysfeatureclass_user">
+          <FieldMappings>
+            <FieldMapping FieldName="Config" TargetFieldName="config" />
+            <FieldMapping FieldName="Datecreated" TargetFieldName="datecreated" />
+            <FieldMapping FieldName="Datemodified" TargetFieldName="datemodified" />
+            <FieldMapping FieldName="Featureclassid" TargetFieldName="featureclassid" />
+            <FieldMapping FieldName="Groupid" TargetFieldName="groupid" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Permission" TargetFieldName="permission" />
+            <FieldMapping FieldName="Usercreated" TargetFieldName="usercreated" />
+            <FieldMapping FieldName="Username" TargetFieldName="username" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appcongangis:Sysfield" TargetName="OpendataBG:appcongangis:sysfield">
+          <FieldMappings>
+            <FieldMapping FieldName="Config" TargetFieldName="config" />
+            <FieldMapping FieldName="Datalength" TargetFieldName="datalength" />
+            <FieldMapping FieldName="Datatype" TargetFieldName="datatype" />
+            <FieldMapping FieldName="Datecreated" TargetFieldName="datecreated" />
+            <FieldMapping FieldName="Datemodified" TargetFieldName="datemodified" />
+            <FieldMapping FieldName="Featureclass" TargetFieldName="featureclass" />
+            <FieldMapping FieldName="Fieldname" TargetFieldName="fieldname" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Name" TargetFieldName="name" />
+            <FieldMapping FieldName="Show" TargetFieldName="show" />
+            <FieldMapping FieldName="Status" TargetFieldName="status" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="unitcode" />
+            <FieldMapping FieldName="Usercreated" TargetFieldName="usercreated" />
+            <FieldMapping FieldName="Usermodified" TargetFieldName="usermodified" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appcongangis:Sysfile" TargetName="OpendataBG:appcongangis:sysfile">
+          <FieldMappings>
+            <FieldMapping FieldName="Createby" TargetFieldName="createby" />
+            <FieldMapping FieldName="Folder" TargetFieldName="folder" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Length" TargetFieldName="length" />
+            <FieldMapping FieldName="Name" TargetFieldName="name" />
+            <FieldMapping FieldName="Path" TargetFieldName="path" />
+            <FieldMapping FieldName="Type" TargetFieldName="type" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="unitcode" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appcongangis:Sysfilemanager" TargetName="OpendataBG:appcongangis:sysfilemanager">
+          <FieldMappings>
+            <FieldMapping FieldName="Createddate" TargetFieldName="createddate" />
+            <FieldMapping FieldName="Createuserid" TargetFieldName="createuserid" />
+            <FieldMapping FieldName="Filename" TargetFieldName="filename" />
+            <FieldMapping FieldName="Filepath" TargetFieldName="filepath" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Idddata" TargetFieldName="idddata" />
+            <FieldMapping FieldName="Tablename" TargetFieldName="tablename" />
+            <FieldMapping FieldName="Typefile" TargetFieldName="typefile" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appcongangis:Sysfolder" TargetName="OpendataBG:appcongangis:sysfolder">
+          <FieldMappings>
+            <FieldMapping FieldName="Createby" TargetFieldName="createby" />
+            <FieldMapping FieldName="Createdate" TargetFieldName="createdate" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Name" TargetFieldName="name" />
+            <FieldMapping FieldName="Parentid" TargetFieldName="parentid" />
+            <FieldMapping FieldName="Path" TargetFieldName="path" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="unitcode" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appcongangis:SysimportLog" TargetName="OpendataBG:appcongangis:sysimport_logs">
+          <FieldMappings>
+            <FieldMapping FieldName="Config" TargetFieldName="config" />
+            <FieldMapping FieldName="Count" TargetFieldName="count" />
+            <FieldMapping FieldName="Endtime" TargetFieldName="endtime" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Message" TargetFieldName="message" />
+            <FieldMapping FieldName="Starttime" TargetFieldName="starttime" />
+            <FieldMapping FieldName="Status" TargetFieldName="status" />
+            <FieldMapping FieldName="Tablename" TargetFieldName="tablename" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="unitcode" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appcongangis:Sysmap" TargetName="OpendataBG:appcongangis:sysmap">
+          <FieldMappings>
+            <FieldMapping FieldName="Config" TargetFieldName="config" />
+            <FieldMapping FieldName="Datecreated" TargetFieldName="datecreated" />
+            <FieldMapping FieldName="Datemodified" TargetFieldName="datemodified" />
+            <FieldMapping FieldName="Iconhome" TargetFieldName="iconhome" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Name" TargetFieldName="name" />
+            <FieldMapping FieldName="Status" TargetFieldName="status" />
+            <FieldMapping FieldName="Unitcode" TargetFieldName="unitcode" />
+            <FieldMapping FieldName="Usercreated" TargetFieldName="usercreated" />
+            <FieldMapping FieldName="Usermodified" TargetFieldName="usermodified" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appcongangis:SysmapUser" TargetName="OpendataBG:appcongangis:sysmap_user">
+          <FieldMappings>
+            <FieldMapping FieldName="Config" TargetFieldName="config" />
+            <FieldMapping FieldName="Datecreated" TargetFieldName="datecreated" />
+            <FieldMapping FieldName="Datemodified" TargetFieldName="datemodified" />
+            <FieldMapping FieldName="Groupid" TargetFieldName="groupid" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Mapid" TargetFieldName="mapid" />
+            <FieldMapping FieldName="Permission" TargetFieldName="permission" />
+            <FieldMapping FieldName="Usercreated" TargetFieldName="usercreated" />
+            <FieldMapping FieldName="Userid" TargetFieldName="userid" />
+            <FieldMapping FieldName="Username" TargetFieldName="username" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Appcongangis:Syssetting" TargetName="OpendataBG:appcongangis:syssettings">
+          <FieldMappings>
+            <FieldMapping FieldName="Code" TargetFieldName="code" />
+            <FieldMapping FieldName="Config" TargetFieldName="config" />
+            <FieldMapping FieldName="Datecreated" TargetFieldName="datecreated" />
+            <FieldMapping FieldName="Datemodified" TargetFieldName="datemodified" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SystemIdentity" />
+            <FieldMapping FieldName="Name" TargetFieldName="name" />
+            <FieldMapping FieldName="Usercreated" TargetFieldName="usercreated" />
+            <FieldMapping FieldName="Usermodified" TargetFieldName="usermodified" />
+          </FieldMappings>
+        </EntityMapping>
+      </EntityMappings>
+      <TypedViewMappings />
+      <SPCallMappings>
+        <SPCallMapping SPCallName="Appcongangis:CountData" TargetName="OpendataBG:appcongangis:count_data">
+          <FieldMappings>
+            <FieldMapping FieldName="TableName" TargetFieldName="table_name" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName="Appcongangis:CountRecords" TargetName="OpendataBG:appcongangis:count_records">
+          <FieldMappings>
+            <FieldMapping FieldName="ISql" TargetFieldName="i_sql" />
+          </FieldMappings>
+        </SPCallMapping>
+      </SPCallMappings>
+      <TvfCallMappings />
+      <TypeConversionDefinitions />
+    </MappingStore>
+  </MappingStores>
+  <ModelViews />
+</Project>

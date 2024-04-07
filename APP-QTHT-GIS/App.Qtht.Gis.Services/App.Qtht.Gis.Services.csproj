@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Manager\CEPManager.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\APP_CORE\App.Core.Common\App.Core.Common.csproj" />
+    <!--<ProjectReference Include="..\App.Qtht.Repository\App.Qtht.Repository.csproj" />-->
+    <ProjectReference Include="..\APP_QTHT_GIS_DAL\DatabaseGeneric\App.Qtht.Gis.Dal.csproj" />
+    <ProjectReference Include="..\APP_QTHT_GIS_DAL\DatabaseSpecific\App.Qtht.Gis.DalDBSpecific.csproj" />
+  </ItemGroup>
+
+</Project>

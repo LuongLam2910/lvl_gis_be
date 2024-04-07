@@ -1,0 +1,120 @@
+{
+  "ConnectionStrings": {
+    "Qtht_ConnectionString": "Database=DATAWAREHOUSEBG;Server=10.192.4.112;Port=27600;User Id=anhnd;Password=admin123",
+    "Auth_ConnectionString": "Database=DATAWAREHOUSEBG;Server=10.192.4.112;Port=27600;User Id=anhnd;Password=admin123",
+    "Gopy_ConnectionString": "Database=DATAWAREHOUSEBG;Server=10.192.4.112;Port=27600;User Id=anhnd;Password=admin123",
+    "SoNoiVu_ConnectionString": "Database=DATAWAREHOUSEBG;Server=222.252.2.93;Port=9669;User Id=anhnd;Password=admin123;",
+    "TaiChinh_ConnectionString": "Database=DATAWAREHOUSEBG;Server=222.252.2.93;Port=9669;User Id=anhnd;Password=admin123",
+    "Khdt_ConnectionString": "Database=OpendataBG;Server=222.252.2.93;Port=9669;User Id=anhnd;Password=admin123",
+    "Gddt_ConnectionString": "Database=OpendataBG;Server=222.252.2.93;Port=9669;User Id=anhnd;Password=admin123",
+    "Khcn_ConnectionString": "Database=OpendataBG;Server=222.252.2.93;Port=9669;User Id=anhnd;Password=admin123",
+    "CepLog_ConnectionString": "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.192.4.30)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=orcl)));user id=BTPHTH;password=BTPHTH;persist security info=false;",
+
+    "Dmht_ConnectionString": "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.192.4.30)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=orcl)));user id=APPDMHT;password=APPDMHT;persist security info=false;",
+    "DauTu_ConnectionString": "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.192.4.30)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=orcl)));user id=APPDADAUTU;password=APPDADAUTU;persist security info=false;",
+
+    "SoYTe_ConnectionString": "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.192.4.30)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=orcl)));user id=APPSOYTE;password=APPSOYTE;persist security info=false;",
+    "SoGtvt_ConnectionString": "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.192.4.30)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=orcl)));user id=APPSOGTVT;password=APPSOGTVT;persist security info=false;",
+    "NongNghiep_ConnectionString": "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.192.4.30)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=orcl)));user id=APPNONGNGHIEP;password=APPNONGNGHIEP;persist security info=false;",
+    "CongAn_ConnectionString": "Database=OpendataBG;Server=10.192.4.112;Port=27600;User Id=anhnd;Password=admin123",
+    "CongAn_Gis_ConnectionString": "Database=OpendataBG;Server=10.192.4.112;Port=27600;User Id=anhnd;Password=admin123",
+    "Qtht_Gis_ConnectionString": "Database=OpendataBG;Server=10.192.4.112;Port=27600;User Id=anhnd;Password=admin123",
+
+    "SoTuPhap_ConnectionString": "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.192.4.30)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=orcl)));user id=APPSOTUPHAP;password=APPSOTUPHAP;persist security info=false;",
+    "Home_ConnectionString": "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.192.4.30)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=orcl)));user id=APPHOME;password=APPHOME;persist security info=false;",
+    "SoVhttdl_ConnectionString": "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.192.4.30)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=orcl)));user id=APPSOVHTTDL;password=APPSOVHTTDL;persist security info=false;",
+
+    "Thanhtra_ConnectionString": "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.192.4.30)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=orcl)));user id=APPTHANHTRA;password=APPTHANHTRA;persist security info=false;",
+    "TaiChinhData_ConnectionString": "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.192.4.30)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orcl)));User Id=BTSTC_BG;Password=BTSTC_BG;"
+  },
+  "Authorize": {
+    "Authority": "https://localhost:16020"
+    //"TokenEndpoint": "https://localhost:16020"
+  },
+  "SchemaOverride": {
+    "Dmht_Schema": {
+      "FromSchema": "APPDMHT",
+      "ToSchema": "APPDMHT"
+    },
+    "Qtht_Schema": {
+      "FromSchema": "APPQTHT",
+      "ToSchema": "APPQTHT"
+    },
+    "Auth_Schema": {
+      "FromSchema": "APPQTHT",
+      "ToSchema": "APPQTHT"
+    },
+    "Gopy_Schema": {
+      "FromSchema": "APPGOPY",
+      "ToSchema": "APPGOPY"
+    },
+    "DauTu_Schema": {
+      "FromSchema": "APPDADAUTU",
+      "ToSchema": "APPDADAUTU"
+    },
+    "TaiChinh_Schema": {
+      "FromSchema": "APPDADAUTU",
+      "ToSchema": "APPDADAUTU"
+    },
+    "SoNoiVu_Schema": {
+      "FromSchema": "APPDADAUTU",
+      "ToSchema": "APPDADAUTU"
+    },
+    "SoYTe_Schema": {
+      "FromSchema": "APPDADAUTU",
+      "ToSchema": "APPDADAUTU"
+    },
+    "SoGtvt_Schema": {
+      "FromSchema": "APPDADAUTU",
+      "ToSchema": "APPDADAUTU"
+    },
+    "NongNghiep_Schema": {
+      "FromSchema": "APPNONGNGHIEP",
+      "ToSchema": "APPNONGNGHIEP"
+    },
+    "CongAn_Schema": {
+      "FromSchema": "APPCONGAN",
+      "ToSchema": "APPCONGAN"
+    },
+    "Khcn_Schema": {
+      "FromSchema": "APPKHCN",
+      "ToSchema": "APPKHCN"
+    },
+    "SoTuPhap_Schema": {
+      "FromSchema": "APPTUPHAP",
+      "ToSchema": "APPTUPHAP"
+    },
+    "Home_Schema": {
+      "FromSchema": "APPHOME",
+      "ToSchema": "APPHOME"
+    },
+    "SoVhttdl_Schema": {
+      "FromSchema": "APPVHTTDL",
+      "ToSchema": "APPVHTTDL"
+    },
+    "Gddt_Schema": {
+      "FromSchema": "APPGIAODUC",
+      "ToSchema": "APPGIAODUC"
+    },
+    "Khdt_Schema": {
+      "FromSchema": "APPGDDT",
+      "ToSchema": "APPGDDT"
+    },
+    "Thanhtra_Schema": {
+      "FromSchema": "APPTHANHTRA",
+      "ToSchema": "APPTHANHTRA"
+    },
+    "CepLog_Schema": {
+      "FromSchema": "BTPHTH",
+      "ToSchema": "BTPHTH"
+    },
+    "App_CongAn_Gis": {
+      "FromSchema": "appcongangis",
+      "ToSchema": "appcongangis"
+    },
+    "App_Qtht_Gis": {
+      "FromSchema": "appqthtgis",
+      "ToSchema": "appqthtgis"
+    }
+  }
+}
